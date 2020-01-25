@@ -9,11 +9,11 @@ First consider joining Daven for a tour of HTML. Don't worry at this point about
 
 [![daven](daven_html.png)](https://www.youtube.com/watch?v=dM5V1epAbSs&feature=youtu.b "Daven")
 
-<!-- blank line -->
+
 <figure class="video_container">
   <iframe src="https://www.youtube.com/embed/dM5V1epAbSs" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
-<!-- blank line -->
+
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dM5V1epAbSs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
