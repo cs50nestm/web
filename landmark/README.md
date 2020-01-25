@@ -10,6 +10,10 @@ First consider joining Daven for a tour of HTML. Don't worry at this point about
 [![daven](daven_html.png)](https://www.youtube.com/watch?v=dM5V1epAbSs&feature=youtu.b "Daven")
 
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dM5V1epAbSs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
 # Ready to Start?
 
 Hopefully, you should now be ready to go! Your assignment is simply to create a web page. You should have one HTML file (named whatever you’d like, it does not need to be index.html) containing the web page’s structure, and one CSS file for styling. Other than that, there are no restrictions on other things you’d like to include.
