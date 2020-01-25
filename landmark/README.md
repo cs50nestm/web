@@ -7,7 +7,7 @@ Beyond introducing you to web programming, the overarching goal of this problem 
 First consider joining Daven for a tour of HTML. Don't worry at this point about setting permissions. Your web page should work fine without having to use chmod.
 
 
-[![daven](http://img.youtube.com/vi/dM5V1epAbSs&feature=youtu.b)](https://www.youtube.com/watch?v=dM5V1epAbSs&feature=youtu.b "Daven")
+[![daven](http://img.youtube.com/vi/dM5V1epAbSs&feature=youtu.b/0.jpg)](https://www.youtube.com/watch?v=dM5V1epAbSs&feature=youtu.b "Daven")
 
 
 # Ready to Start?
