@@ -3,7 +3,7 @@
 ## Getting Ready
 
 <style type="text/css">
-iframe_container {
+.iframe_container {
 	position: relative;
 	padding-bottom: 56.25%; 
 	padding-top: 25px;
