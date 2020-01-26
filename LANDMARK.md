@@ -1,5 +1,3 @@
-<title>Homepage</title>
-
 # Homepage
 
 ## Getting Ready
