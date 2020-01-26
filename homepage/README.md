@@ -78,7 +78,7 @@ Use at least ten (10) distinct HTML tags besides `<html>`, `<head>`, `<body>`, a
 
 Integrate one or more features from Bootstrap into your site. Bootstrap is a popular library (that comes with lots of CSS classes and more) via which you can beautify your site. See Bootstrap’s documentation to get started. To add Bootstrap to your site, it suffices to include
 
-```html
+```markup
 <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
 ```
 
