@@ -59,28 +59,20 @@ Here’s how to download this problem’s "distribution code" (i.e., starter cod
 
 1. Execute `cd` to ensure that you’re in` ~/` (i.e., your home directory, aka ~).
 2. Execute `mkdir chapter5 to make (i.e., create) a directory called `chapter5` in your home directory.
-
-Execute `cd chapter5` to change into (i.e., open) that directory.
-
-Execute `wget http://cdn.cs50.net/ap/2019/problems/homepage/homepage.zip` to download a (compressed) ZIP file with this problem’s distribution.
-
-Execute `unzip homepage.zip` to uncompress that file.
-
-Execute `rm homepage.zip` followed by `yes` or `y` to delete that ZIP file.
-
-Execute `ls`. You should see a directory called `homepage`, which was inside of that ZIP file.
-
-Execute `cd homepage` to change into that directory.
-
-Execute `ls`. You should see this problem’s distribution code, including `index.html` and `styles.css`.
-
-You can immediately start a server to view the site by typing
+3. Execute `cd chapter5` to change into (i.e., open) that directory.
+4. Execute `wget http://cdn.cs50.net/ap/2019/problems/homepage/homepage.zip` to download a (compressed) ZIP file with this problem’s distribution.
+5. Execute `unzip homepage.zip` to uncompress that file.
+6. Execute `rm homepage.zip` followed by `yes` or `y` to delete that ZIP file.
+7. Execute `ls`. You should see a directory called `homepage`, which was inside of that ZIP file.
+8. Execute `cd homepage` to change into that directory.
+9. Execute `ls`. You should see this problem’s distribution code, including `index.html` and `styles.css`.
+10. You can immediately start a server to view the site by typing
 
 ```
 http-server
 ```
 
-in the terminal window and clicking on the link that appears, which should be of the form `https://UNIQUEID-ide.cs50.xyz:8080`, where `UNIQUEID` is a long, alphanumeric slug specific to your account.
+in the terminal window and clicking on the link that appears.
 
 ## Specification
 Implement in your `homepage` directory a website that must:
@@ -118,7 +110,7 @@ $ http-server
 
 1. Within CS50 IDE, right-click (or Ctrl+click, on a Mac) on the `homepage` directory in the file tree at left. From the options that appear, select **Serve**, which should open a new tab in your browser (it may take a second or two) with your site therein.
 
-Recall also that by opening Developer Tools in Google Chrome, you can simulate visiting your page on a mobile device by clicking the phone-shaped icon to the left of Elements in the developer tools window, or, once the Developer Tools tab has already been opened, by typing Ctrl+Shift+M on a PC or Cmd+Shift+M on a Mac, rather than needing to visit your site on a mobile device separately!
+Recall also that by opening Developer Tools in Google Chrome, you can simulate visiting your page on a mobile device by clicking the phone-shaped icon to the left of **Elements** in the developer tools window, or, once the Developer Tools tab has already been opened, by typing `Ctrl`+`Shift`+`M` on a PC or `Cmd`+`Shift`+`M` on a Mac, rather than needing to visit your site on a mobile device separately!
 
 ## Hints
 For fairly comprehensive guides on the languages introduced in this problem, check out the documentation for each on W3Schools.
