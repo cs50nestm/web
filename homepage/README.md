@@ -4,6 +4,7 @@
 	padding-bottom: 56.25%; 
 	padding-top: 25px;
 	height: 0;
+	margin-bottom: 10px;
 }
 
 .iframe_container iframe {
