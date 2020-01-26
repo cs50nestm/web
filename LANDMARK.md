@@ -6,8 +6,8 @@ Beyond introducing you to web programming, the overarching goal of this problem 
 
 First consider joining Daven for a tour of HTML. Don't worry at this point about setting permissions. Your web page should work fine without having to use chmod.
 
-<div>
-<iframe src="https://www.youtube.com/embed/dM5V1epAbSs" frameborder="0" allow="accelerometer; autoplay; encrypted-media;" allowfullscreen></iframe>
+<div style="position: relative; overflow: hidden; padding-top: 56.25%;">
+<iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" src="https://www.youtube.com/embed/dM5V1epAbSs" frameborder="0" allow="accelerometer; autoplay; encrypted-media;" allowfullscreen></iframe>
 </div>
 
 # Ready to Start?
