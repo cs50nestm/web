@@ -19,18 +19,10 @@
 }
 </style>
 
-Beyond introducing you to web programming, the overarching goal of this problem is to empower you to teach yourself new languages so that you can stand on your own at the end of the year. We’ll guide you through each, but if you nonetheless find yourself Googling and asking lots of questions of classmates and staff, rest assured you’re doing it right!
-
-First consider joining Daven for a tour of HTML. Don't worry at this point about setting permissions. Your web page should work fine without having to use chmod.
-
-<div class="iframe_container">
-  <iframe src="https://www.youtube.com/embed/dM5V1epAbSs" frameborder="0" allowfullscreen="allowfullscreen"> </iframe>
-</div>
-
 # Problem: Homepage
 
 ## tl;dr
-Build a simple homepage using HTML and CSS.
+Build a simple website of your **Landmark Essay** using HTML and CSS in the [CS50 IDE](https://ide.cs50.io).
 
 ## Background
 The internet has enabled incredible things: we can use a search engine to research anything imaginable, communicate with friends and family members around the globe, play games, take courses, and so much more. But it turns out that nearly all pages we may visit are built on three core languages, each of which serves a slightly different purpose:
@@ -39,7 +31,22 @@ The internet has enabled incredible things: we can use a search engine to resear
 2. CSS, Cascading Style Sheets, which is used to describe the aesthetics of websites; and
 3. JavaScript, which is used to make websites interactive and dynamic.
 
-Focusing on just the first two of those three languages for now, create a simple homepage that introduces yourself, your favorite hobby or extracurricular, or anything else of interest to you.
+Focusing on just the first two of those three languages for now, create a simple website consisting of four html pages using text and images from your Landmark Essay. 
+
+## Getting Ready
+
+First watch this video with Brian Yu on using `HTML` in the CS50 IDE:
+
+<div class="iframe_container">
+  <iframe src="https://www.youtube.com/embed/78wdlyzrKOA" frameborder="0" allowfullscreen="allowfullscreen"> </iframe>
+</div>
+
+Then watch Brian add `CSS` to his webpage:
+
+<div class="iframe_container">
+  <iframe src="https://www.youtube.com/embed/g7nZFp2zSJ4" frameborder="0" allowfullscreen="allowfullscreen"> </iframe>
+</div>
+
 
 ## Getting Started
 Here’s how to download this problem’s "distribution code" (i.e., starter code) into your own CS50 IDE. Log into [CS50 IDE](https://ide.cs50.io) and then, in a terminal window, execute each of the below.
