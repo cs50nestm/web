@@ -46,6 +46,13 @@ Then watch Brian add `CSS` to his webpage:
   <iframe src="https://www.youtube.com/embed/g7nZFp2zSJ4?modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allowfullscreen="allowfullscreen"> </iframe>
 </div>
 
+Fianally watch the section of the video below, from 1:23 to 7:28 to learn more about how to put the pieces together:
+
+
+<div class="iframe_container">
+  <iframe src="https://www.youtube.com/embed/sEVlPyywlfc?start=68&end448=&modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allowfullscreen="allowfullscreen"> </iframe>
+</div>
+
 
 ## Getting Started
 Here’s how to download this problem’s "distribution code" (i.e., starter code) into your own CS50 IDE. Log into [CS50 IDE](https://ide.cs50.io) and then, in a terminal window, execute each of the below.
