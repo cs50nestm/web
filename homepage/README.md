@@ -1,7 +1,3 @@
-# Homepage
-
-## Getting Ready
-
 <style type="text/css">
 .iframe_container {
 	position: relative;
@@ -38,10 +34,12 @@ Focusing on just the first two of those three languages for now, create a simple
 First watch this video with Brian Yu on using `HTML` in the CS50 IDE:
 
 <div class="iframe_container">
-  <iframe src="https://www.youtube.com/embed/78wdlyzrKOA" frameborder="0" allowfullscreen="allowfullscreen"> </iframe>
+  <iframe src="https://www.youtube-nocookie.com/embed/78wdlyzrKOA" frameborder="0" allowfullscreen="allowfullscreen"> </iframe>
 </div>
 
+
 Then watch Brian add `CSS` to his webpage:
+
 
 <div class="iframe_container">
   <iframe src="https://www.youtube.com/embed/g7nZFp2zSJ4" frameborder="0" allowfullscreen="allowfullscreen"> </iframe>
