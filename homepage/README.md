@@ -1,3 +1,5 @@
+# Problem: Homepage
+
 <style type="text/css">
 .iframe_container {
 	position: relative;
@@ -16,8 +18,6 @@
 }
 </style>
 
-# Problem: Homepage
-
 ## tl;dr
 Build a simple website of your **Landmark Essay** using HTML and CSS in the [CS50 IDE](https://ide.cs50.io).
 
@@ -35,7 +35,7 @@ Focusing on just the first two of those three languages for now, create a simple
 First watch this video with Brian Yu on using `HTML` in the CS50 IDE:
 
 <div class="iframe_container">
-  <iframe src="https://www.youtube.com/embed/78wdlyzrKOA?modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allowfullscreen="allowfullscreen"> </iframe>
+  <iframe src="https://www.youtube.com/embed/78wdlyzrKOA?modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe>
 </div>
 
 
