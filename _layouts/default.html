@@ -7,11 +7,11 @@
 
 {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-    <title>{{ site.title }}</title>
+    <title>{{ page.title }}</title>
   </head>
   <body>
    <div class="container-lg px-3 my-5 markdown-body">
-{{ site.title }}
+{{ page.title }}
       {{ content }}
 
       {% if site.github.private != true and site.github.license %}
