@@ -6,8 +6,11 @@ Beyond introducing you to web programming, the overarching goal of this problem 
 
 First consider joining Daven for a tour of HTML. Don't worry at this point about setting permissions. Your web page should work fine without having to use chmod.
 
+{% video https://www.youtube.com/embed/dM5V1epAbSs %}
+
 <iframe width="100%" src="https://www.youtube.com/embed/dM5V1epAbSs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; allowfullscreen></iframe>
 
+{% next %}
 
 # Ready to Start?
 
