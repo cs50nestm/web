@@ -43,7 +43,7 @@ Then watch Brian add `CSS` to his webpage:
 
 
 <div class="iframe_container">
-  <iframe src="https://www.youtube.com.com/embed/g7nZFp2zSJ4?modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allowfullscreen="allowfullscreen"> </iframe>
+  <iframe src="https://www.youtube.com/embed/g7nZFp2zSJ4?modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allowfullscreen="allowfullscreen"> </iframe>
 </div>
 
 
