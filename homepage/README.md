@@ -36,40 +36,40 @@ Build a simple homepage using HTML and CSS.
 The internet has enabled incredible things: we can use a search engine to research anything imaginable, communicate with friends and family members around the globe, play games, take courses, and so much more. But it turns out that nearly all pages we may visit are built on three core languages, each of which serves a slightly different purpose:
 
 1. HTML, or HyperText Markup Language, which is used to describe the content of websites;
-
 2. CSS, Cascading Style Sheets, which is used to describe the aesthetics of websites; and
-
 3. JavaScript, which is used to make websites interactive and dynamic.
 
 Focusing on just the first two of those three languages for now, create a simple homepage that introduces yourself, your favorite hobby or extracurricular, or anything else of interest to you.
 
 ## Getting Started
-Here’s how to download this problem’s "distribution code" (i.e., starter code) into your own CS50 IDE. Log into CS50 IDE and then, in a terminal window, execute each of the below.
+Here’s how to download this problem’s "distribution code" (i.e., starter code) into your own CS50 IDE. Log into [CS50 IDE](https://ide.cs50.io) and then, in a terminal window, execute each of the below.
 
-Execute cd to ensure that you’re in ~/ (i.e., your home directory, aka ~).
+1. Execute `cd` to ensure that you’re in` ~/` (i.e., your home directory, aka ~).
+2. Execute `mkdir chapter5 to make (i.e., create) a directory called `chapter5` in your home directory.
 
-Execute mkdir chapter5 to make (i.e., create) a directory called chapter5 in your home directory.
+Execute `cd chapter5` to change into (i.e., open) that directory.
 
-Execute cd chapter5 to change into (i.e., open) that directory.
+Execute `wget http://cdn.cs50.net/ap/2019/problems/homepage/homepage.zip` to download a (compressed) ZIP file with this problem’s distribution.
 
-Execute wget http://cdn.cs50.net/ap/2019/problems/homepage/homepage.zip to download a (compressed) ZIP file with this problem’s distribution.
+Execute `unzip homepage.zip` to uncompress that file.
 
-Execute unzip homepage.zip to uncompress that file.
+Execute `rm homepage.zip` followed by `yes` or `y` to delete that ZIP file.
 
-Execute rm homepage.zip followed by yes or y to delete that ZIP file.
+Execute `ls`. You should see a directory called `homepage`, which was inside of that ZIP file.
 
-Execute ls. You should see a directory called homepage, which was inside of that ZIP file.
+Execute `cd homepage` to change into that directory.
 
-Execute cd homepage to change into that directory.
-
-Execute ls. You should see this problem’s distribution code, including index.html and styles.css.
+Execute `ls`. You should see this problem’s distribution code, including `index.html` and `styles.css`.
 
 You can immediately start a server to view the site by typing
 
+```
 http-server
-in the terminal window and clicking on the link that appears, which should be of the form https://UNIQUEID-ide.cs50.xyz:8080, where UNIQUEID is a long, alphanumeric slug specific to your account.
+```
 
-Specification
+in the terminal window and clicking on the link that appears, which should be of the form `https://UNIQUEID-ide.cs50.xyz:8080`, where `UNIQUEID` is a long, alphanumeric slug specific to your account.
+
+## Specification
 Implement in your homepage directory a website that must:
 
 Contain at least four different .html pages, at least one of which is index.html (the main page of your website), and it should be possible to get from any page on your website to any other page by following one or more hyperlinks.
