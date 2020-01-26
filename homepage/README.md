@@ -27,24 +27,23 @@ First consider joining Daven for a tour of HTML. Don't worry at this point about
   <iframe src="https://www.youtube.com/embed/dM5V1epAbSs" frameborder="0" allowfullscreen="allowfullscreen"> </iframe>
 </div>
 
-Problem: Homepage
-tl;dr
+# Problem: Homepage
+
+## tl;dr
 Build a simple homepage using HTML and CSS.
 
-../../honesty.adoc
-
-Background
+## Background
 The internet has enabled incredible things: we can use a search engine to research anything imaginable, communicate with friends and family members around the globe, play games, take courses, and so much more. But it turns out that nearly all pages we may visit are built on three core languages, each of which serves a slightly different purpose:
 
-HTML, or HyperText Markup Language, which is used to describe the content of websites;
+1. HTML, or HyperText Markup Language, which is used to describe the content of websites;
 
-CSS, Cascading Style Sheets, which is used to describe the aesthetics of websites; and
+2. CSS, Cascading Style Sheets, which is used to describe the aesthetics of websites; and
 
-JavaScript, which is used to make websites interactive and dynamic.
+3. JavaScript, which is used to make websites interactive and dynamic.
 
 Focusing on just the first two of those three languages for now, create a simple homepage that introduces yourself, your favorite hobby or extracurricular, or anything else of interest to you.
 
-Getting Started
+## Getting Started
 Here’s how to download this problem’s "distribution code" (i.e., starter code) into your own CS50 IDE. Log into CS50 IDE and then, in a terminal window, execute each of the below.
 
 Execute cd to ensure that you’re in ~/ (i.e., your home directory, aka ~).
