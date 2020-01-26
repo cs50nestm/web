@@ -4,6 +4,6 @@ relative_links:
   enabled: true
   collections: true
 include:
-  - LANDMARK.md
+  - index.md
   
 title: DVD
