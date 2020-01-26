@@ -2,12 +2,30 @@
 
 ## Getting Ready
 
+<style type="text/css">
+.iframe_container {
+	position: relative;
+	padding-bottom: 56.25%; 
+	padding-top: 25px;
+	height: 0;
+}
+
+.iframe_container iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+</style>
+
 Beyond introducing you to web programming, the overarching goal of this problem is to empower you to teach yourself new languages so that you can stand on your own at the end of the year. We’ll guide you through each, but if you nonetheless find yourself Googling and asking lots of questions of classmates and staff, rest assured you’re doing it right!
 
 First consider joining Daven for a tour of HTML. Don't worry at this point about setting permissions. Your web page should work fine without having to use chmod.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dM5V1epAbSs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+<div class="iframe_container">
+  <iframe src="https://www.youtube.com/embed/dM5V1epAbSs" frameborder="0" allowfullscreen="allowfullscreen"> </iframe>
+</div>
 
 # Ready to Start?
 
@@ -60,5 +78,3 @@ To ensure that your page is well formed, you can use the [W3Schools HTML Validat
 You may then submit by typing in at the command line:
 
 submit50 cs50/2018/ap/unit5
-
-
