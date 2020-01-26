@@ -5,7 +5,7 @@
 <style type="text/css">
 iframe_container {
 	position: relative;
-	padding-bottom: 56.25%; /* 16:9 - this is responsive by adjusting the hight according to the width! */
+	padding-bottom: 56.25%; 
 	padding-top: 25px;
 	height: 0;
 }
