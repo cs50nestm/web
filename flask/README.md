@@ -61,9 +61,7 @@ We need a way to execute code and insert variables into our html files, and Flas
 
 Using Jinja, our `layout.html` file looks like this:
 
-
-
-![code](helloflask.png)
+<img alt="code" src="helloflask.png">
 
 The line `{% block body %}{% end block %}`, is what makes this a layout file.  We can insert whatever code makes up the content of our page in place of this block. A layout file can contain as many blocks as you want. Just give each one a different name.
 
