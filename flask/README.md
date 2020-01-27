@@ -97,7 +97,7 @@ def index():
 
 When you run your application now (flask run at the command line), you’ll get a little more out of your app.  But it isn’t really interactive yet.
 
-# Forms
+## Forms
 
 HTML Forms allow the user to enter data into input fields, and send the data to the server using the POST method of the HTTP protocol. [You can learn more about HTML Forms here](https://www.w3schools.com/html/html_forms.asp).
 
@@ -192,5 +192,4 @@ Execute the code below from your `hello` directory, logging in with your GitHub 
 submit50 cs50nestm/checks/2019/flask
 ```
 
-*Adapted from 27 Classrooms, by Mark Sobkowicz, Lincoln Sudbury Regional High School
-*
+*Adapted from 27 Classrooms, by Mark Sobkowicz, Lincoln Sudbury Regional High School*
