@@ -96,3 +96,47 @@ body {
   background-color: yellow;
 }
 ```
+
+Finally, we’ll go back to `application.py`.  In the initial import, we’ll need a few more functions from Flask.  Then, replace the direct return of html with a call to Flask’s `render_template()` function.
+
+```python
+from flask import Flask, render_template, request, redirect
+
+app = Flask(__name__)
+
+@app.route("/")
+def index():
+    return render_template("index.html")
+```
+
+When you run your application now (flask run at the command line), you’ll get a little more out of your app.  But it isn’t really interactive yet.
+
+# Forms
+
+HTML Forms allow the user to enter data into input fields, and send the data to the server using the POST method of the HTTP protocol. [You can learn more about HTML Forms here](https://www.w3schools.com/html/html_forms.asp).
+
+Add a form to index.html so that it looks like this:
+
+{% extends "layout.html" %}
+
+{% block body %}
+<form action="/form" method="post">
+  What is your name? <br/>
+  <input type="text" name="name"><br/>
+	
+  What is your quest? <br/>
+  <input type="radio" name="quest" value="grail">I seek the grail.<br/>
+  <input type="radio" name="quest" value="grade">I just want an A.<br/>
+  
+  What is your favorite color? <br/>
+  <select name="color">
+    <option value="blue">Blue</option>
+    <option value="red">Red</option>
+    <option value="purple">Purple</option>
+  </select>
+  <button type="submit">Submit</button>
+</form>
+{% endblock %}
+	
+	
+  
