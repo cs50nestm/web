@@ -77,3 +77,22 @@ Using Jinja, our layout.html file looks like this:
   </body>
 </html>
 ```
+The line {% block body %}{% end block %}, is what makes this a layout file.  We can insert whatever code makes up the content of our page in place of this block. A layout file can contain as many blocks as you want. Just give each one a different name.
+
+Now create index.html so that it uses the template, like this:
+
+```html
+{% extends "layout.html" %}
+
+{% block body %}
+<p>Next we'll put a form here and get some POST action!</p>
+{% endblock %}
+```
+
+In the static folder, put a style.css file.  I’ve added one style but you can add more.
+
+```css
+body {
+  background-color: yellow;
+}
+```
