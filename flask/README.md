@@ -178,7 +178,7 @@ def form():
 
 This example has some logic in it, using the information provided by the user. The `print()` functions show how you can do a little print debugging, even with Flask. They aren’t necessary for the program to run. The variables *name*, and maybe *quest*, are passed to their templates.  The template `oops.html` looks like this:
 
-```html
+```django
 {% extends "layout.html %}
 
 {% block body %}
