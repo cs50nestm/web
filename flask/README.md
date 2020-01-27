@@ -63,37 +63,12 @@ Using Jinja, our `layout.html` file looks like this:
 
 <img alt="code" src="code1.png">
 
-```jinja
-<!DOCTYPE html>
-
-<html lang="en">
-  <head>
-    <link href="/static/styles.css" rel="stylesheet">
-    <title>Hello, Flask</title>	  
-  </head>
-  <body>
-    <h1>Hello, Flask</h1>
-    <div class="main">
-      {% block body %}{% endblock %}
-    </div>
-  </body>
-</html>
-```
-
-
 The line with `block body` and `endblock`, is what makes this a layout file.  We can insert whatever code makes up the content of our page in place of this block. A layout file can contain as many blocks as you want. Just give each one a different name.
 
 Now create index.html so that it uses the template, like this:
 
 <img alt="code" src="code2.png">
 
-```django
-{% extends "layout.html" %}
-
-{% block body %}
-<p>Next we'll put a form here and get some POST action!</p>
-{% endblock %}
-```
 
 In the static folder, put a style.css file.  I’ve added one style but you can add more.
 
@@ -124,29 +99,6 @@ HTML Forms allow the user to enter data into input fields, and send the data to 
 Add a form to index.html so that it looks like this:
 
 <img alt="code" src="code3.png">
-
-```django
-{% extends "layout.html" %}
-
-{% block body %}
-<form action="/form" method="post">
-  What is your name? <br/>
-  <input type="text" name="name"><br/>
-	
-  What is your quest? <br/>
-  <input type="radio" name="quest" value="grail">I seek the grail.<br/>
-  <input type="radio" name="quest" value="grade">I just want an A.<br/>
-  
-  What is your favorite color? <br/>
-  <select name="color">
-    <option value="blue">Blue</option>
-    <option value="red">Red</option>
-    <option value="oops">Not blue, not red, oops?</option>
-  </select>
-  <button type="submit">Submit</button>
-</form>
-{% endblock %}
-```
 
 Note that each form element has both a *name* and a *value*. Those are what gets passed into `application.py` for our use when the form is submitted.
 
@@ -184,27 +136,12 @@ This example has some logic in it, using the information provided by the user. T
 
 <img alt="code" src="code4.png">
 
-```django
-{% extends "layout.html %}
-
-{% block body %}
-<p>Sorry, {{name}}, you are cast from the bridge to your death. Oops. </p>
-{% endblock %}
-```
-
 You can see how the value of name is inserted into the HTML.
 
 The template `cross.html` uses both *name* and *quest*.
 
 <img alt="code" src="code5.png">
 
-```django
-{% extends "layout.html %}
-
-{% block body %}
-<p>Good news, {{name}}, you are allowed to cross the bridge and {{quest}}.</p>
-{% endblock %}
-```
 
 Try the program now.  If there are any errors, see if you can figure them out by reading the program output on the command line and by using print() statements.
 
