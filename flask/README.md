@@ -85,9 +85,9 @@ Now create index.html so that it uses the template, like this:
 ```django
 {% extends "layout.html" %}
 
-{\% block body \%}
+{% block body %}
 <p>Next we'll put a form here and get some POST action!</p>
-{\% endblock \%}
+{% endblock %}
 ```
 
 In the static folder, put a style.css file.  I’ve added one style but you can add more.
