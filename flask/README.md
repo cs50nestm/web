@@ -61,7 +61,7 @@ We need a way to execute code and insert variables into our html files, and Flas
 
 Using Jinja, our `layout.html` file looks like this:
 
-```html
+```
 <!DOCTYPE html>
 
 <html lang="en">
