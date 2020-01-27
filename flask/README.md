@@ -3,7 +3,7 @@
 ## tl;dr
 Build a simple flask app to gain an understanding of how to use this framework.
 
-## Getting Ready
+## Getting Ready for Flask
 
 <style type="text/css">
 .iframe_container {
