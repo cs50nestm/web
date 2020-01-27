@@ -121,7 +121,7 @@ HTML Forms allow the user to enter data into input fields, and send the data to 
 
 Add a form to index.html so that it looks like this:
 
-```jijna
+```django
 {% extends "layout.html" %}
 
 {% block body %}
