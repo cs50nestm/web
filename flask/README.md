@@ -61,24 +61,7 @@ We need a way to execute code and insert variables into our html files, and Flas
 
 Using Jinja, our `layout.html` file looks like this:
 
-<!––
-```jinja
-<!DOCTYPE html>
 
-<html lang="en">
-  <head>
-    <link href="/static/styles.css" rel="stylesheet">
-    <title>Hello, Flask</title>	  
-  </head>
-  <body>
-    <h1>Hello, Flask</h1>
-    <div class="main">
-      {% block body %}{% endblock %}
-    </div>
-  </body>
-</html>
-```
--->
 
 ![code](helloflask.png)
 
