@@ -61,7 +61,7 @@ We need a way to execute code and insert variables into our html files, and Flas
 
 Using Jinja, our `layout.html` file looks like this:
 
-<img alt="code" src="helloflask.png">
+<img alt="code" src="code1.png">
 
 ```jinja
 <!DOCTYPE html>
@@ -84,6 +84,8 @@ Using Jinja, our `layout.html` file looks like this:
 The line with `block body` and `endblock`, is what makes this a layout file.  We can insert whatever code makes up the content of our page in place of this block. A layout file can contain as many blocks as you want. Just give each one a different name.
 
 Now create index.html so that it uses the template, like this:
+
+<img alt="code" src="code2.png">
 
 ```django
 {% extends "layout.html" %}
@@ -120,6 +122,8 @@ When you run your application now (flask run at the command line), you’ll get 
 HTML Forms allow the user to enter data into input fields, and send the data to the server using the POST method of the HTTP protocol. [You can learn more about HTML Forms here](https://www.w3schools.com/html/html_forms.asp).
 
 Add a form to index.html so that it looks like this:
+
+<img alt="code" src="code3.png">
 
 ```django
 {% extends "layout.html" %}
@@ -178,6 +182,8 @@ def form():
 
 This example has some logic in it, using the information provided by the user. The `print()` functions show how you can do a little print debugging, even with Flask. They aren’t necessary for the program to run. The variables *name*, and maybe *quest*, are passed to their templates.  The template `oops.html` looks like this:
 
+<img alt="code" src="code4.png">
+
 ```django
 {% extends "layout.html %}
 
@@ -189,6 +195,8 @@ This example has some logic in it, using the information provided by the user. T
 You can see how the value of name is inserted into the HTML.
 
 The template `cross.html` uses both *name* and *quest*.
+
+<img alt="code" src="code5.png">
 
 ```django
 {% extends "layout.html %}
