@@ -197,3 +197,14 @@ The template `cross.html` uses both *name* and *quest*.
 Try the program now.  If there are any errors, see if you can figure them out by reading the program output on the command line and by using print() statements.
 
 To do a little more, try adding a “Play Again” link to `oops.html` and/or `cross.html`.  
+
+# How to Submit
+
+Execute the code below from your `hello` directory, logging in with your GitHub username and password when prompted.
+
+```
+submit50 cs50nestm/checks/2019/flask
+```
+
+*Adapted from 27 Classrooms, by Mark Sobkowicz, Lincoln Sudbury Regional High School
+*
