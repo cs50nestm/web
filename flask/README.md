@@ -59,7 +59,7 @@ Instead of putting html code right in our python program, we can move our html i
 
 We need a way to execute code and insert variables into our html files, and Flask gives us a way. The name for this is [Jinja](https://palletsprojects.com/p/jinja/), which is a template engine for Python.
 
-Using Jinja, our layout.html file looks like this:
+Using Jinja, our `layout.html` file looks like this:
 
 ```html
 <!DOCTYPE html>
