@@ -1,16 +1,24 @@
-# Problem: Homepage
+# First Flask App
 
 ## tl;dr
-Build a simple website of your **Landmark Essay** using HTML and CSS in the [CS50 IDE](https://ide.cs50.io).
+Build a simple flask app to gain an understanding of how to use this framework.
 
-## Background
-The internet has enabled incredible things: we can use a search engine to research anything imaginable, communicate with friends and family members around the globe, play games, take courses, and so much more. But it turns out that nearly all pages we may visit are built on three core languages, each of which serves a slightly different purpose:
+## Hello, Flask
+Create a new folder named, `hello` in your IDE. In this folder, create a simple flask app that creates an html page and says hello, as we did in class. Create a new file in this folder named `application.py` and type in the following:
 
-1. HTML, or HyperText Markup Language, which is used to describe the content of websites;
-2. CSS, Cascading Style Sheets, which is used to describe the aesthetics of websites; and
-3. JavaScript, which is used to make websites interactive and dynamic.
+```python
+from flask import Flask
 
-Focusing on just the first two of those three languages for now, create a simple website consisting of four html pages using text and images from your Landmark Essay. 
+app = Flask(__name__)
+
+@app.route("/")
+def index:
+    return "hello, world"
+```    
+
+To run your app, type “flask run” into the terminal, and you will get a link to click, similar to when you run apache 50 start.
+
+Congratulations on your first Flask App!
 
 ## Getting Ready
 
@@ -32,7 +40,7 @@ Focusing on just the first two of those three languages for now, create a simple
 }
 </style>
 
-First watch this video with Brian Yu on using `HTML` in the CS50 IDE:
+Now watch this video with Brian Yu on creating a Flask App:
 
 <div class="iframe_container">
   <iframe src="https://www.youtube.com/embed/78wdlyzrKOA?modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe>
