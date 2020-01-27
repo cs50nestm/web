@@ -72,7 +72,7 @@ Using Jinja, our `layout.html` file looks like this:
   <body>
     <h1>Hello, Flask</h1>
     <div class="main">
-      {% block main %}{% endblock %}
+      {\% block main \%}{\% endblock \%}
     </div>
   </body>
 </html>
