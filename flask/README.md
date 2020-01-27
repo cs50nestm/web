@@ -190,7 +190,7 @@ You can see how the value of name is inserted into the HTML.
 
 The template `cross.html` uses both *name* and *quest*.
 
-```html
+```django
 {% extends "layout.html %}
 
 {% block body %}
