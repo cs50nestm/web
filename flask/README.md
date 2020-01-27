@@ -171,3 +171,29 @@ def form():
     else:
         return render_template("cross.html", name = name, quest = quest)    
 ```  
+
+This example has some logic in it, using the information provided by the user. The `print()` functions show how you can do a little print debugging, even with Flask. They aren’t necessary for the program to run. The variables *name*, and maybe *quest*, are passed to their templates.  The template `oops.html` looks like this:
+
+```html
+{% extends "layout.html %}
+
+{% block body %}
+<p>Sorry, {{name}}, you are cast from the bridge to your death. Oops. </p>
+{% endblock %}
+```
+
+You can see how the value of name is inserted into the HTML.
+
+The template `cross.html` uses both *name* and *quest*.
+
+```html
+{% extends "layout.html %}
+
+{% block body %}
+<p>Good news, {{name}}, you are allowed to cross the bridge and {{quest}}.</p>
+{% endblock %}
+```
+
+Try the program now.  If there are any errors, see if you can figure them out by reading the program output on the command line and by using print() statements.
+
+To do a little more, try adding a “Play Again” link to `oops.html` and/or `cross.html`.  
