@@ -61,7 +61,7 @@ We need a way to execute code and insert variables into our html files, and Flas
 
 Using Jinja, our `layout.html` file looks like this:
 
-```
+```HTML+Django
 <!DOCTYPE html>
 
 <html lang="en">
@@ -72,7 +72,7 @@ Using Jinja, our `layout.html` file looks like this:
   <body>
     <h1>Hello, Flask</h1>
     <div class="main">
-      {\% block main \%}{\% endblock \%}
+      {% block main %}{% endblock %}
     </div>
   </body>
 </html>
