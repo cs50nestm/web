@@ -117,6 +117,7 @@ HTML Forms allow the user to enter data into input fields, and send the data to 
 
 Add a form to index.html so that it looks like this:
 
+```html
 {% extends "layout.html" %}
 
 {% block body %}
@@ -132,11 +133,41 @@ Add a form to index.html so that it looks like this:
   <select name="color">
     <option value="blue">Blue</option>
     <option value="red">Red</option>
-    <option value="purple">Purple</option>
+    <option value="oops">Not blue, not red, oops?</option>
   </select>
   <button type="submit">Submit</button>
 </form>
 {% endblock %}
+```
+
+Note that each form element has both a *name* and a *value*. Those are what gets passed into `application.py` for our use when the form is submitted.
+
+Run the program, visit index.html, and submit the form.  You should see the message “Method not allowed”.  So we need to make Flask allow the POST method on `index.html`.
+
+## Post
+
+In `application.py`, we need to add a route to handle the POST request. Here is what our new application.py looks like.
 	
-	
-  
+```python
+from flask import Flask, render_template, request, redirect
+
+app = Flask(__name__)
+
+@app.route("/", methods=["GET"])
+def index():
+    return render_template("index.html")
+    
+@app.route("/form", methods=["POST"])
+def form():
+    name = request.form.get("name")
+    print(name)
+    if request.form.get("quest") == "grail":
+        quest = "seek the grail"
+    else:
+        quest = "join the ratrace"
+    color = request.form.get("color")
+    if color == "oops":
+        return render_template("oops.html", name = name)
+    else:
+        return render_template("cross.html", name = name, quest = quest)    
+```  
