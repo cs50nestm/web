@@ -82,8 +82,8 @@ The line {% block body %}{% end block %}, is what makes this a layout file.  We 
 
 Now create index.html so that it uses the template, like this:
 
-```html
-{\% extends "layout.html" \%}
+```jinja
+{% extends "layout.html" %}
 
 {\% block body \%}
 <p>Next we'll put a form here and get some POST action!</p>
