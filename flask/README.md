@@ -61,7 +61,8 @@ We need a way to execute code and insert variables into our html files, and Flas
 
 Using Jinja, our `layout.html` file looks like this:
 
-```html
+<!––
+```jinja
 <!DOCTYPE html>
 
 <html lang="en">
@@ -72,13 +73,16 @@ Using Jinja, our `layout.html` file looks like this:
   <body>
     <h1>Hello, Flask</h1>
     <div class="main">
-      {% block main %}{% endblock %}
+      {% block body %}{% endblock %}
     </div>
   </body>
 </html>
 ```
+-->
 
-The line {% block body %}{% end block %}, is what makes this a layout file.  We can insert whatever code makes up the content of our page in place of this block. A layout file can contain as many blocks as you want. Just give each one a different name.
+![code](helloflask.png)
+
+The line `{% block body %}{% end block %}`, is what makes this a layout file.  We can insert whatever code makes up the content of our page in place of this block. A layout file can contain as many blocks as you want. Just give each one a different name.
 
 Now create index.html so that it uses the template, like this:
 
