@@ -23,7 +23,7 @@ Build a simple flask app to gain an understanding of how to use this framework.
 }
 </style>
 
-Now watch this video with Brian Yu to deepen your understanding of how Flask works:
+First watch this video with Brian Yu to deepen your understanding of how Flask works:
 
 <div class="iframe_container">
   <iframe src="https://www.youtube.com/embed/GhB6Q7KC-SM?modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe>
