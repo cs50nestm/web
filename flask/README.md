@@ -63,7 +63,7 @@ Using Jinja, our `layout.html` file looks like this:
 
 <img alt="code" src="helloflask.png">
 
-The line `{% block body %}{% end block %}`, is what makes this a layout file.  We can insert whatever code makes up the content of our page in place of this block. A layout file can contain as many blocks as you want. Just give each one a different name.
+The line with `block body` and `endblock`, is what makes this a layout file.  We can insert whatever code makes up the content of our page in place of this block. A layout file can contain as many blocks as you want. Just give each one a different name.
 
 Now create index.html so that it uses the template, like this:
 
