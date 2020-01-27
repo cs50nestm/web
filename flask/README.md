@@ -30,7 +30,7 @@ Now watch this video with Brian Yu to deepen your understanding of how Flask wor
 </div>
 
 ## Hello, Flask
-Create a new folder named, `hello` in your IDE. In this folder, create a simple flask app that creates an html page and says hello, as we did in class. Create a new file in this folder named `application.py` and type in the following:
+Create a new folder named, `hello` in your IDE. In this folder, create a simple flask app that creates an html page and says hello, as we did in class. Create a new file in this folder named `application.py` just as Brian does and type in the following:
 
 ```python
 from flask import Flask
@@ -39,7 +39,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def index:
-    return "hello, world"
+    return "Hello, World!"
 ```    
 
 To run your app, type “flask run” into the terminal, and you will get a link to click, similar to when you run apache 50 start.
