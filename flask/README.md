@@ -61,7 +61,7 @@ We need a way to execute code and insert variables into our html files, and Flas
 
 Using Jinja, our `layout.html` file looks like this:
 
-```HTML+Django
+```django
 <!DOCTYPE html>
 
 <html lang="en">
@@ -82,7 +82,7 @@ The line {% block body %}{% end block %}, is what makes this a layout file.  We 
 
 Now create index.html so that it uses the template, like this:
 
-```jinja
+```django
 {% extends "layout.html" %}
 
 {\% block body \%}
