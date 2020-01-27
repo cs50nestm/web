@@ -3,23 +3,6 @@
 ## tl;dr
 Build a simple flask app to gain an understanding of how to use this framework.
 
-## Hello, Flask
-Create a new folder named, `hello` in your IDE. In this folder, create a simple flask app that creates an html page and says hello, as we did in class. Create a new file in this folder named `application.py` and type in the following:
-
-```python
-from flask import Flask
-
-app = Flask(__name__)
-
-@app.route("/")
-def index:
-    return "hello, world"
-```    
-
-To run your app, type “flask run” into the terminal, and you will get a link to click, similar to when you run apache 50 start.
-
-Congratulations on your first Flask App!
-
 ## Getting Ready
 
 <style type="text/css">
@@ -40,26 +23,29 @@ Congratulations on your first Flask App!
 }
 </style>
 
-Now watch this video with Brian Yu on creating a Flask App:
+Now watch this video with Brian Yu to deepen your understanding of how Flask works:
 
 <div class="iframe_container">
-  <iframe src="https://www.youtube.com/embed/78wdlyzrKOA?modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe>
+  <iframe src="https://www.youtube.com/embed/GhB6Q7KC-SM?modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe>
 </div>
 
+## Hello, Flask
+Create a new folder named, `hello` in your IDE. In this folder, create a simple flask app that creates an html page and says hello, as we did in class. Create a new file in this folder named `application.py` and type in the following:
 
-Then watch Brian add `CSS` to his webpage:
+```python
+from flask import Flask
 
+app = Flask(__name__)
 
-<div class="iframe_container">
-  <iframe src="https://www.youtube.com/embed/g7nZFp2zSJ4?modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allowfullscreen="allowfullscreen"> </iframe>
-</div>
+@app.route("/")
+def index:
+    return "hello, world"
+```    
 
-Fianally watch the section of the video below, from 1:23 to 7:28 to learn more about how to put the pieces together:
+To run your app, type “flask run” into the terminal, and you will get a link to click, similar to when you run apache 50 start.
 
+Congratulations on your first Flask App!
 
-<div class="iframe_container">
-  <iframe src="https://www.youtube.com/embed/sEVlPyywlfc?start=68&end448=&modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allowfullscreen="allowfullscreen"> </iframe>
-</div>
 
 
 ## Getting Started
