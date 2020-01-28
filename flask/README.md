@@ -70,7 +70,7 @@ Now create index.html so that it uses the template, like this:
 <img alt="code" src="code2.png">
 
 
-In the static folder, put a style.css file.  I’ve added one style but you can add more.
+In the static folder, create a styles.css file.  I’ve added one style but you can add more.
 
 ```css
 body {
