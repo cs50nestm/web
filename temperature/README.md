@@ -58,3 +58,18 @@ function convert() {
 }
 ```
 
+Remember this function will execute when the user clicks the `convert` button, so this would be a good time to get the number of degrees entered, the choice the user makes for conversion and test that these values are not blank. If either of these values is missing (when the choice is missing choice.value will be equal to "none") use a JavaScript alert to yell at the user and return from this function.
+
+Now you can test if choice.value is equal to "ftoc" in which case you will want to calculate degrees celsius, or "ctof" in which you will want to calculate degrees fahrenheit. 
+
+After performing the appropriate calculation, create a string using JavaScript concatenation that says something like:
+
+```
+100 degrees fahrenheit is 37.8 degrees celsius
+```
+
+Finally make sure your output uses exactly one decimal point for ease of reading.
+
+## Submission
+
+Coming soon!
