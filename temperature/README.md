@@ -70,6 +70,14 @@ After performing the appropriate calculation, create a string using JavaScript c
 
 Finally make sure your output uses exactly one decimal point for ease of reading.
 
-## Submission
+## Hints
+
+For fairly comprehensive guides on the languages introduced in this problem, check out the documentation for each on W3Schools.
+
+* [HTML](https://www.w3schools.com/html/)
+* [CSS](https://www.w3schools.com/css)
+* [JavaScript](https://www.w3schools.com/js)
+
+## How to Submit
 
 Coming soon!
