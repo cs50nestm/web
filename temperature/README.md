@@ -3,7 +3,6 @@
 ## tl;dr
 Complete the JavaScript code to add funcionality to a temperature conversion web page in the [CS50 IDE](https://ide.cs50.io).
 
-<img alt="thermometer" src="https://i.ytimg.com/vi/CHn_lLbnm8c/maxresdefault.jpg">
 ![thermometer](https://i.ytimg.com/vi/CHn_lLbnm8c/maxresdefault.jpg)
 
 ## Getting Started
