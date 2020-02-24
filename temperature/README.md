@@ -1,4 +1,4 @@
-# Problem: Temperature
+# Problem: Temperature Conversion
 
 ## tl;dr
 Complete the JavaScript code to add funcionality to a temperature conversion web page in the [CS50 IDE](https://ide.cs50.io).
