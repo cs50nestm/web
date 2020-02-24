@@ -33,6 +33,16 @@ In between the
 </script>
 ```
 
-tags, you will write JavaScript to access the value enterred into the text box, and depending on whether the user choosed `fahrenheit to celsius` or `celsius to fahrenheit` you will calculate the appropriate value and add it to `div` with `id="result"` in `index.html`.
+tags, you will write JavaScript to access the value enterred into the text box, and depending on whether the user choosed `fahrenheit to celsius` or `celsius to fahrenheit` you will calculate the appropriate value and add it to the `div` with `id="result"` in `index.html`.
 
+When the button is clicked, html will call the `convert()` function that you will write. 
 
+## Writing JavaScript
+
+Create some shortcuts to be able to access the input value, the select value and the output area from your HTML. You can do this by creating three variables as follows:
+
+```javascript
+let input = document.querySelector("#tempInput")
+let choice = document.querySelector("#choose")
+let output = document.querySelector("#result")
+```
