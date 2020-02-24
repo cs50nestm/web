@@ -22,6 +22,15 @@ in the terminal window and clicking on the link that appears.
 
 ## Specification
 
-This next program uses HTML, CSS and JavaScript to convert Celsius to Fahrenheit and Fahrenheit to Celsius.
+This program uses HTML, CSS and JavaScript to create a temperature conversion web page, where you will convert Celsius to Fahrenheit and Fahrenheit to Celsius.
 
 The HTML and CSS is already written for you, though you are welcome to customize it. Your challenge will be to write the JavaScript to make the program functional.
+
+In between the
+
+```html
+<script>
+</script>
+```
+
+tags, you will write JavaScript to access the value enterred into the text box, and depending on whether the user choosed ```fahrenheit to celsius``` or ```celsius to fahrenheit``` you will calculate the appropriate value and add it to `result` div in the 
