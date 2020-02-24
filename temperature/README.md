@@ -3,6 +3,8 @@
 ## tl;dr
 Complete the JavaScript code to add funcionality to a temperature conversion web page in the [CS50 IDE](https://ide.cs50.io).
 
+<img src="https://github.com/cs50nestm/web">
+
 ## Getting Started
 Here’s how to download this problem’s "distribution code" (i.e., starter code) into your own CS50 IDE. Log into [CS50 IDE](https://ide.cs50.io) and then, in a terminal window, execute each of the below.
 
