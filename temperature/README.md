@@ -39,10 +39,22 @@ When the button is clicked, html will call the `convert()` function that you wil
 
 ## Writing JavaScript
 
-Create some shortcuts to be able to access the input value, the select value and the output area from your HTML. You can do this by creating three variables as follows:
+First, create some shortcuts to be able to access the input value, the select value and the output area from your HTML. You can do this by creating three variables as follows:
 
 ```javascript
 let input = document.querySelector("#tempInput")
 let choice = document.querySelector("#choose")
 let output = document.querySelector("#result")
 ```
+
+Once the user enters a number in the text box, you can access the value with `input.value`. In the same way, you can access the value of the conversion choice with `choice.value`. Finally, you can add your own text to the `result` div by assigning the desired string to `output.innerHTML`.
+
+Now write the function convert(). You can start this as:
+
+```javascript
+function convert() {
+  // TODO
+
+}
+```
+
