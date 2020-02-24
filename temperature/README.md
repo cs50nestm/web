@@ -33,4 +33,6 @@ In between the
 </script>
 ```
 
-tags, you will write JavaScript to access the value enterred into the text box, and depending on whether the user choosed `fahrenheit to celsius` or `celsius to fahrenheit` you will calculate the appropriate value and add it to `result` div in the 
+tags, you will write JavaScript to access the value enterred into the text box, and depending on whether the user choosed `fahrenheit to celsius` or `celsius to fahrenheit` you will calculate the appropriate value and add it to `result` div in `index.html`.
+
+
