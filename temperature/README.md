@@ -5,6 +5,38 @@ Complete the JavaScript code to add funcionality to a temperature conversion web
 
 ![thermometer](https://i.ytimg.com/vi/CHn_lLbnm8c/maxresdefault.jpg)
 
+## What is JavaScript?
+
+A simple definition from W3Schools: "JavaScript is the Programming Language for the Web. JavaScript can update and change both HTML and CSS. JavaScript can calculate, manipulate and validate data."
+
+JavaScript's syntax looks a lot like C, but it also include extra functionality to access and change your HTML, also known as the Document Object Model (DOM). 
+
+You can use JavaScript directly in your HTML file in between <script></script> tags, or you can import your JavaScript as separate `.js` file.
+
+For a little more background on how to use JavaScript, watch Brian Yu demonstrate using JavaScript in the CS50 IDE.
+
+<style type="text/css">
+.iframe_container {
+	position: relative;
+	padding-bottom: 56.25%; 
+	padding-top: 25px;
+	height: 0;
+	margin-bottom: 30px;
+}
+
+.iframe_container iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+</style>
+
+<div class="iframe_container">
+  <iframe src="https://www.youtube.com/embed/WzfPjOYmjxg&amp;rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe>
+</div>
+
 ## Getting Started
 Here’s how to download this problem’s "distribution code" (i.e., starter code) into your own CS50 IDE. Log into [CS50 IDE](https://ide.cs50.io) and then, in a terminal window, execute each of the below.
 
