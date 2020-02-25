@@ -39,32 +39,6 @@ tags, you will write JavaScript to access the value enterred into the text box, 
 
 When the button is clicked, html will call the `convert()` function that you will write. 
 
-## Writing JavaScript
-
-<style type="text/css">
-.iframe_container {
-	position: relative;
-	padding-bottom: 56.25%; 
-	padding-top: 25px;
-	height: 0;
-	margin-bottom: 30px;
-}
-
-.iframe_container iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
-</style>
-
-First watch this video with Brian Yu on `JavaScript`:
-
-<div class="iframe_container">
-  <iframe src="https://www.youtube.com/embed/WzfPjOYmjxg?modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe>
-</div>
-
 ## How to Start
 
 You may want to create some shortcuts to be able to access the input value, the select value and the output area from your HTML. You can do this by creating three variables as follows:
