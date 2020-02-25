@@ -65,7 +65,9 @@ First watch this video with Brian Yu on `JavaScript`:
   <iframe src="https://www.youtube.com/embed/WzfPjOYmjxg?modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe>
 </div>
 
-First, create some shortcuts to be able to access the input value, the select value and the output area from your HTML. You can do this by creating three variables as follows:
+## How to Start
+
+You may want to create some shortcuts to be able to access the input value, the select value and the output area from your HTML. You can do this by creating three variables as follows:
 
 ```javascript
 let input = document.querySelector("#tempInput")
