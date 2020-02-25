@@ -13,7 +13,7 @@ JavaScript's syntax looks a lot like C, but it also include extra functionality 
 
 You can use JavaScript directly in your HTML file in between <script></script> tags, or you can import your JavaScript as separate `.js` file.
 
-For a little more background on how to use JavaScript, watch Brian Yu demonstrate using JavaScript in the CS50 IDE.
+Watch Brian Yu demonstrate using JavaScript in the CS50 IDE for an introduction.
 
 <style type="text/css">
 .iframe_container {
@@ -34,7 +34,7 @@ For a little more background on how to use JavaScript, watch Brian Yu demonstrat
 </style>
 
 <div class="iframe_container">
-  <iframe src="https://www.youtube.com/embed/WzfPjOYmjxg&amp;rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe>
+  <iframe src="https://www.youtube.com/embed/WzfPjOYmjxg?modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe>
 </div>
 
 ## Getting Started
