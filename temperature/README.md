@@ -114,4 +114,4 @@ For fairly comprehensive guides on the languages introduced in this problem, che
 
 ## How to Submit
 
-Coming soon!
+check50 cs50nestm/checks/2019/temperature
