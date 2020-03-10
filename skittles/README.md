@@ -1,8 +1,7 @@
 # Problem: Skittles, et al
-## Pair Programming
 
 ## tl;dr
-Create a web page using HTML, CSS and JavaScript from scratch to play a game or solve a problem.
+Create a web page with a partner, using pair programming techniques. Your web page must use HTML, CSS and JavaScript to play a game or solve a problem.
 
 
 <style type="text/css">
@@ -27,8 +26,13 @@ Create a web page using HTML, CSS and JavaScript from scratch to play a game or 
   <iframe src="https://www.youtube.com/embed/oxRwAUQMZgM?modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe>
 </div>
 
+## What is Pair Programming
+
+Pair programming is an agile software development technique in which two programmers work together at one workstation. 
+One, the driver, writes code while the other, the navigator, reviews each line of code as it is typed in. The two programmers switch roles frequently.
+
 ## Getting Started
-There is no distribution code for this problem! You need to create your web page from scratch. Ideas on how to get started include, but are not limited to:
+There is no distribution code for this problem! You need to create your web page from scratch. Ideas on how to get started if you choose to do skittles, include, but are not limited to:
 
 1. Copy the distribution code for Temperature and remove the code inside the `<body></body>` and `<script></script>` tags to get started.
 2. Create / modify `<title></title>` tags in the head section with the name of your program.
@@ -37,6 +41,7 @@ There is no distribution code for this problem! You need to create your web page
 5. Make sure to add a unique `id` to the input tag, the button and the results div.
 6. Create a random number in JavaScript
 7. Add an event handler to your button tag. Once clicked you should get the value from the input text box, compare it to the random number you generated, and add HTML to your results div that tells the user if they are too low, too high or just right!
+8. Use images and colors to complete your web page!
 
 ## Specification
 
