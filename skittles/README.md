@@ -1,4 +1,5 @@
-# Problem: Pair Programming / Skittles / Something Else
+# Problem: Skittles, et al
+## Pair Programming
 
 ## tl;dr
 Create a web page using HTML, CSS and JavaScript from scratch to play a game or solve a problem.
