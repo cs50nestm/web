@@ -27,71 +27,19 @@ Create a web page using HTML, CSS and JavaScript from scratch to play a game or 
 </div>
 
 ## Getting Started
-Here’s how to download this problem’s "distribution code" (i.e., starter code) into your own CS50 IDE. Log into [CS50 IDE](https://ide.cs50.io) and then, in a terminal window, execute each of the below.
+There is no distribution code for this problem! You need to create your web page from scratch. Ideas on how to get started include, but are not limited to:
 
-1. Execute `wget https://intro.cs50nestm.net/wp-content/uploads/2020/02/temperature.zip` to download a (compressed) ZIP file with this problem’s distribution.
-2. Execute `unzip temperature.zip` to uncompress that file.
-3. Execute `rm temperature.zip` followed by `yes` or `y` to delete that ZIP file.
-4. Execute `ls`. You should see a directory called `temperature`, which was inside of that ZIP file.
-5. Execute `cd temperature` to change into that directory.
-6. Execute `ls`. You should see this problem’s distribution code, including `index.html` and `styles.css`.
-7. You can immediately start a server to view the site by typing
-
-```
-http-server
-```
-
-in the terminal window and clicking on the link that appears.
+1. Copy the distribution code for Temperature and remove the code inside the `<body></body>` and `<script></script>` tags to get started.
+2. Create / modify `<title></title>` tags in the head section with the name of your program.
+3. Create a heading with the name of your web page and the names of both partners.
+4. Create a text box, (using an `<input type="text">` tag), a button and results div in HTML
+5. Make sure to add a unique `id` to the input tag, the button and the results div.
+6. Create a random number in JavaScript
+7. Add an event handler to your button tag. Once clicked you should get the value from the input text box, compare it to the random number you generated, and add HTML to your results div that tells the user if they are too low, too high or just right!
 
 ## Specification
 
-This program uses HTML, CSS and JavaScript to create a temperature conversion web page, where you will convert Celsius to Fahrenheit and Fahrenheit to Celsius.
-
-The HTML and CSS is already written for you, though you are welcome to customize it. Your challenge will be to write the JavaScript to make the program functional.
-
-In between the
-
-```html
-<script>
-</script>
-```
-
-tags, you will write JavaScript to access the value enterred into the text box, and depending on whether the user chooses `fahrenheit to celsius` or `celsius to fahrenheit` you will calculate the appropriate value and add it to the `div` with `id="result"` in `index.html`.
-
-When the button is clicked, html will call the `convert()` function that you will write. 
-
-## How to Start
-
-You may want to create some shortcuts to be able to access the input value, the select value and the output area from your HTML. You can do this by creating three variables as follows:
-
-```javascript
-let input = document.querySelector("#tempInput")
-let choice = document.querySelector("#choose")
-let output = document.querySelector("#result")
-```
-
-Once the user enters a number in the text box, you can access the value with `input.value`. In the same way, you can access the value of the conversion choice with `choice.value`. Finally, you can add your own text to the `result` div by assigning the desired string to `output.innerHTML`.
-
-Now write the function convert(). You can start this as:
-
-```javascript
-function convert() {
-  // TODO
-
-}
-```
-
-Remember this function will execute when the user clicks the `convert` button, so this would be a good time to get the number of degrees entered, the choice the user makes for conversion and test that these values are not blank. If either of these values is missing (when the choice is missing choice.value will be equal to "none") use a JavaScript alert to yell at the user and return from this function.
-
-Now you can test if choice.value is equal to "ftoc" in which case you will want to calculate degrees celsius, or "ctof" in which you will want to calculate degrees fahrenheit. 
-
-After performing the appropriate calculation, create a string using JavaScript concatenation that says something like:
-
-```
-100 degrees fahrenheit is 37.8 degrees celsius
-```
-
-Finally make sure your output uses exactly one decimal point for ease of reading.
+This program should use HTML, CSS and JavaScript to create a this web page. You may use one file, or several files to accomplish this.
 
 ## Hints
 
