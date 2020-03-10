@@ -1,19 +1,8 @@
-# Problem: Temperature Conversion
+# Problem: Pair Programming / Skittles / Something Else
 
 ## tl;dr
-Complete the JavaScript code to add funcionality to a temperature conversion web page in the [CS50 IDE](https://ide.cs50.io).
+Create a web page using HTML, CSS and JavaScript from scratch to play a game or solve a problem.
 
-![thermometer](https://i.ytimg.com/vi/CHn_lLbnm8c/maxresdefault.jpg)
-
-## What is JavaScript?
-
-A simple definition from W3Schools: "JavaScript is the Programming Language for the Web. JavaScript can update and change both HTML and CSS. JavaScript can calculate, manipulate and validate data."
-
-JavaScript's syntax looks a lot like C, but it also include extra functionality to access and change your HTML, also known as the Document Object Model (DOM). 
-
-You can use JavaScript directly in your HTML file in between <script></script> tags, or you can import your JavaScript as separate `.js` file.
-
-Watch Brian Yu demonstrate using JavaScript in the CS50 IDE for an introduction.
 
 <style type="text/css">
 .iframe_container {
@@ -34,7 +23,7 @@ Watch Brian Yu demonstrate using JavaScript in the CS50 IDE for an introduction.
 </style>
 
 <div class="iframe_container">
-  <iframe src="https://www.youtube.com/embed/WzfPjOYmjxg?modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe>
+  <iframe src="https://www.youtube.com/embed/oxRwAUQMZgM?modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe>
 </div>
 
 ## Getting Started
