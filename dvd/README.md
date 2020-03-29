@@ -27,8 +27,6 @@ Ths goal of this lab is to create a DVD animation as seen in this episode of The
 
 But first we need to become familiar with drawing with `p5.js`.
 
-{% next %}
-
 ## Getting Ready
 For this project you will `p5.js`, a JavaScript library that has a full set of drawing and animation tools. Note that in this lab there are separate `HTML` and `JavaScript` files. The `HTML` does nothing more than import the required p5 libararies as well as the JavaScript files you will create so that you can run your animations. You do not need to change the HTML at this point, all your programming will be done in your `sketch.js` file.
 
@@ -65,7 +63,6 @@ A few of the p5.js functions you will find useful include:
 
 More functions and details on these functions can be found at [https://p5js.org/reference](https://p5js.org/reference).
 
-{% next %}
 
 ## Getting Started
 Here’s how to download this problem’s "distribution code" (i.e., starter code) into your own CS50 IDE. Log into [CS50 IDE](https://ide.cs50.io) and then, in a terminal window, execute each of the below.
@@ -85,7 +82,6 @@ http-server
 
 in the terminal window and clicking on the link that appears.
 
-{% next %}
 
 
 ## Specification
