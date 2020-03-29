@@ -76,7 +76,7 @@ Here’s how to download this problem’s "distribution code" (i.e., starter cod
 6. Execute `rm dvd.zip` followed by `yes` or `y` to delete that ZIP file.
 7. Execute `ls`. You should see a directory called `dvd`, which was inside of that ZIP file.
 8. Execute `cd dvd` to change into that directory.
-9. Execute `ls`. You should see this problem’s distribution code, including `index.html` and `sketch.js`
+9. Execute `ls`. You should see this problem’s distribution code, including `index.html`, `style.css` and `sketch.js`
 10. You can immediately start a server to view the site by typing
 
 ```
@@ -108,7 +108,7 @@ More functions and details on these functions can be found at [https://p5js.org/
 
 ## How to Submit
 
-Be sure to change directories in your terminal so that the submit50 can access your sketch.js and index.html files. 
+Be sure to change directories in your terminal so that the submit50 can access your `sketch.js`, `style.css` and `index.html` files. 
 
 ```
 cd dvd
