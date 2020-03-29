@@ -1,8 +1,29 @@
 # DVD Animation
 
+<style type="text/css">
+.iframe_container {
+	position: relative;
+	padding-bottom: 56.25%; 
+	padding-top: 25px;
+	height: 0;
+	margin-bottom: 30px;
+}
+
+.iframe_container iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+</style>
+
 Ths goal of this lab is to create a DVD animation as seen in this episode of The Office.
 
-{% video https://www.youtube.com/watch?v=QOtuX0jL85Y&t=3s %}
+<div class="iframe_container">
+  <iframe src="https://www.youtube.com/watch?v=QOtuX0jL85Y&t=3s?modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe>
+</div>
+
 
 But first we need to become familiar with drawing with p5.js.
 
