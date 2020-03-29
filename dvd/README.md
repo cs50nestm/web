@@ -114,5 +114,11 @@ Be sure to change directories in your terminal so that the submit50 can access y
 cd dvd
 ```
 
+You may then submit by typing in at the command line:
+
+```
+submit50 cs50nestm/checks/2019/html
+```
+
 
 
