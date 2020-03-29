@@ -18,7 +18,7 @@
 }
 </style>
 
-Ths goal of this lab is to create a DVD animation as seen in this episode of The Office.
+Ths goal of this project is to create a DVD animation as seen in this episode of The Office.
 
 <div class="iframe_container">
   <iframe src="https://www.youtube.com/watch?v=QOtuX0jL85Y&t=3s?modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe>
