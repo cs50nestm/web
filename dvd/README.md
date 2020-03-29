@@ -97,9 +97,22 @@ in the terminal window and clicking on the link that appears.
 1. Load the DVD logo into your sketch and replace the rectangle with this logo: [https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8j2ZvogClZN_eBG7qKeZUCcHweqjjsulAsOGOzKvhkQ2iEEzF](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8j2ZvogClZN_eBG7qKeZUCcHweqjjsulAsOGOzKvhkQ2iEEzF)
 
 
-
 ### Extension
 1. When the rectangle hits a corner of the screen, have it stop the animation and display some sort of celebratory gif or message on the screen.
 
 1. Have rectangle play a “boing” sound when it bounces off the side of a wall.
+
+## Hints
+
+More functions and details on these functions can be found at [https://p5js.org/reference](https://p5js.org/reference).
+
+## How to Submit
+
+Be sure to change directories in your terminal so that the submit50 can access your sketch.js and index.html files.
+
+```
+cd dvd
+```
+
+
 
