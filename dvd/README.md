@@ -33,9 +33,9 @@ function draw() {
 
 {% next %}
 
-Here is a representation of pixels on a 400 x 400 canvas. Note that the y-axis is flipped compared to yuor math class!
+Here is a representation of pixels on a 400 x 400 canvas. Note that the y-axis is flipped compared to your math class!
 
-![Canvas](http://intro.cs50nestm.net/wp-content/uploads/2019/03/canvas.png)
+![Canvas](http://intro2018.cs50nestm.net/wp-content/uploads/2019/03/canvas.png)
 
 A few of the p5.js functions you will find useful include:
 1. `fill(color)` which sets the color that all subsequent shapes are filled with. For example, `fill(50)` fills shapes with grayscale, while `fill(204, 102, 0)` fills shapes with orange. [p5js.org fill() reference](https://p5js.org/reference/#/p5/fill)
