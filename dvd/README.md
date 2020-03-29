@@ -108,11 +108,13 @@ More functions and details on these functions can be found at [https://p5js.org/
 
 ## How to Submit
 
-Be sure to change directories in your terminal so that the submit50 can access your sketch.js and index.html files.
+Be sure to change directories in your terminal so that the submit50 can access your sketch.js and index.html files. 
 
 ```
 cd dvd
 ```
+
+To make sure you've done this correctly, type `ls` into your terminal, where you should see these two files.
 
 You may then submit by typing in at the command line:
 
