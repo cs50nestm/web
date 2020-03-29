@@ -85,5 +85,21 @@ http-server
 
 in the terminal window and clicking on the link that appears.
 
+{% next %}
 
+
+## Specification
+
+1. Working in the file sketch.js, start by creating a rectangle and have it bounce off the sides of the screen.
+
+1. Have the rectangle change colors when bouncing off the side of a screen (this can be random, or a predetermined set of colors)
+
+1. Load the DVD logo into your sketch and replace the rectangle with this logo: [https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8j2ZvogClZN_eBG7qKeZUCcHweqjjsulAsOGOzKvhkQ2iEEzF](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8j2ZvogClZN_eBG7qKeZUCcHweqjjsulAsOGOzKvhkQ2iEEzF)
+
+
+
+### Extension
+1. When the rectangle hits a corner of the screen, have it stop the animation and display some sort of celebratory gif or message on the screen.
+
+1. Have rectangle play a “boing” sound when it bounces off the side of a wall.
 
