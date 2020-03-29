@@ -25,7 +25,7 @@ Ths goal of this lab is to create a DVD animation as seen in this episode of The
 </div>
 
 
-But first we need to become familiar with drawing with p5.js.
+But first we need to become familiar with drawing with `p5.js`.
 
 {% next %}
 
