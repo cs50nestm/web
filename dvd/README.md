@@ -32,7 +32,6 @@ But first we need to become familiar with drawing with `p5.js`.
 ## Getting Ready
 For this project you will `p5.js`, a JavaScript library that has a full set of drawing and animation tools. Note that in this lab there are separate `HTML` and `JavaScript` files. The `HTML` does nothing more than import the required p5 libararies as well as the JavaScript files you will create so that you can run your animations. You do not need to change the HTML at this point, all your programming will be done in your `sketch.js` file.
 
-{% next %}
 
 A typical `p5.js` sketch starts with a p5 function, `setup()`. Instructions in the `setup()` function are run once when the program starts. It's used to define initial environment properties such as screen size and background color and to load media such as images and fonts as the program starts.
 
@@ -65,6 +64,7 @@ A few of the p5.js functions you will find useful include:
 1. `triangle(x1, y1, x2, y2, x3, y3)` draws a triangle, specifying the coordinates of three vertices: (x1,y1), (x2,y2), and (x3,y3)
 
 More functions and details on these functions can be found at [https://p5js.org/reference](https://p5js.org/reference).
+
 {% next %}
 
 ## Getting Started
