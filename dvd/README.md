@@ -49,8 +49,6 @@ function draw() {
 }
 ```
 
-{% next %}
-
 Here is a representation of pixels on a 400 x 400 canvas. Note that the y-axis is flipped compared to your math class!
 
 ![Canvas](http://intro2018.cs50nestm.net/wp-content/uploads/2019/03/canvas.png)
