@@ -115,7 +115,7 @@ To make sure you've done this correctly, type `ls` into your terminal, where you
 You may then submit by typing in at the command line:
 
 ```
-submit50 cs50nestm/checks/2019/html
+submit50 cs50nestm/checks/2019/dvd
 ```
 
 
