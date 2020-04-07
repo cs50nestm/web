@@ -39,7 +39,7 @@ Now go ahead and add a 100 bubbles...
 
 Just kidding, that would take ages, your hands would be cramped, and you probably wouldn't learn all that much.
 
-One thing that I'm thinking ahead about is that it seems like every time I'd want to add one new bubble, it would require two new variables. But, those two variables are clearly associated with each other. `bubble2X` and `bubble2Y` for example. Every new bubble adds (at least) 2 new variables.
+One thing that I'm thinking ahead about is that it seems like every time I'd want to add one new bubble, it would require two new variables. But, those two variables are clearly associated with each other. `bubble1X` and `bubble1Y` for example. Every new bubble adds (at least) 2 new variables.
 
 What if we could group those related variables together into one. A bubble is *one thing*, so shouldn't we have it represented in our code as *one variable*. Ideally, a single variable `bubble1` could *store both pieces of data* the `x` and `y`. That would cut our number of variables in half, or even less!
 
