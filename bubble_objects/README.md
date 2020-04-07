@@ -104,7 +104,7 @@ You can also use the same *dot* after the object name plus an `=` to add additio
 
 ## Now with Objects
 
-Here's the same program built with objects. This may not seem like a huge change from before, but we're headed in the right direction.
+Here's the same program as above built with objects. This may not seem like a huge change from before, but we're headed in the right direction.
 
 ```javascript
 let bubbleSize = 20;
