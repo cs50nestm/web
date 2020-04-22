@@ -177,6 +177,6 @@ The way you would access the `g` key would be `bubble.color.g`.  Give it a shot!
 
 ## To Submit
 
-Coming Soon!
+submit50 cs50nestm/checks/2019/bubbles
 
 (Lesson above was adapted from a front-end design class given by Upperline Code)
