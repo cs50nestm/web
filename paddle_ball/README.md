@@ -61,6 +61,6 @@ If you did not join us for the live 4/8 class or watch the video posted on Class
 
 ## How to Submit
 
-Coming Soon!
+submit50 cs50nestm/checks/2019/paddle_ball
 
 
