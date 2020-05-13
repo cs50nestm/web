@@ -1,66 +1,45 @@
-# Paddle Ball Game
+# Brick Breaker
 
-The goal of this project is to complete the code we began to develop together duirng the recorded class on Wednesday, April 8th, to create a paddle and ball game.
+The goal of this project is to code along with the live class (or videos) and add one personal touch, to make it your own. This could be changing the colors, changing the number of bricks, or something els.
 
-<img src="paddle_ball.gif" width="100%" alt="Paddle Ball Game">
+<style type="text/css"> .iframe_container { position: relative; padding-bottom: 56.25%; padding-top: 25px; height: 0; margin-bottom: 30px; } .iframe_container iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; } </style>
 
-Using p5.js, we created a paddle that moves left and right, and a ball that bounces off the paddle and off the left and right sides of the canvas. Using this starter code, your job is to complete one more more features, to be able to play this as a game.
+The final result shoud look something like this:
+
+<iframe src="https://www.youtube.com/embed/UvXiMSsKpbs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Using p5.js, we started in a similar way as the paddle and ball game we created a few weeks back. Our canvas is vertical, with a width of 400 and a height of 600, and we added an array of brick objects on top of the screen. We then added a function to iterate thorugh this array of bricks to determine if the ball hits one of the bricks. When we get a ball-brick collision we remove the brick from the array of bricks and increase the score.
+
+Finally, we added a game initialization function, that restarts the game by resetting the number of lives and the score and restores all the bricks.
 
 ## Getting Started
 
+You can start by copying one of the folders you've used before for a prior p5 project, or download the starter folder as outlined here.
+
 1. Execute `cd` to ensure that you’re in ~/ (i.e., your home directory, aka ~).
-2. Execute `wget https://intro.cs50nestm.net/wp-content/uploads/2020/04/paddle.zip` to download a (compressed) ZIP file with this problem’s distribution.
-1. Execute `unzip paddle.zip` to uncompress that file.
-1. Execute `rm paddle.zip` followed by yes or y to delete that ZIP file.
-1. Execute ls. You should see a directory called `paddle`, which was inside of that ZIP file.
-1. Execute `cd paddle` to change into that directory.
-1. Execute ls. You should see this problem’s distribution code, including index.html, style.css and sketch.js
+2. Execute `wget https://....p5_folder.zip` to download a (compressed) ZIP file with the p5 starter files.
+1. Execute `unzip p5_folder.zip` to uncompress that file.
+1. Execute ls. You should see a directory called `p5_folder`, which was inside of that ZIP file.
+1. Rename this folder to brick_breaker
+1. Execute `cd brick_breaker` to change into that directory.
+1. Execute ls. You should see the p5 starter code, including index.html, style.css and sketch.js
+1. Feel free to use this p5 starter code for other p5 projects. If you leave the `p5_folder.zip` in your directory, you can unzip it again in the future to start another project.
 
 ## Next Step
 
-If you did not join us for the live 4/8 class or watch the video posted on Classroom, please watch the video here and code along with me to create your starter code.
-
-<style type="text/css">
-.iframe_container {
-	position: relative;
-	padding-bottom: 56.25%; 
-	padding-top: 25px;
-	height: 0;
-	margin-bottom: 30px;
-}
-
-.iframe_container iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
-</style>
-
-
-<div class="iframe_container">
-  <iframe src="https://www.youtube.com/embed/B3VLmTtAxUk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+If you didn't join the live classes where we developed brick breaker together, watch the videos on the Google Classroom site.
 
 ## Specification
 
-1. Using this starter code, add one more feature, such as having the ball bounce off the top of the canvas.
-2. Create a variable to keep track of the number of lives, and use the p5 `text()` function to write the number of lives to the screen.
-3. Decrease the number of lives each time the paddle misses the ball.
-4. Reposition the ball to the top of the screen using the `mouseClicked()` function to restart the ball dropping.
-5. When the number of lives goes to zero, display "Game Over".
-
+1. Create the game, as per the videos, and add one personal feature, to make it your own.
 
 ## Rubric
 
-1. **85%** Add one feature, such as bouncing ball off of top of canvas
-1. **90%** In addition, add the number of lives or score to canvas
-1. **95%** Restart the ball falling on mouse click.
-1. **100%** Complete all features as seen in gif above.
+1. **90%** Submit as shown in the class videos
+1. **100%** Add one personal touch
 
 ## How to Submit
 
-submit50 cs50nestm/checks/2019/paddle_ball
+submit50 cs50nestm/checks/2019/brickbreaker
 
 
