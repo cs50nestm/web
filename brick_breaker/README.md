@@ -58,6 +58,6 @@ If you didn't join the live classes where we developed brick breaker together, w
 
 ## How to Submit
 
-submit50 cs50nestm/checks/2019/brickbreaker
+submit50 cs50nestm/checks/2019/brick_breaker
 
 
