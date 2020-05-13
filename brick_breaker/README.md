@@ -1,6 +1,6 @@
 # Brick Breaker
 
-The goal of this project is to code along with the live class (or videos) and add one personal touch, to make it your own. This could be changing the colors, changing the number of bricks, or something els.
+The goal of this project is to code along with the live class (or videos) and add one personal touch, to make it your own. This could be changing the colors, changing the number of bricks, or something else.
 
 <style type="text/css">
 .iframe_container {
