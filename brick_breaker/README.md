@@ -2,11 +2,29 @@
 
 The goal of this project is to code along with the live class (or videos) and add one personal touch, to make it your own. This could be changing the colors, changing the number of bricks, or something els.
 
-<style type="text/css"> .iframe_container { position: relative; padding-bottom: 56.25%; padding-top: 25px; height: 0; margin-bottom: 30px; } .iframe_container iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; } </style>
+<style type="text/css">
+.iframe_container {
+	position: relative;
+	padding-bottom: 56.25%; 
+	padding-top: 25px;
+	height: 0;
+	margin-bottom: 30px;
+}
+
+.iframe_container iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+</style>
 
 The final result shoud look something like this:
 
+<div class="iframe_container">
 <iframe src="https://www.youtube.com/embed/UvXiMSsKpbs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 Using p5.js, we started in a similar way as the paddle and ball game we created a few weeks back. Our canvas is vertical, with a width of 400 and a height of 600, and we added an array of brick objects on top of the screen. We then added a function to iterate thorugh this array of bricks to determine if the ball hits one of the bricks. When we get a ball-brick collision we remove the brick from the array of bricks and increase the score.
 
