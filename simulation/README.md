@@ -1,17 +1,16 @@
-# JavaScript Objects
+# Computer Simulation
 
-The goal of this project is to create bubbles that are JavaScript Objects.
+## tl;dr
 
-![bubbles](https://s3.amazonaws.com/upperline/curriculum-assets/p5js/monkey-bubbles.gif)
+Learn about computer simulation and how it can be used to predict the spread of viruses.
 
-We'll be making some bubbles that wobble over the screen! If that doesn't excite you on it's own you should definitely get excited about all the learning you will be doing because by then end you will have some really powerful tools in your programmer's tool belt.
+In 600 words, discuss how computer simulation can help us analyze how viruses spread, what we can do to slow them down, and how we can model real-world situations using your knowledge of programming.
+
+## Step1: Take a look at this Virus Simulation
+
+Take a look at this example of exponential growth (intro.cs50nestm.net/virus). This animation was inspired by Mr. Sullivan, who teaches computer science to NEST+m middle schoolers, who was in turn inspired by an article in the Washington Post(https://www.washingtonpost.com/graphics/2020/world/corona-simulator/).
 
 
-## A First Attempt
-
-![bubbles](https://s3.amazonaws.com/upperline/curriculum-assets/p5js/bubbles.gif)
-
-That image shows several bubbles. Last week when we started looking at p5.js we made a single bubble with code that looks something like this. 
 
 ```javascript
 let bubbleSize = 20;
