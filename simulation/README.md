@@ -8,7 +8,7 @@ In 600 words, discuss how computer simulation can help us analyze how viruses sp
 
 ## Step1: Take a look at this Virus Simulation
 
-Take a look at this example of exponential growth (intro.cs50nestm.net/virus). This animation was inspired by Mr. Sullivan, who teaches computer science to NEST+m middle schoolers, who was in turn inspired by an article in the Washington Post (https://www.washingtonpost.com/graphics/2020/world/corona-simulator/).
+Take a look at this example of [exponential growth](https://intro.cs50nestm.net/virus). This animation was inspired by Mr. Sullivan, who teaches computer science to NEST+m middle schoolers, who was in turn inspired by an article in the [Washington Post](https://www.washingtonpost.com/graphics/2020/world/corona-simulator/).
 
 ## Step2: 
 
