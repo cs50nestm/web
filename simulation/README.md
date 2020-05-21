@@ -1,4 +1,4 @@
-# Computer Simulation
+# Writing Assignment: Computer Simulation
 
 ## tl;dr
 
