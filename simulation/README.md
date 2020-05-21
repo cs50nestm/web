@@ -4,7 +4,7 @@
 
 Learn about computer simulation and how it can be used to predict the spread of viruses.
 
-In 600 words, discuss how computer simulation can help us analyze how viruses spread, what we can do to slow them down, and how we can model real-world situations using your knowledge of programming.
+In about 600 words, discuss how computer simulation can help us analyze how viruses spread, what we can do to slow them down, and how we can model real-world situations using your knowledge of programming.
 
 ## Step1: Take a look at this Virus Simulation
 
@@ -18,9 +18,11 @@ In approximately 600 words, discuss how computer simulation can help us predict 
 * How does the Virus Simulator, as seen above, model the concept of "flattening the curve"?
 * What do the different color dots in the virus simulator represent?
 * Do you get the same Virus Simulator graph everytime, without changing any parameters? Why do you think that is?
+* What does this simulator suggest you can do to slow down the spread of a virus?
+* Why do we use computer simulation and modeling?
 * What are some other commonly used applications of modeling?
 
 
 ## Step3: Submit
 
-For this assignment, you will submit through google classroom. 
+For this assignment, you will submit through google classroom. The assignment you will submit this essay for is called "Computer Simulation Writing Assignment".
