@@ -12,7 +12,7 @@ Take a look at this example of the [exponential growth of viruses](https://intro
 
 ## Step 2: Do Some Reasearch
 
-Research and read a few articles about computer simulation. A good starting point might be the Washington Post article linked above.
+Read a few articles about computer simulation. A good starting point might be the Washington Post article linked above. Make sure to save the links to these articles to use as citations later on.
 
 ## Step 3: Write an Essay in a Google Doc
 
@@ -26,6 +26,7 @@ In approximately 600 words, discuss how computer simulation can help us predict 
 * Why do we use computer simulation and modeling?
 * What are some other commonly used applications of modeling?
 
+Please make sure to include at least three citations. Be sure to include for each the name of the article read, name of the website or publication where you found the article, date the article was written, author’s name, and URL, if found online.
 
 ## Step 4: Submit
 
