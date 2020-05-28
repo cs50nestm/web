@@ -48,6 +48,7 @@ This problem will take several steps to complete, which we will do together duri
 	7. Adding jumping
 	8. Adding scrolling
 	9. Adding score
+	10. Adding sound
 
 
 ## Getting Started
