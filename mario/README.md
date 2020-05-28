@@ -26,25 +26,9 @@ Once the game is complete, it could look something like this. The game map is to
 }
 </style>
 
-First watch this video with Brian Yu on using `HTML` in the CS50 IDE:
 
 <div class="iframe_container">
-  <iframe src="https://www.youtube.com/embed/78wdlyzrKOA?modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe>
-</div>
-
-
-Then watch Brian add `CSS` to his webpage:
-
-
-<div class="iframe_container">
-  <iframe src="https://www.youtube.com/embed/g7nZFp2zSJ4?modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allowfullscreen="allowfullscreen"> </iframe>
-</div>
-
-Fianally watch the section of the video below, from 1:23 to 7:28 to learn more about how to put the pieces together:
-
-
-<div class="iframe_container">
-  <iframe src="https://www.youtube.com/embed/sEVlPyywlfc?start=68&end448=&modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allowfullscreen="allowfullscreen"> </iframe>
+  <iframe src="https://www.youtube.com/embed/Gc49f1bskUA?modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe>
 </div>
 
 
