@@ -47,8 +47,7 @@ This problem will take several steps to complete, which we will do together duri
 #### Part 3
 	7. Adding jumping
 	8. Adding scrolling
-	9. Adding score
-	10. Adding sound
+	9. Finishing touches: adding score and sound effects
 
 
 ## Getting Started
@@ -71,9 +70,12 @@ in the terminal window and clicking on the link that appears.
 
 ## Specification
 
+1. Create the game, as per the videos, and add one personal feature, to make it your own.
 
-## Assessment
+## Rubric
 
+1. 90% Submit as shown in the class videos
+2. 100% Add one personal touch
 
 
 ## How to Submit
