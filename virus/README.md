@@ -56,7 +56,13 @@ You can start by copying one of the folders you've used before for a prior p5 pr
 
 If you didn't join the live classes where we developed this Virus Simulator together, watch the videos on the Google Classroom site.
 
-When you get to the last video, download the `chart.js` program to integrate into the web page.
+When you get to the last video, download the `chart.js` program to integrate into the web page. To do this execute:
+
+```
+wget https://github.com/cs50nestm/web/raw/master/virus/chart.js
+```
+
+in your terminal. Make sure the file is positioned in the virus folder.
 
 ## Specification
 
