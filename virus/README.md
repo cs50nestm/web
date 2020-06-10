@@ -1,6 +1,12 @@
-# Brick Breaker
+# Virus Simulator
 
-The goal of this project is to code along with the live class (or videos) and add one personal touch, to make it your own. This could be changing the colors, changing the number of bricks, or something else.
+## tl;dr
+
+Build a 'p5' animation and integrate with 'html' inputs and 'chart.js' to simulate the spread of viruses.
+
+## Preview
+
+Once the program is completed, it could look something like this:
 
 <style type="text/css">
 .iframe_container {
@@ -23,12 +29,14 @@ The goal of this project is to code along with the live class (or videos) and ad
 The final result shoud look something like this:
 
 <div class="iframe_container">
-<iframe src="https://www.youtube.com/embed/UvXiMSsKpbs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/_Q0ZAhvEg3E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-Using p5.js, we started in a similar way as the paddle and ball game we created a few weeks back. Our canvas is vertical, with a width of 400 and a height of 600, and we added an array of brick objects on top of the screen. We then added a function to iterate thorugh this array of bricks to determine if the ball hits one of the bricks. When we get a ball-brick collision we remove the brick from the array of bricks and increase the score.
+## What to Do
 
-Finally, we added a game initialization function, that restarts the game by resetting the number of lives and the score and restores all the bricks.
+This program was developed over several live and recorded classes, which you can find on google classroom. My expectation is that you code along with the videos to complete this project, customizing the project as you like.
+
+We started with the distribution code linked below, creating an array of JavaScript objects, 'people' to represent a community. Each people object contains not only x and y properties to determine their location on the canvas, but also a properties related to health. We represent health people with blue dots, sick people with red dots and recovered people with pink dots. Sick people can infect healthy people when they interact, simulated in this case by the dots touching. We finish by connecting code for the chart, which shows how different infection rates may overwhelm hospital capacity.
 
 ## Getting Started
 
