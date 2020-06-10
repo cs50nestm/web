@@ -80,4 +80,4 @@ in the terminal window and clicking on the link that appears.
 
 ## How to Submit
 
-Submission information to come!
+submit50 cs50nestm/checks/2019/mario
