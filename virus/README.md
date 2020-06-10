@@ -2,7 +2,7 @@
 
 ## tl;dr
 
-Build a 'p5' animation and integrate with 'html' inputs and 'chart.js' to simulate the spread of viruses.
+Build a `p5` animation and integrate with `html` inputs and `chart.js` to simulate the spread of viruses.
 
 ## Preview
 
