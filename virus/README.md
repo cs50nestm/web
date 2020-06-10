@@ -32,6 +32,8 @@ The final result shoud look something like this:
 <iframe src="https://www.youtube.com/embed/_Q0ZAhvEg3E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
+This animation was inspired by Mr. Sullivan, who teaches computer science to NEST+m middle schoolers, who was in turn inspired by an article in the [Washington Post](https://www.washingtonpost.com/graphics/2020/world/corona-simulator/).
+
 ## What to Do
 
 This program was developed over several live and recorded classes, which you can find on google classroom. My expectation is that you code along with the videos to complete this project, customizing the project as you like.
@@ -43,29 +45,30 @@ We started with the distribution code linked below, creating an array of JavaScr
 You can start by copying one of the folders you've used before for a prior p5 project, or download the starter folder as outlined here.
 
 1. Execute `cd` to ensure that you’re in ~/ (i.e., your home directory, aka ~).
-2. Execute `wget https://github.com/cs50nestm/web/raw/master/brick_breaker/p5_folder.zip` to download a (compressed) ZIP file with the p5 starter files.
-1. Execute `unzip p5_folder.zip` to uncompress that file.
-1. Execute ls. You should see a directory called `p5_folder`, which was inside of that ZIP file.
-1. Rename this folder to `brick_breaker`.
-1. Execute `cd brick_breaker` to change into that directory.
+2. Execute `wget https://github.com/cs50nestm/web/raw/master/virus/virus.zip` to download a (compressed) ZIP file with the p5 starter files.
+1. Execute `unzip virus.zip` to uncompress that file.
+1. Execute ls. You should see a directory called `virus`, which was inside of that ZIP file.
+1. Execute `cd virus` to change into that directory.
 1. Execute ls. You should see the p5 starter code, including index.html, style.css and sketch.js
-1. Feel free to use this p5 starter code for other p5 projects. If you leave the `p5_folder.zip` in your directory, you can unzip it again in the future to start another project.
+1. Later on we will add `chart.js` to complete the program.
 
 ## Next Step
 
-If you didn't join the live classes where we developed brick breaker together, watch the videos on the Google Classroom site.
+If you didn't join the live classes where we developed this Virus Simulator together, watch the videos on the Google Classroom site.
+
+When you get to the last video, download the `chart.js` program to integrate into the web page.
 
 ## Specification
 
-1. Create the game, as per the videos, and add one personal feature, to make it your own.
+1. Create the program, as per the videos, and add one personal feature, to make it your own. You might, for instance, create a small website about the corona virus and create a link to this simulation.
 
 ## Rubric
 
 1. **90%** Submit as shown in the class videos
-1. **100%** Add one personal touch
+1. **100%** Add one personal touch 
 
 ## How to Submit
 
-submit50 cs50nestm/checks/2019/brick_breaker
+submit50 cs50nestm/checks/2019/virus
 
 
