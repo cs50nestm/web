@@ -48,7 +48,7 @@ Say you’re playing your favorite video game of all time. If you’re a fan of 
 
 
 <div class="iframe_container">
-  <iframe src="https://www.youtube.com/embed/zNBwkI0ytZo?start=68&end448=&modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allowfullscreen="allowfullscreen"> </iframe>
+  <iframe src="https://www.youtube.com/embed/zNBwkI0ytZo?modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allowfullscreen="allowfullscreen"> </iframe>
 </div>
 
 
@@ -141,9 +141,8 @@ Next, think of something that you do every day or nearly every day. Write an alg
 If you’re stuck, know that you aren’t just limited to purely text-based ways of writing out algorithms when trying to come up with them. It may help to just get started with a simple flowchart, such as the one Sheldon Cooper used in this clip from TV’s *The Big Bang Theory*:
 
 <div class="iframe_container">
-  <iframe src="https://www.youtube.com/embed/k0xgjUhEG3U&modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allowfullscreen="allowfullscreen"> </iframe>
+  <iframe src="https://www.youtube.com/embed/k0xgjUhEG3U?modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allowfullscreen="allowfullscreen"> </iframe>
 </div>
-
 
 
 Just do your best to avoid any infinite loops (a loop that’s impossible to ever break out of) in your algorithm, lest you be stuck in one forever!
@@ -154,7 +153,7 @@ Just do your best to avoid any infinite loops (a loop that’s impossible to eve
 Now for a little bit of fun. Before you actually turn in your algorithms, you probably should have someone test them out. Here’s what happened in a recent iteration of CS50 when making a peanut butter and jelly sandwich using an algorithm supplied by students.
 
 <div class="iframe_container">
-  <iframe src="https://www.youtube.com/embed/wEdvGqxafq8&modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allowfullscreen="allowfullscreen"> </iframe>
+  <iframe src="https://www.youtube.com/embed/wEdvGqxafq8?modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allowfullscreen="allowfullscreen"> </iframe>
 </div>
 
 
