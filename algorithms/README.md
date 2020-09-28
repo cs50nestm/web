@@ -5,7 +5,6 @@
 Write up algorithms to exhaustively describe in text and pseudocode, 
 steps to brush one’s teeth, eat an orange, and something you do everyday.
 
-{% next %}
 
 ## Step 1: Watch This.
 
