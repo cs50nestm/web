@@ -19,7 +19,21 @@ Elections come in all shapes and sizes. In the UK, the Prime Minister is officia
 Perhaps the simplest way to hold an election, though, is via a method commonly known as the “plurality vote” (also known as “first-past-the-post” or “winner take all”). In the plurality vote, every voter gets to vote for one candidate. At the end of the election, whichever candidate has the greatest number of votes is declared the winner of the election.
 
 
-## Getting Ready
+## Getting Started
+
+Here’s how to download this problem’s “distribution code” (i.e., starter code) into your own CS50 IDE. Log into [CS50 IDE](https://ide.cs50.io)  and then, in a terminal window, execute each of the below.
+
+Execute `cd` to ensure that you’re in `~/` (i.e., your home directory).
+Execute `mkdir unit2` to make (i.e., create) a directory called unit2 in your home directory.
+Execute `cd unit2` to change into (i.e., open) that directory.
+Execute `mkdir plurality` to make (i.e., create) a directory called `plurality` in your `unit2` directory.
+Execute `cd plurality` to change into (i.e., open) that directory.
+Execute `wget https://cdn.cs50.net/2020/fall/psets/3/plurality/plurality.c` to download this problem’s distribution code.
+Execute ls. You should see this problem’s distribution code, in a file called plurality.py.
+
+## Understanding
+
+
 
 <style type="text/css">
 .iframe_container {
