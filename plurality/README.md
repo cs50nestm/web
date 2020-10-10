@@ -118,7 +118,7 @@ First watch Brian's video on how plurality voting works. Ignore the `C` syntax a
 
 
 <div class="iframe_container">
-  <iframe src="https://www.youtube.com/embed/78wdlyzrKOA?modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe>
+  <iframe src="https://www.youtube.com/embed/ftOapzDjEb8?modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe>
 </div>
 
 
@@ -142,7 +142,9 @@ Be sure to test your code to make sure it handles…
 * Printing the winner of the election if there are multiple winners
 * Execute the below to evaluate the correctness of your code using check50. But be sure to compile and test it yourself as well!
 
-```check50 cs50/problems/2020/fall/plurality```
+```
+check50 cs50nestm/checks/2020/plurality
+```
 
 Execute the below to evaluate the style of your code using style50.
 
@@ -164,5 +166,7 @@ ls
 
 Execute the below, logging in with your GitHub username and password when prompted. For security, you’ll see asterisks (*) instead of the actual characters in your password.
 
-```submit50 cs50/problems/2020/x/tracks/web/homepage```
+```
+submit50 cs50nestm/checks/2020/plurality
+```
 
