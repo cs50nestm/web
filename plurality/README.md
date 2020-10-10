@@ -23,15 +23,46 @@ Perhaps the simplest way to hold an election, though, is via a method commonly k
 
 Here’s how to download this problem’s “distribution code” (i.e., starter code) into your own CS50 IDE. Log into [CS50 IDE](https://ide.cs50.io)  and then, in a terminal window, execute each of the below.
 
-Execute `cd` to ensure that you’re in `~/` (i.e., your home directory).
-Execute `mkdir unit2` to make (i.e., create) a directory called unit2 in your home directory.
-Execute `cd unit2` to change into (i.e., open) that directory.
-Execute `mkdir plurality` to make (i.e., create) a directory called `plurality` in your `unit2` directory.
-Execute `cd plurality` to change into (i.e., open) that directory.
-Execute `wget https://cdn.cs50.net/2020/fall/psets/3/plurality/plurality.c` to download this problem’s distribution code.
-Execute ls. You should see this problem’s distribution code, in a file called plurality.py.
+* Execute `cd` to ensure that you’re in `~/` (i.e., your home directory).
+* Execute `mkdir unit2` to make (i.e., create) a directory called unit2 in your home directory.
+* Execute `cd unit2` to change into (i.e., open) that directory.
+* Execute `mkdir plurality` to make (i.e., create) a directory called `plurality` in your `unit2` directory.
+* Execute `cd plurality` to change into (i.e., open) that directory.
+* Execute `wget https://cdn.cs50.net/2020/fall/psets/3/plurality/plurality.c` to download this problem’s distribution code.
+* Execute ls. You should see this problem’s distribution code, in a file called plurality.py.
 
 ## Understanding
+
+Let’s now take a look at `plurality.py` and read through the distribution code that’s been provided to you.
+
+The line `MAX = 9` mean that `MAX` is to be treated as a constant (equal to 9) that can be used throughout the program. Here, it represents the maximum number of candidates an election can have.
+
+We then have `candidates = {}`. This defines a new python dict, named candidates, which will keep track of candidate's names and number of votes. Each `key: value` pair represents candidates's `{"name" : votes}`.
+
+Now, take a look at the `main` function itself. See if you can find where the program copies command-line arguments into the `candidates` dictionary, and asks the user to type in the number of voters. Then, the program lets every voter type in a vote (see how?), calling the `vote` function on each candidate voted for. Finally, main makes a call to the `print_winner` function to print out the winner (or winners) of the election.
+
+If you look further down in the file, though, you’ll notice that the `vote` and `print_winner` functions have been left blank. This part is up to you to complete!
+
+## Specification
+
+Complete the implementation of `plurality.py` in such a way that the program simulates a plurality vote election.
+
+* Complete the `vote` function.
+	* `vote` takes two arguments, `candidates`, the candidates dict, and `candidate`, representing the name of the candidate who was voted for.
+	* If there is a candidate with this name, update that candidate’s vote total to account for the new vote. The `vote` function in this case should return `True` to indicate a successful ballot.
+	* If `candidate` does not match the name of any of the candidates in the election, no vote totals should change, and the vote function should return `False` to indicate an invalid ballot.
+	* You may assume that no two candidates will have the same name.
+	
+* Complete the `print_winner` function.
+	* The function should print out the name of the candidate who received the most votes in the election, and then print a newline.
+	* It is possible that the election could end in a tie if multiple candidates each have the maximum number of votes. In that case, you should output the names of each of the winning candidates, each on a separate line.
+
+You should not modify anything else in `plurality.py` other than the implementations of the `vote` and `print_winner` functions (and the inclusion of additional modules, if you’d like).
+
+## Usage
+
+Your program should behave per the examples below.
+
 
 
 
