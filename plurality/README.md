@@ -148,7 +148,9 @@ check50 cs50nestm/checks/2020/plurality
 
 Execute the below to evaluate the style of your code using style50.
 
+```
 style50 plurality.py
+```
 
 
 ## How to Submit
