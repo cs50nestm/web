@@ -28,7 +28,7 @@ Here’s how to download this problem’s “distribution code” (i.e., starter
 * Execute `cd unit2` to change into (i.e., open) that directory.
 * Execute `mkdir plurality` to make (i.e., create) a directory called `plurality` in your `unit2` directory.
 * Execute `cd plurality` to change into (i.e., open) that directory.
-* Execute `wget https://cdn.cs50.net/2020/fall/psets/3/plurality/plurality.c` to download this problem’s distribution code.
+* Execute `wget https://raw.githubusercontent.com/cs50nestm/web/master/distro/plurality.py` to download this problem’s distribution code.
 * Execute ls. You should see this problem’s distribution code, in a file called plurality.py.
 
 ## Understanding
