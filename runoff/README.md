@@ -110,10 +110,10 @@ Complete the implementation of `runoff.py` in such a way that it simulates a run
   <details>
     <summary>Hints</summary>
     <ul>
-      <li data-marker="*">Recall that candidate_count stores the number of candidates in the election.</li>
-      <li data-marker="*">Recall that `preferences[i][j]` stores the index of the candidate who is the `j`th ranked preference for the `i`th voter.</li>
-    </ul>
-  </details>
+    <li data-marker="*">Recall that candidate_count stores the number of candidates in the election.</li>
+    <li data-marker="*">Recall that `preferences[i][j]` stores the index of the candidate who is the `j`th ranked preference for the `i`th voter.</li>
+  </ul>
+</details>
   
   * If the preference is successfully recorded, the function should return `true`; the function should return `false` otherwise (if, for instance, `name` is not the name of one of the candidates).
 * Complete the `tabulate` function.
