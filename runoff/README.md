@@ -107,7 +107,6 @@ Complete the implementation of `runoff.py` in such a way that it simulates a run
 * Complete the `vote` function.
   * The function takes arguments `voter`, `rank`, and `name`. If `name` is a match for the name of a valid candidate, then you should update the preferences list to indicate that the voter `voter` has that candidate as their `rank` preference (where `0` is the first preference, `1` is the second preference, etc.).
   <br/>
-  <br/>
   
   <details>
     <summary>Hints</summary>
