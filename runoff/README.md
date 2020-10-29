@@ -2,6 +2,13 @@
 
 Implement a program that runs a runoff election, per the below.
 
+<details>
+    <summary>Hints</summary>
+    <ul>
+  <li data-marker="*">You’ll likely want to loop through the candidates to find the one who is both still in the election and has the fewest number of votes. What information should you keep track of as you loop through the candidates?</li>
+</ul>
+</details>
+
 ```
 python runoff.py Alice Bob Charlie
 Number of voters: 5
