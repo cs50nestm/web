@@ -106,6 +106,8 @@ Complete the implementation of `runoff.py` in such a way that it simulates a run
 
 * Complete the `vote` function.
   * The function takes arguments `voter`, `rank`, and `name`. If `name` is a match for the name of a valid candidate, then you should update the preferences list to indicate that the voter `voter` has that candidate as their `rank` preference (where `0` is the first preference, `1` is the second preference, etc.).
+  
+  * If the preference is successfully recorded, the function should return `true`; the function should return `false` otherwise (if, for instance, `name` is not the name of one of the candidates).
   <br/>
   
   <details>
@@ -115,11 +117,25 @@ Complete the implementation of `runoff.py` in such a way that it simulates a run
     <li data-marker="*">Recall that `preferences[i][j]` stores the index of the candidate who is the `j`th ranked preference for the `i`th voter.</li>
   </ul>
 </details>
+
+
   
-  * If the preference is successfully recorded, the function should return `true`; the function should return `false` otherwise (if, for instance, `name` is not the name of one of the candidates).
 * Complete the `tabulate` function.
   * The function should update the number of `votes` each candidate has at this stage in the runoff.
   * Recall that at each stage in the runoff, every voter effectively votes for their top-preferred candidate who has not already been eliminated.
+  <br/>
+  
+  <details>
+    <summary>Hints</summary>
+    <ul>
+  <li data-marker="*">Recall that <code class="highlighter-rouge">voter_count</code> stores the number of voters in the election.</li>
+  <li data-marker="*">Recall that for a voter <code class="highlighter-rouge">i</code>, their top choice candidate is represented by <code class="highlighter-rouge">preferences[i][0]</code>, their second choice candidate by <code class="highlighter-rouge">preferences[i][1]</code>, etc.</li>
+  <li data-marker="*">Recall that the <code class="highlighter-rouge">candidate</code> <code class="highlighter-rouge">struct</code> has a field called <code class="highlighter-rouge">eliminated</code>, which will be <code class="highlighter-rouge">true</code> if the candidate has been eliminated from the election.</li>
+  <li data-marker="*">Recall that the <code class="highlighter-rouge">candidate</code> <code class="highlighter-rouge">struct</code> has a field called <code class="highlighter-rouge">votes</code>, which you’ll likely want to update for each voter’s preferred candidate.</li>
+</ul>
+</details>
+
+  
 * Complete the `print_winner` function.
   * If any candidate has more than half of the vote, their name should be printed to `stdout` and the function should return `true`.
   * If nobody has won the election yet, the function should return `false`.
