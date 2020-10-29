@@ -75,20 +75,20 @@ Here's how to download this problem's "distribution code" (i.e., starter code) i
 
 * Execute `cd` to ensure that you're in `~/` (i.e., your home directory).
 * Execute `cd pset3` to change into (i.e., open) your `pset3` directory that should already exist.
-* Execute `wget TODO` to download a (compressed) ZIP file with this problem's distribution.
+* Execute `wget https://raw.githubusercontent.com/cs50nestm/web/master/distro/runoff.py` to download a (compressed) ZIP file with this problem's distribution.
 * Execute `unzip runoff.zip` to uncompress that file.
 * Execute `rm runoff.zip` followed by `yes` or `y` to delete that ZIP file.
 * Execute `ls`. You should see a directory called `runoff`, which was inside of that ZIP file.
 * Execute `cd runoff` to change into that directory.
-* Execute `ls`. You should see this problem's distribution code, in a file called `runoff.c`.
+* Execute `ls`. You should see this problem's distribution code, in a file called `runoff.py`.
 
 ## Understanding
 
-Let's open up `runoff.c` to take a look at what's already there. We're defining two constants: `MAX_CANDIDATES` for the maximum number of candidates in the election, and `MAX_VOTERS` for the maximum number of voters in the election.
+Let's open up `runoff.py` to take a look at what's already there. We're defining two constants: `MAX_CANDIDATES` for the maximum number of candidates in the election, and `MAX_VOTERS` for the maximum number of voters in the election.
 
-Next up is a two-dimensional array `preferences`. The array `preferences[i]` will represent all of the preferences for voter number `i`, and the integer `preferences[i][j]` here will store the index of the candidate who is the `j`th preference for voter `i`.
+Next up is a two-dimensional list `preferences`. The list `preferences[i]` will represent all of the preferences for voter number `i`, and the integer `preferences[i][j]` here will store the index of the candidate who is the `j`th preference for voter `i`.
 
-Next up is a `struct` called `candidate`. Every `candidate` has a `string` field for their `name`, and `int` representing the number of `votes` they currently have, and a `bool` value called `eliminate` that indicates whether the candidate has been eliminated from the election. The array `candidates` will keep track of all of the candidates in the election.
+Next up is a Class called `Candidate`. Every `Candidate` has a field for their `name`, and an integer representing the number of `votes` they currently have, and a boolean value called `eliminate` that indicates whether the candidate has been eliminated from the election. The list `candidates` contains a Candidate object for each candidate in the election.
 
 The program also has two global variables: `voter_count` and `candidate_count`.
 
@@ -102,10 +102,10 @@ If you look a bit further down in the file, you'll see that these functions — 
 
 ## Specification
 
-Complete the implementation of `runoff.c` in such a way that it simulates a runoff election.
+Complete the implementation of `runoff.py` in such a way that it simulates a runoff election.
 
 * Complete the `vote` function.
-  * The function takes arguments `voter`, `rank`, and `name`. If `name` is a match for the name of a valid candidate, then you should update the global preferences array to indicate that the voter `voter` has that candidate as their `rank` preference (where `0` is the first preference, `1` is the second preference, etc.).
+  * The function takes arguments `voter`, `rank`, and `name`. If `name` is a match for the name of a valid candidate, then you should update the preferences list to indicate that the voter `voter` has that candidate as their `rank` preference (where `0` is the first preference, `1` is the second preference, etc.).
   * If the preference is successfully recorded, the function should return `true`; the function should return `false` otherwise (if, for instance, `name` is not the name of one of the candidates).
 * Complete the `tabulate` function.
   * The function should update the number of `votes` each candidate has at this stage in the runoff.
