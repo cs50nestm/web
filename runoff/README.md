@@ -3,7 +3,7 @@
 Implement a program that runs a runoff election, per the below.
 
 ```
-./runoff Alice Bob Charlie
+python runoff.py Alice Bob Charlie
 Number of voters: 5
 Rank 1: Alice
 Rank 2: Bob
@@ -28,18 +28,6 @@ Rank 3: Bob
 Alice
 ```
 
-## Getting Started
-
-Here's how to download this problem's "distribution code" (i.e., starter code) into your own CS50 IDE. Log into [CS50 IDE](https://ide.cs50.io/) and then, in a terminal window, execute each of the below.
-
-* Execute `cd` to ensure that you're in `~/` (i.e., your home directory).
-* Execute `cd pset3` to change into (i.e., open) your `pset3` directory that should already exist.
-* Execute `wget TODO` to download a (compressed) ZIP file with this problem's distribution.
-* Execute `unzip runoff.zip` to uncompress that file.
-* Execute `rm runoff.zip` followed by `yes` or `y` to delete that ZIP file.
-* Execute `ls`. You should see a directory called `runoff`, which was inside of that ZIP file.
-* Execute `cd runoff` to change into that directory.
-* Execute `ls`. You should see this problem's distribution code, in a file called `runoff.c`.
 
 ## Background
 
@@ -80,6 +68,19 @@ One possibility is that there's a tie for who should get eliminated. We can hand
 Some instant runoff elections don't require voters to rank all of their preferences — so there might be five candidates in an election, but a voter might only choose two. For this problem's purposes, though, we'll ignore that particular corner case, and assume that all voters will rank all of the candidates in their preferred order.
 
 Sounds a bit more complicated than a plurality vote, doesn't it? But it arguably has the benefit of being an election system where the winner of the election more accurately represents the preferences of the voters.
+
+## Getting Started
+
+Here's how to download this problem's "distribution code" (i.e., starter code) into your own CS50 IDE. Log into [CS50 IDE](https://ide.cs50.io/) and then, in a terminal window, execute each of the below.
+
+* Execute `cd` to ensure that you're in `~/` (i.e., your home directory).
+* Execute `cd pset3` to change into (i.e., open) your `pset3` directory that should already exist.
+* Execute `wget TODO` to download a (compressed) ZIP file with this problem's distribution.
+* Execute `unzip runoff.zip` to uncompress that file.
+* Execute `rm runoff.zip` followed by `yes` or `y` to delete that ZIP file.
+* Execute `ls`. You should see a directory called `runoff`, which was inside of that ZIP file.
+* Execute `cd runoff` to change into that directory.
+* Execute `ls`. You should see this problem's distribution code, in a file called `runoff.c`.
 
 ## Understanding
 
