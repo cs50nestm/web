@@ -2,13 +2,6 @@
 
 Implement a program that runs a runoff election, per the below.
 
-<details>
-    <summary>Hints</summary>
-    <ul>
-  <li data-marker="*">You’ll likely want to loop through the candidates to find the one who is both still in the election and has the fewest number of votes. What information should you keep track of as you loop through the candidates?</li>
-</ul>
-</details>
-
 ```
 python runoff.py Alice Bob Charlie
 Number of voters: 5
@@ -113,6 +106,15 @@ Complete the implementation of `runoff.py` in such a way that it simulates a run
 
 * Complete the `vote` function.
   * The function takes arguments `voter`, `rank`, and `name`. If `name` is a match for the name of a valid candidate, then you should update the preferences list to indicate that the voter `voter` has that candidate as their `rank` preference (where `0` is the first preference, `1` is the second preference, etc.).
+  
+  <details>
+    <summary>Hints</summary>
+    <ul>
+      <li data-marker="*">Recall that candidate_count stores the number of candidates in the election.</li>
+      <li data-marker="*">Recall that `preferences[i][j]` stores the index of the candidate who is the `j`th ranked preference for the `i`th voter.</li>
+    </ul>
+  </details>
+  
   * If the preference is successfully recorded, the function should return `true`; the function should return `false` otherwise (if, for instance, `name` is not the name of one of the candidates).
 * Complete the `tabulate` function.
   * The function should update the number of `votes` each candidate has at this stage in the runoff.
