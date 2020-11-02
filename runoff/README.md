@@ -88,11 +88,11 @@ Let's open up `runoff.py` to take a look at what's already there. We're defining
 
 Next up is a Class called `Candidate`. Since Python is an [object oriented programming language](https://realpython.com/lessons/classes-python/), it usees classes to create custom objects. Here we create custom candidate objects with our `Candidate` class. Every candidate has a properties for their `name`, the number of `votes` they currently have, and `eliminate`, which has a value of eitehr True or False depending on whether the candidate is eliminated from the election. 
 
-Next up is a list `candidates` which will eventually contain a `Candidate` object to keep track of all the candidates in the election.
+Next up is a list `candidates` which will eventually contain `Candidate` objects to keep track of all the candidates in the election.
 
-Following is a two-dimensional list `preferences`. The list `preferences[i]` will represent all of the preferences for voter number `i`, and the integer `preferences[i][j]` here will store the index of the candidate who is the `j`th preference for voter `i`.
+Now onto `main`. Notice that after determining the number of candidates and the number of voters (both as global variables), and initializing the `candidates` list, the main voting loop begins, giving every voter a chance to vote. As the voter enters their preferences, the `vote` function is called to keep track of all of the preferences. If at any point, the ballot is deemed to be invalid, the program exits.
 
-Now onto `main`. Notice that after determining the number of candidates and the number of voters (both as global variables), and initializing the list `candidates`, the main voting loop begins, giving every voter a chance to vote. As the voter enters their preferences, the `vote` function is called to keep track of all of the preferences. If at any point, the ballot is deemed to be invalid, the program exits.
+The global preferences list keeps track of each voter's prefered list of candidates in a 2-dimensional list, so that `preferences[voter][rank] = index of candidate`. 
 
 Once all of the votes are in, another loop begins: this one's going to keep looping through the runoff process of checking for a winner and eliminating the last place candidate until there is a winner.
 
@@ -107,7 +107,7 @@ Complete the implementation of `runoff.py` in such a way that it simulates a run
 ### `vote`
 
 * Complete the `vote` function.
-  * The function takes arguments `voter`, `rank`, and `name`. If `name` is a match for the name of a valid candidate, then you should update the preferences list to indicate that the voter `voter` has that candidate as their `rank` preference (where `0` is the first preference, `1` is the second preference, etc.).
+  * The function takes arguments `voter`, `rank`, and `name`. If `name` is a match for the name of a valid candidate, then you should update the global preferences list to indicate that the voter `voter` has that candidate as their `rank` preference (where `0` is the first preference, `1` is the second preference, etc.).
   
   * If the preference is successfully recorded, the function should return `true`; the function should return `false` otherwise (if, for instance, `name` is not the name of one of the candidates).
   
@@ -135,26 +135,55 @@ Complete the implementation of `runoff.py` in such a way that it simulates a run
     <ul>
   <li data-marker="*">Recall that <code class="highlighter-rouge">voter_count</code> stores the number of voters in the election.</li>
   <li data-marker="*">Recall that for a voter <code class="highlighter-rouge">i</code>, their top choice candidate is represented by <code class="highlighter-rouge">preferences[i][0]</code>, their second choice candidate by <code class="highlighter-rouge">preferences[i][1]</code>, etc.</li>
-  <li data-marker="*">Recall that the <code class="highlighter-rouge">candidate</code> <code class="highlighter-rouge">struct</code> has a field called <code class="highlighter-rouge">eliminated</code>, which will be <code class="highlighter-rouge">true</code> if the candidate has been eliminated from the election.</li>
-  <li data-marker="*">Recall that the <code class="highlighter-rouge">candidate</code> <code class="highlighter-rouge">struct</code> has a field called <code class="highlighter-rouge">votes</code>, which you’ll likely want to update for each voter’s preferred candidate.</li>
+  <li data-marker="*">Recall that the <code class="highlighter-rouge">Candidate</code> <code class="highlighter-rouge">object</code> has a property called <code class="highlighter-rouge">eliminated</code>, which will be <code class="highlighter-rouge">True</code> if the candidate has been eliminated from the election.</li>
+  <li data-marker="*">Recall that each <code class="highlighter-rouge">Candidate</code> <code class="highlighter-rouge">object</code> has a property called <code class="highlighter-rouge">votes</code>, which you’ll likely want to update for each voter’s preferred candidate.</li>
 </ul>
 </details>
 
 ### `print_winner`
 
 * Complete the `print_winner` function.
-  * If any candidate has more than half of the vote, their name should be printed to `stdout` and the function should return `true`.
-  * If nobody has won the election yet, the function should return `false`.
-* Complete the `eliminate` function.
-  * The function should eliminate the candidate (or candidates) who are still in the race and have the fewest number of votes.
-  * If all remaining candidates are tied at the same number of votes, then the function should not eliminate anyone and return `false`.
-  * Otherwise, the function should reset all candidates' vote counts back to `0` and return `true`.
+  * If any candidate has more than half of the vote, their name should be printed and the function should return `True`.
+  * If nobody has won the election yet, the function should return `False`.
+  
   
 ### `find_min`
 
+* Complete the find_min function.
+
+  * The function should return the minimum vote total for any candidate who is still in the election.
+  <br/>
+  
+  <details>
+    <summary>Hints</summary>
+    <ul>
+  
+  <li>You may want to loop through the candidates to find the one who is both still in the election and has the fewest number of votes. What information should you keep track of as you loop through the candidates?</li>
+</ul>
+</details>
+
 ### `is_tie`
 
+* Complete the is_tie function.
+
+  * The function takes an argument `min_voter`, which will be the minimum number of votes that anyone in the election currently has.
+  * The function should return `True` if every candidate remaining in the election has the same number of votes, and should return `False` otherwise.
+  
+  <details>
+    <summary>Hints</summary>
+    <ul>
+<li>Recall that a tie happens if every candidate still in the election has the same number of votes. Note, too, that the is_tie function takes an argument min, which is the smallest number of votes any candidate currently has. How might you use that information to determine if the election is a tie (or, conversely, not a tie)?</li>
+	    
+</ul>
+</details>	    
+  
+
 ### `eliminate`
+
+* Complete the `eliminate` function.
+
+  * The function takes an argument `min_votes`, which will be the minimum number of votes that anyone in the election currently has.
+  * The function should eliminate the candidate (or candidates) who have `min_votes` number of votes
 
 ## Walkthrough
 
