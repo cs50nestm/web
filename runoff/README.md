@@ -160,7 +160,8 @@ Complete the implementation of `runoff.py` in such a way that it simulates a run
 
 * Complete the find_min function.
 
-  * The function should return the minimum vote total for any candidate who is still in the election.<br/>
+  * The function should return the minimum vote total for any candidate who is still in the election.
+  <br/>
   
   <details>
     <summary>Hints</summary>
