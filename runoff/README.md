@@ -109,7 +109,7 @@ Complete the implementation of `runoff.py` in such a way that it simulates a run
 * Complete the `vote` function.
   * The function takes arguments `voter`, `rank`, and `name`. If `name` is a match for the name of a valid candidate, then you should update the global preferences list to indicate that the voter `voter` has that candidate as their `rank` preference (where `0` is the first preference, `1` is the second preference, etc.).
   
-  * If the preference is successfully recorded, the function should return `true`; the function should return `false` otherwise (if, for instance, `name` is not the name of one of the candidates).
+  * If the preference is successfully recorded, the function should return `True`; the function should return `False` otherwise (if, for instance, `name` is not the name of one of the candidates).
   
   * You may assume that no two candidates will have the same name.
   
