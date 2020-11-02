@@ -12,9 +12,7 @@ class Candidate():
         self.votes = votes
         self.eliminated = eliminated
 
-
 candidates = []
-preferences = []
 
 
 def main():
@@ -41,6 +39,10 @@ def main():
     if voter_count > MAX_VOTERS:
         print(f"Maximum number of voters is {MAX_VOTERS}")
         exit(3)
+
+    # Initialize global preferences list
+    global preferences
+    preferences = [[0] * candidate_count] * voter_count
 
     # Keep querying for votes
     for i in range(voter_count):
@@ -97,21 +99,25 @@ def tabulate():
     return
 
 
+# Print the winner of the election, if there is one
 def print_winner():
     # TODO
     return False
 
 
+# Return. the minimum number of votes any remaining candidate has
 def find_min():
     # TODO
     return 0
 
 
+# Return True if the election is tied between all candidates
 def is_tie(min_votes):
     # TODO
     return False
 
 
+# Eliminate the candidate (or candidates) in last place
 def eliminate(min_votes):
     # TODO
     return
