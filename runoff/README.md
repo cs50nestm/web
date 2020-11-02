@@ -86,7 +86,7 @@ Here's how to download this problem's "distribution code" (i.e., starter code) i
 
 Let's open up `runoff.py` to take a look at what's already there. We're defining two constants: `MAX_CANDIDATES` for the maximum number of candidates in the election, and `MAX_VOTERS` for the maximum number of voters in the election.
 
-Next up is a Class called `Candidate`. Since Python is an [object oriented programming language](https://realpython.com/lessons/classes-python/), it usees classes to create custom objects. Here we create custom candidate objects with our `Candidate` class. Every candidate has a property for their `name`, and an integer representing the number of `votes` they currently have, and a boolean value called `eliminate` that indicates whether the candidate has been eliminated from the election. The list `candidates` contains a Candidate object for each candidate in the election.
+Next up is a Class called `Candidate`. Since Python is an [object oriented programming language](https://realpython.com/lessons/classes-python/), it usees classes to create custom objects. Here we create custom candidate objects with our `Candidate` class. Every candidate has a properties for their `name`, the number of `votes` they currently have, and `eliminate`, which is True of False depending on whether the andidate is eliminated. The list `candidates` contains a `Candidate` object for each candidate in the election.
 
 Next up is a two-dimensional list `preferences`. The list `preferences[i]` will represent all of the preferences for voter number `i`, and the integer `preferences[i][j]` here will store the index of the candidate who is the `j`th preference for voter `i`.
 
