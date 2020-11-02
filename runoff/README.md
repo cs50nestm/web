@@ -119,7 +119,7 @@ Complete the implementation of `runoff.py` in such a way that it simulates a run
     <summary>Hints</summary>
     <ul>
 	    <li data-marker="*">Recall that <code class="highlighter-rouge">candidate_count</code> stores the number of candidates in the election.</li>
-	    <li data-marker="*">Recall that <code class="highlighter-rouge">preferences[i][j]</code> stores the index of the candidate who is the `j`th ranked preference for the `i`th voter.</li>
+	    <li data-marker="*">Recall that <code class="highlighter-rouge">preferences[i][j]</code> stores the index of the candidate who is the <code class="highlighter-rouge">j</code>th ranked preference for the <code class="highlighter-rouge">i</code>th voter.</li>
   </ul>
 </details>
 
