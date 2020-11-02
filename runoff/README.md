@@ -151,7 +151,7 @@ Complete the implementation of `runoff.py` in such a way that it simulates a run
   <details>
     <summary>Hints</summary>
     <ul>
-<li data-marker="*">Recall that <code class="highlighter-rouge">voter_count</code> stores the number of voters in the election. Given that, how would you express the number of votes needed to win the election?</li>
+    <li data-marker="*">Recall that <code class="highlighter-rouge">voter_count</code> stores the number of voters in the election. Given that, how would you express the number of votes needed to win the election?</li>
 </ul>
 </details>	    
   
@@ -160,14 +160,13 @@ Complete the implementation of `runoff.py` in such a way that it simulates a run
 
 * Complete the find_min function.
 
-  * The function should return the minimum vote total for any candidate who is still in the election.
-  <br/>
+  * The function should return the minimum vote total for any candidate who is still in the election.<br/>
   
   <details>
     <summary>Hints</summary>
     <ul>
   
-<li data-marker="*">You may want to loop through the candidates to find the one who is both still in the election and has the fewest number of votes. What information should you keep track of as you loop through the candidates?</li>
+  <li data-marker="*">You may want to loop through the candidates to find the one who is both still in the election and has the fewest number of votes. What information should you keep track of as you loop through the candidates?</li>
 </ul>
 </details>
 
@@ -177,11 +176,12 @@ Complete the implementation of `runoff.py` in such a way that it simulates a run
 
   * The function takes an argument `min_voter`, which will be the minimum number of votes that anyone in the election currently has.
   * The function should return `True` if every candidate remaining in the election has the same number of votes, and should return `False` otherwise.
+  <br/>
   
   <details>
     <summary>Hints</summary>
     <ul>
-<li data-marker="*">Recall that a tie happens if every candidate still in the election has the same number of votes. Note, too, that the <code class="highlighter-rouge">is_tie</code> function takes an argument min, which is the smallest number of votes any candidate currently has. How might you use that information to determine if the election is a tie (or, conversely, not a tie)?</li>
+  <li data-marker="*">Recall that a tie happens if every candidate still in the election has the same number of votes. Note, too, that the <code class="highlighter-rouge">is_tie</code> function takes an argument min, which is the smallest number of votes any candidate currently has. How might you use that information to determine if the election is a tie (or, conversely, not a tie)?</li>
 	    
 </ul>
 </details>	    
