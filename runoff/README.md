@@ -129,6 +129,7 @@ Complete the implementation of `runoff.py` in such a way that it simulates a run
   * The function should update the number of `votes` each candidate has at this stage in the runoff.
   * Recall that at each stage in the runoff, every voter effectively votes for their top-preferred candidate who has not already been eliminated.
   <br/>
+  <br/>
   
   <details>
     <summary>Hints</summary>
@@ -146,6 +147,7 @@ Complete the implementation of `runoff.py` in such a way that it simulates a run
 
   * If any candidate has more than half of the vote, their name should be printed and the function should return `True`.
   * If nobody has won the election yet, the function should return `False`.
+  <br/>
   <br/>
   
   <details>
@@ -214,7 +216,7 @@ Complete the implementation of `runoff.py` in such a way that it simulates a run
 </style>
 
 
-Watch Brian's video on how the algorithms in runoff work. The only difference with our Python version, is that instead of a candidate `struct`, we'll be using a `Candidate` class. The `preferenes` list in will work the same way as the `preferences` array in the `C` Version.
+Watch Brian's video on how the algorithms in runoff work. The only difference with our Python version, is that instead of a candidate `struct`, we'll be using a `Candidate` class. The `preferences` list in will work the same way as the `preferences` array in the `C` version.
 
 <div class="iframe_container">
   <iframe src="https://www.youtube.com/embed/-Vc5aGywKxo?modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe>
