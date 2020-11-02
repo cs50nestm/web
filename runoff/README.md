@@ -125,6 +125,7 @@ Complete the implementation of `runoff.py` in such a way that it simulates a run
 ### `tabulate`
   
 * Complete the `tabulate` function.
+
   * The function should update the number of `votes` each candidate has at this stage in the runoff.
   * Recall that at each stage in the runoff, every voter effectively votes for their top-preferred candidate who has not already been eliminated.
   <br/>
@@ -132,10 +133,10 @@ Complete the implementation of `runoff.py` in such a way that it simulates a run
   <details>
     <summary>Hints</summary>
     <ul>
-	  <li data-marker="*">Recall that <code class="highlighter-rouge">voter_count</code> stores the number of voters in the election.</li>
-	  <li data-marker="*">Recall that for a voter <code class="highlighter-rouge">i</code>, their top choice candidate is represented by <code class="highlighter-rouge">preferences[i][0]</code>, their second choice candidate by <code class="highlighter-rouge">preferences[i][1]</code>, etc.</li>
-	  <li data-marker="*">Recall that the <code class="highlighter-rouge">Candidate</code> <code class="highlighter-rouge">object</code> has a property called <code class="highlighter-rouge">eliminated</code>, which will be <code class="highlighter-rouge">True</code> if the candidate has been eliminated from the election.</li>
-	  <li data-marker="*">Recall that each <code class="highlighter-rouge">Candidate</code> <code class="highlighter-rouge">object</code> has a property called <code class="highlighter-rouge">votes</code>, which you’ll likely want to update for each voter’s preferred candidate.</li>
+	    <li data-marker="*">Recall that <code class="highlighter-rouge">voter_count</code> stores the number of voters in the election.</li>
+	    <li data-marker="*">Recall that for a voter <code class="highlighter-rouge">i</code>, their top choice candidate is represented by <code class="highlighter-rouge">preferences[i][0]</code>, their second choice candidate by <code class="highlighter-rouge">preferences[i][1]</code>, etc.</li>
+	    <li data-marker="*">Recall that the <code class="highlighter-rouge">Candidate</code> <code class="highlighter-rouge">object</code> has a property called <code class="highlighter-rouge">eliminated</code>, which will be <code class="highlighter-rouge">True</code> if the candidate has been eliminated from the election.</li>
+	    <li data-marker="*">Recall that each <code class="highlighter-rouge">Candidate</code> <code class="highlighter-rouge">object</code> has a property called <code class="highlighter-rouge">votes</code>, which you’ll likely want to update for each voter’s preferred candidate.</li>
     </ul>
   </details>
 
@@ -150,7 +151,7 @@ Complete the implementation of `runoff.py` in such a way that it simulates a run
   <details>
     <summary>Hints</summary>
     <ul>
-    	<li data-marker="*">Recall that <code class="highlighter-rouge">voter_count</code> stores the number of voters in the election. Given that, how would you express the number of votes needed to win the election?</li>
+	    <li data-marker="*">Recall that <code class="highlighter-rouge">voter_count</code> stores the number of voters in the election. Given that, how would you express the number of votes needed to win the election?</li>
     </ul>
   </details>	    
   
@@ -165,7 +166,7 @@ Complete the implementation of `runoff.py` in such a way that it simulates a run
   <details>
     <summary>Hints</summary>
     <ul>
-  	<li data-marker="*">You may want to loop through the candidates to find the one who is both still in the election and has the fewest number of votes. What information should you keep track of as you loop through the candidates?</li>
+	    <li data-marker="*">You may want to loop through the candidates to find the one who is both still in the election and has the fewest number of votes. What information should you keep track of as you loop through the candidates?</li>
     </ul>
   </details>
 
@@ -180,7 +181,7 @@ Complete the implementation of `runoff.py` in such a way that it simulates a run
   <details>
     <summary>Hints</summary>
     <ul>
-  	<li data-marker="*">Recall that a tie happens if every candidate still in the election has the same number of votes. Note, too, that the <code class="highlighter-rouge">is_tie</code> function takes an argument min, which is the smallest number of votes any candidate currently has. How might you use that information to determine if the election is a tie (or, conversely, not a tie)?</li>   
+	    <li data-marker="*">Recall that a tie happens if every candidate still in the election has the same number of votes. Note, too, that the <code class="highlighter-rouge">is_tie</code> function takes an argument min, which is the smallest number of votes any candidate currently has. How might you use that information to determine if the election is a tie (or, conversely, not a tie)?</li>   
     </ul>
   </details>	    
   
