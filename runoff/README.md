@@ -155,7 +155,31 @@ Complete the implementation of `runoff.py` in such a way that it simulates a run
 
 ## Walkthrough
 
-TODO
+<style type="text/css">
+.iframe_container {
+	position: relative;
+	padding-bottom: 56.25%; 
+	padding-top: 25px;
+	height: 0;
+	margin-bottom: 30px;
+}
+
+.iframe_container iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+</style>
+
+
+Watch Brian's video on how plurality voting works. Feel free to ignore the `C` syntax.
+
+<div class="iframe_container">
+  <iframe src="https://www.youtube.com/embed/-Vc5aGywKxo?modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe>
+</div>
+
 
 ## Usage
 
