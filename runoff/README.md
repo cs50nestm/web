@@ -86,23 +86,25 @@ Here's how to download this problem's "distribution code" (i.e., starter code) i
 
 Let's open up `runoff.py` to take a look at what's already there. We're defining two constants: `MAX_CANDIDATES` for the maximum number of candidates in the election, and `MAX_VOTERS` for the maximum number of voters in the election.
 
-Next up is a Class called `Candidate`. Since Python is an [object oriented programming language](https://realpython.com/lessons/classes-python/), it usees classes to create custom objects. Here we create custom candidate objects with our `Candidate` class. Every candidate has a properties for their `name`, the number of `votes` they currently have, and `eliminate`, which is True of False depending on whether the andidate is eliminated. The list `candidates` contains a `Candidate` object for each candidate in the election.
+Next up is a Class called `Candidate`. Since Python is an [object oriented programming language](https://realpython.com/lessons/classes-python/), it usees classes to create custom objects. Here we create custom candidate objects with our `Candidate` class. Every candidate has a properties for their `name`, the number of `votes` they currently have, and `eliminate`, which has a value of eitehr True or False depending on whether the candidate is eliminated from the election. 
 
-Next up is a two-dimensional list `preferences`. The list `preferences[i]` will represent all of the preferences for voter number `i`, and the integer `preferences[i][j]` here will store the index of the candidate who is the `j`th preference for voter `i`.
+Next up is a list `candidates` which will eventually contain a `Candidate` object to keep track of all the candidates in the election.
 
-The program also has two global variables: `voter_count` and `candidate_count`.
+Following is a two-dimensional list `preferences`. The list `preferences[i]` will represent all of the preferences for voter number `i`, and the integer `preferences[i][j]` here will store the index of the candidate who is the `j`th preference for voter `i`.
 
-Now onto `main`. Notice that after determining the number of candidates and the number of voters, the main voting loop begins, giving every voter a chance to vote. As the voter enters their preferences, the `vote` function is called to keep track of all of the preferences. If at any point, the ballot is deemed to be invalid, the program exits.
+Now onto `main`. Notice that after determining the number of candidates and the number of voters (both as global variables), and initializing the list `candidates`, the main voting loop begins, giving every voter a chance to vote. As the voter enters their preferences, the `vote` function is called to keep track of all of the preferences. If at any point, the ballot is deemed to be invalid, the program exits.
 
 Once all of the votes are in, another loop begins: this one's going to keep looping through the runoff process of checking for a winner and eliminating the last place candidate until there is a winner.
 
-The first call here is to a function called `tabulate`, which should look at all of the voters' preferences and compute the current vote totals, by looking at each voter's top choice candidate who hasn't yet been eliminated. Next, the `print_winner` function should print out the winner if there is one; if there is, the program is over. But otherwise, the program needs to (via a call to `eliminate`) eliminate the last-place candidate (or candidates) from the election. If nobody is eliminated (because everyone left in the election is tied), then the election is declared a tie.
+The first call here is to a function called `tabulate`, which should look at all of the voters' preferences and compute the current vote totals, by looking at each voter's top choice candidate who hasn't yet been eliminated. Next, the `print_winner` function should print out the winner if there is one; if there is, the program is over. But otherwise, the program needs to determine the fewest number of votes anyone still in the election received (via a call to `find_min`). If it turns out that everyone in the election is tied with the same number of votes (as determined by the `is_tie` function), the election is declared a tie; otherwise, the last-place candidate (or candidates) is eliminated from the election via a call to the `eliminate` function.
 
-If you look a bit further down in the file, you'll see that these functions — `vote`, `tabulate`, `print_winner`, and `eliminate` — are all left to up to you to complete!
+If you look a bit further down in the file, you'll see that these functions — `vote`, `tabulate`, `print_winner`, and `find_min`, `is_tie` and `eliminate` — are all left to up to you to complete!
 
 ## Specification
 
-Complete the implementation of `runoff.py` in such a way that it simulates a runoff election.
+Complete the implementation of `runoff.py` in such a way that it simulates a runoff election. You should complete the implementations of the `vote`, `tabulate`, `print_winner`, `find_min`, `is_tie`, and `eliminate` functions, and you should not modify anything else in `plurality.py`.
+
+### `vote`
 
 * Complete the `vote` function.
   * The function takes arguments `voter`, `rank`, and `name`. If `name` is a match for the name of a valid candidate, then you should update the preferences list to indicate that the voter `voter` has that candidate as their `rank` preference (where `0` is the first preference, `1` is the second preference, etc.).
@@ -118,7 +120,7 @@ Complete the implementation of `runoff.py` in such a way that it simulates a run
   </ul>
 </details>
 
-
+### `tabulate`
   
 * Complete the `tabulate` function.
   * The function should update the number of `votes` each candidate has at this stage in the runoff.
@@ -135,7 +137,8 @@ Complete the implementation of `runoff.py` in such a way that it simulates a run
 </ul>
 </details>
 
-  
+### `print_winner`
+
 * Complete the `print_winner` function.
   * If any candidate has more than half of the vote, their name should be printed to `stdout` and the function should return `true`.
   * If nobody has won the election yet, the function should return `false`.
@@ -143,6 +146,12 @@ Complete the implementation of `runoff.py` in such a way that it simulates a run
   * The function should eliminate the candidate (or candidates) who are still in the race and have the fewest number of votes.
   * If all remaining candidates are tied at the same number of votes, then the function should not eliminate anyone and return `false`.
   * Otherwise, the function should reset all candidates' vote counts back to `0` and return `true`.
+  
+### `find_min`
+
+### `is_tie`
+
+### `eliminate`
 
 ## Walkthrough
 
@@ -188,6 +197,20 @@ Be sure to test your code to make sure it handles...
 * Printing the winner of the election if there is only one
 * Not eliminating anyone in the case of a tie between all remaining candidates
 
+Execute the below to evaluate the correctness of your code using check50. But be sure to compile and test it yourself as well!
+
+```
+check50 cs50nestm/checks/2020/runoff
+```
+
+Execute the below to evaluate the style of your code using style50.
+
+```
+style50 runoff.py
+```
+
 ## How to Submit
 
-TODO
+```
+submit50 cs50nestm/checks/2020/runoff
+```
