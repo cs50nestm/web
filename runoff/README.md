@@ -112,7 +112,6 @@ Complete the implementation of `runoff.py` in such a way that it simulates a run
   * If the preference is successfully recorded, the function should return `True`; the function should return `False` otherwise (if, for instance, `name` is not the name of one of the candidates).
   
   * You may assume that no two candidates will have the same name.
-  
   <br/>
   
   <details>
@@ -120,8 +119,8 @@ Complete the implementation of `runoff.py` in such a way that it simulates a run
     <ul>
 	    <li data-marker="*">Recall that <code class="highlighter-rouge">candidate_count</code> stores the number of candidates in the election.</li>
 	    <li data-marker="*">Recall that <code class="highlighter-rouge">preferences[i][j]</code> stores the index of the candidate who is the <code class="highlighter-rouge">j</code>th ranked preference for the <code class="highlighter-rouge">i</code>th voter.</li>
-  </ul>
-</details>
+    </ul>
+  </details>
 
 ### `tabulate`
   
