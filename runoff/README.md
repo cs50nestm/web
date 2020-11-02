@@ -211,6 +211,12 @@ style50 runoff.py
 
 ## How to Submit
 
+### Step 1 of 2
+Ensure that your terminal is positioned in the correct directory.
+
+### Step 2 of 2
+Execute the below, logging in with your GitHub username and password when prompted. For security, you’ll see asterisks (*) instead of the actual characters in your password.
+
 ```
 submit50 cs50nestm/checks/2020/runoff
 ```
