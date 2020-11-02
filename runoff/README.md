@@ -165,6 +165,7 @@ Complete the implementation of `runoff.py` in such a way that it simulates a run
   * The function should return the minimum vote total for any candidate who is still in the election.
   <br/>
   
+  
   <details>
     <summary>Hints</summary>
     <ul>
@@ -179,6 +180,7 @@ Complete the implementation of `runoff.py` in such a way that it simulates a run
   * The function takes an argument `min_voter`, which will be the minimum number of votes that anyone in the election currently has.
   * The function should return `True` if every candidate remaining in the election has the same number of votes, and should return `False` otherwise.
   <br/>
+  
   
   <details>
     <summary>Hints</summary>
