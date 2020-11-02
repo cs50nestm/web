@@ -118,8 +118,8 @@ Complete the implementation of `runoff.py` in such a way that it simulates a run
   <details>
     <summary>Hints</summary>
     <ul>
-    <li data-marker="*">Recall that `candidate_count` stores the number of candidates in the election.</li>
-    <li data-marker="*">Recall that `preferences[i][j]` stores the index of the candidate who is the `j`th ranked preference for the `i`th voter.</li>
+	    <li data-marker="*">Recall that <code class="highlighter-rouge">candidate_count</code> stores the number of candidates in the election.</li>
+	    <li data-marker="*">Recall that <code class="highlighter-rouge">preferences[i][j]</code> stores the index of the candidate who is the `j`th ranked preference for the `i`th voter.</li>
   </ul>
 </details>
 
@@ -143,8 +143,17 @@ Complete the implementation of `runoff.py` in such a way that it simulates a run
 ### `print_winner`
 
 * Complete the `print_winner` function.
+
   * If any candidate has more than half of the vote, their name should be printed and the function should return `True`.
   * If nobody has won the election yet, the function should return `False`.
+  <br/>
+  
+  <details>
+    <summary>Hints</summary>
+    <ul>
+<li data-marker="*">Recall that <code class="highlighter-rouge">voter_count</code> stores the number of voters in the election. Given that, how would you express the number of votes needed to win the election?</li>
+</ul>
+</details>	    
   
   
 ### `find_min`
@@ -158,7 +167,7 @@ Complete the implementation of `runoff.py` in such a way that it simulates a run
     <summary>Hints</summary>
     <ul>
   
-  <li>You may want to loop through the candidates to find the one who is both still in the election and has the fewest number of votes. What information should you keep track of as you loop through the candidates?</li>
+<li data-marker="*">You may want to loop through the candidates to find the one who is both still in the election and has the fewest number of votes. What information should you keep track of as you loop through the candidates?</li>
 </ul>
 </details>
 
@@ -172,7 +181,7 @@ Complete the implementation of `runoff.py` in such a way that it simulates a run
   <details>
     <summary>Hints</summary>
     <ul>
-<li>Recall that a tie happens if every candidate still in the election has the same number of votes. Note, too, that the is_tie function takes an argument min, which is the smallest number of votes any candidate currently has. How might you use that information to determine if the election is a tie (or, conversely, not a tie)?</li>
+<li data-marker="*">Recall that a tie happens if every candidate still in the election has the same number of votes. Note, too, that the <code class="highlighter-rouge">is_tie</code> function takes an argument min, which is the smallest number of votes any candidate currently has. How might you use that information to determine if the election is a tie (or, conversely, not a tie)?</li>
 	    
 </ul>
 </details>	    
