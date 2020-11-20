@@ -75,11 +75,9 @@ Here's how to download this problem's "distribution code" (i.e., starter code) i
 
 * Execute `cd` to ensure that you're in `~/` (i.e., your home directory).
 * Execute `cd pset3` to change into (i.e., open) your `pset3` directory that should already exist.
+* Execute `mkdir runoff` to make (i.e., create) a directory called `runoff`
+* Execute `cd runoff` to change into (i.e., open) that directory.
 * Execute `wget https://raw.githubusercontent.com/cs50nestm/web/master/distro/runoff.py` to download a (compressed) ZIP file with this problem's distribution.
-* Execute `unzip runoff.zip` to uncompress that file.
-* Execute `rm runoff.zip` followed by `yes` or `y` to delete that ZIP file.
-* Execute `ls`. You should see a directory called `runoff`, which was inside of that ZIP file.
-* Execute `cd runoff` to change into that directory.
 * Execute `ls`. You should see this problem's distribution code, in a file called `runoff.py`.
 
 ## Understanding
