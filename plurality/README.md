@@ -48,9 +48,9 @@ If you look further down in the file, though, you’ll notice that the `vote` an
 Complete the implementation of `plurality.py` in such a way that the program simulates a plurality vote election.
 
 * Complete the `vote` function.
-    * `vote` takes one argument, `candidate`, representing the name of the candidate who was voted for.
+    * `vote` takes one argument, `name`, representing the name of the candidate who was voted for.
     * If there is a candidate with this name, update that candidate’s vote total to account for the new vote. The `vote` function in this case should return `True` to indicate a successful ballot.
-    * If `candidate` does not match the name of any of the candidates in the election, no vote totals should change, and the vote function should return `False` to indicate an invalid ballot.
+    * If `name` does not match the name of any of the candidates in the election, no vote totals should change, and the vote function should return `False` to indicate an invalid ballot.
     * You may assume that no two candidates will have the same name.
 	
 * Complete the `print_winner` function.
