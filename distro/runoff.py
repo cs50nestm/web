@@ -42,7 +42,11 @@ def main():
 
     # Initialize global preferences list
     global preferences
-    preferences = [[0] * candidate_count] * voter_count
+    preferences = []
+    for i in range(voter_count):
+        preferences.append([])
+        for j in range(candidate_count):
+            preferences[i].append(0)
 
     # Keep querying for votes
     for i in range(voter_count):
