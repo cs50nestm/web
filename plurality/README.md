@@ -64,7 +64,7 @@ You should not modify anything else in `plurality.py` other than the implementat
 Your program should behave per the examples below.
 
 ```
-$ python plurality Alice Bob
+$ python plurality.py Alice Bob
 Number of voters: 3
 Vote: Alice
 Vote: Bob
@@ -72,7 +72,7 @@ Vote: Alice
 Alice
 ```
 ```
-$ python plurality Alice Bob
+$ python plurality.py Alice Bob
 Number of voters: 3
 Vote: Alice
 Vote: Charlie
@@ -81,7 +81,7 @@ Vote: Alice
 Alice
 ```
 ```
-$ python plurality Alice Bob Charlie
+$ python plurality.py Alice Bob Charlie
 Number of voters: 5
 Vote: Alice
 Vote: Charlie
