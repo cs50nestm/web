@@ -99,7 +99,7 @@ Because this assignment will result in something different for each person, ther
 
 ## How to View Your Web Page
 
-Type http-server in the terminal and then refresh the browser tab!
+Type `http-server` in the terminal and then refresh the browser tab!
 
 ## To get more help with HTML
 
@@ -107,9 +107,11 @@ Type http-server in the terminal and then refresh the browser tab!
 
 ## How to Submit
 
-You may then submit by typing in at the command line:
+Make sure you first `cd` into the diretory that contains your `html` file. You may then submit by typing in at the command line:
 
+```
 submit50 cs50nestm/checks/2020/html
+```
 
 <!--
 
@@ -220,6 +222,8 @@ For fairly comprehensive guides on the languages introduced in this problem, che
 
 ## How to Submit
 
-submit50 cs50nestm/checks/2019/temperature
+
+```submit50 cs50nestm/checks/2019/temperature
+```
 
 -->
