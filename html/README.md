@@ -6,7 +6,27 @@ Beyond introducing you to web programming, the overarching goal of this problem 
 
 First consider joining Daven for a tour of `HTML`. Focus for now on the `HTML`. We'll add in `CSS` later on.
 
-{% video https://www.youtube.com/watch?v=dM5V1epAbSs %}
+<style type="text/css">
+.iframe_container {
+	position: relative;
+	padding-bottom: 56.25%; 
+	padding-top: 25px;
+	height: 0;
+	margin-bottom: 30px;
+}
+
+.iframe_container iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+</style>
+
+<div class="iframe_container">
+  <iframe src="https://www.youtube.com/watch?v=dM5V1epAbSs?modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe>
+</div>
 
 # What do I do now?
 
@@ -95,6 +115,7 @@ You may then submit by typing in at the command line:
 
 submit50 cs50nestm/checks/2020/html
 
+<!--
 
 # Problem: Temperature Conversion
 
@@ -204,3 +225,5 @@ For fairly comprehensive guides on the languages introduced in this problem, che
 ## How to Submit
 
 submit50 cs50nestm/checks/2019/temperature
+
+-->
