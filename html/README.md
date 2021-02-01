@@ -53,7 +53,7 @@ Then to start up a server to be able to view your web page, type:
 http-server
 ```
 
-into the terminal window, and then click on provided link. You will see a dirctory of all files in your current directory. Then click on the `mypage.html` link and you can preview your page.
+into the terminal window, and then click on provided link. You will see a directory of all files in your current directory. Then click on the `mypage.html` link and you can preview your page.
 
 Once `http-server` is running, you can preview any changes just by clicking on the refresh button.
 
