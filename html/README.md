@@ -45,7 +45,7 @@ The code you created with your teacher, probably looks something like this, alth
 </html>
 ```
 
-Make sure you have this starter code typed into a file called `mypage.html`.
+Working in the [CS50 IDE](https://ide.cs50.io) make sure you have this starter code typed into a file called `mypage.html`.
 
 Then to start up a server to be able to view your web page, type:
 
