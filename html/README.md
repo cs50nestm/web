@@ -69,8 +69,6 @@ Right under the first `<body>` tag, add an open and close `<h1>` tag with your n
 
 With your name instead of mine!
 
-{% next %}
-
 **Second**, add a picture of yourself, or something you like using `<img>` tags.
 
 If you find a picture of yourself online, or email one to yourself, you can drag the '.jpg' or '.png' file into your workspace. Make sure the name of the file has no spaces in it. If I had a picture saved as a `mtanzosh.png` in my workspace (click on the directory sidebar foler icon to the left of the `mypage.html` tab to see the files in your workspace), I could then import it as
