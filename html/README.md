@@ -91,8 +91,6 @@ If you find a picture of yourself online, or email one to yourself, you can drag
 
 And change the text in between the `<title></title>` tags and notice what happens to your Chrome (or other browser) tab on the top of your page!
 
-{% next %}
-
 Once you understand the structure of an `HTML` page, you can look up the many kinds of `HTML` tags to add other elements to your page as well. Feel free to experiment in this lab. Use the [W3 Schools reference](https://www.w3schools.com/html/) to get ideas on other elements for your page.
 
 Do notice how tags inside of tags are indented. As when working in C, proper indentation makes your page much easier to read.
