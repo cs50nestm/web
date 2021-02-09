@@ -60,7 +60,7 @@ Here’s how to download this problem’s "distribution code" (i.e., starter cod
 1. Execute `cd` to ensure that you’re in` ~/` (i.e., your home directory, aka ~).
 2. Execute `mkdir chapter5 to make (i.e., create) a directory called `chapter5` in your home directory.
 3. Execute `cd chapter5` to change into (i.e., open) that directory.
-4. Execute `wget http://cdn.cs50.net/ap/2019/problems/homepage/homepage.zip` to download a (compressed) ZIP file with this problem’s distribution.
+4. Execute `wget http://cdn.cs50.net/2020/fall/psets/8/homepage/homepage.zip` to download a (compressed) ZIP file with this problem’s distribution.
 5. Execute `unzip homepage.zip` to uncompress that file.
 6. Execute `rm homepage.zip` followed by `yes` or `y` to delete that ZIP file.
 7. Execute `ls`. You should see a directory called `homepage`, which was inside of that ZIP file.
@@ -81,10 +81,12 @@ Contain at least four different `.html` pages, at least one of which is `index.h
 
 Use at least ten (10) distinct HTML tags besides `<html>`, `<head>`, `<body>`, and `<title>`. Using some tag (e.g., `<p>`) multiple times still counts as just one (1) of those ten!
 
-Integrate one or more features from Bootstrap into your site. Bootstrap is a popular library (that comes with lots of CSS classes and more) via which you can beautify your site. See Bootstrap’s documentation to get started. To add Bootstrap to your site, it suffices to include
+Integrate one or more features from Bootstrap into your site. Bootstrap is a popular library (that comes with lots of CSS classes and more) via which you can beautify your site. See [Bootstrap’s documentation](https://getbootstrap.com/docs/4.5/getting-started/introduction/) to get started. To add Bootstrap to your site, it suffices to include
 
 ```html
-<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 ```
 
 in your pages' <head>, below which can
