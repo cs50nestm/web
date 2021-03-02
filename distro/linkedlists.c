@@ -22,7 +22,7 @@ int main(void)
         }
 
         // TODO: Allocate a new node.
-		// TODO: Add new node to head of linked list.
+	// TODO: Add new node to head of linked list.
 
     }
 
