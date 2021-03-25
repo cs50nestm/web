@@ -78,7 +78,7 @@ Here’s how to download this problem’s "distribution code" (i.e., starter cod
 http-server
 ```
 
-in the terminal window and clicking on the link that appears.
+in the terminal window and clicking on `index.html`.
 
 
 
