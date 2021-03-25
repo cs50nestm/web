@@ -66,7 +66,7 @@ More functions and details on these functions can be found at [https://p5js.org/
 Here’s how to download this problem’s "distribution code" (i.e., starter code) into your own CS50 IDE. Log into [CS50 IDE](https://ide.cs50.io) and then, in a terminal window, execute each of the below.
 
 1. Execute `cd` to ensure that you’re in` ~/` (i.e., your home directory, aka ~).
-4. Execute `wget https://intro.cs50nestm.net/wp-content/uploads/2020/03/dvd.zip` to download a (compressed) ZIP file with this problem’s distribution.
+4. Execute `wget https://raw.githubusercontent.com/cs50nestm/web/master/dvd/dvd.zip` to download a (compressed) ZIP file with this problem’s distribution.
 5. Execute `unzip dvd.zip` to uncompress that file.
 6. Execute `rm dvd.zip` followed by `yes` or `y` to delete that ZIP file.
 7. Execute `ls`. You should see a directory called `dvd`, which was inside of that ZIP file.
