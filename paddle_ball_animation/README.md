@@ -1,10 +1,10 @@
 # Paddle Ball Game
 
-The goal of this project is to complete the code we began to develop together duirng the recorded class on Wednesday, April 8th, to create a paddle and ball game.
+The goal of this project is to create a game / animation that looks like the animation below:
 
 <img src="paddle_ball.gif" width="100%" alt="Paddle Ball Game">
 
-Using p5.js, we created a paddle that moves left and right, and a ball that bounces off the paddle and off the left and right sides of the canvas. Using this starter code, your job is to complete one more more features, to be able to play this as a game.
+You will be working in p5.js. You will need a circle or ellipse and a rectangle. The circle will move in a similar way as the DVD logo in your last project, and the rectangle (paddle) will be controlled by the left and right arrow keys.
 
 ## Getting Started
 
@@ -38,29 +38,20 @@ If you did not join us for the live 4/8 class or watch the video posted on Class
 }
 </style>
 
-
-<div class="iframe_container">
-  <iframe src="https://www.youtube.com/embed/B3VLmTtAxUk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-
 ## Specification
 
-1. Using this starter code, add one more feature, such as having the ball bounce off the top of the canvas.
-2. Create a variable to keep track of the number of lives, and use the p5 `text()` function to write the number of lives to the screen.
-3. Decrease the number of lives each time the paddle misses the ball.
-4. Reposition the ball to the top of the screen using the `mouseClicked()` function to restart the ball dropping.
-5. When the number of lives goes to zero, display "Game Over".
+1. Using this starter code, start by creating a circle and a rectangle. 
+2. Make the circle bounce off of the left and right ides and the top of the canvas.
+3. Make the rectangle move left and right using the left and right arrow keys.
+4. Create an algorithm to make the ball bounce off the paddle.
+5. Create a variable to keep track of the number of lives, and use the p5 `text()` function to write the number of lives to the screen.
+6. Decrease the number of lives each time the paddle misses the ball.
+7. Reposition the ball to the top of the screen using the `mouseClicked()` function to restart the ball dropping.
+8. When the number of lives goes to zero, display "Game Over".
 
-
-## Rubric
-
-1. **85%** Add one feature, such as bouncing ball off of top of canvas
-1. **90%** In addition, add the number of lives or score to canvas
-1. **95%** Restart the ball falling on mouse click.
-1. **100%** Complete all features as seen in gif above.
 
 ## How to Submit
 
-submit50 cs50nestm/checks/2019/paddle_ball
+submit50 cs50nestm/checks/2020/paddle_ball
 
 
