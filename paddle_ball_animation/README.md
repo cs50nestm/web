@@ -16,28 +16,6 @@ You will be working in p5.js. You will need a circle or ellipse and a rectangle.
 1. Execute `cd paddle` to change into that directory.
 1. Execute ls. You should see this problem’s distribution code, including index.html, style.css and sketch.js
 
-## Next Step
-
-If you did not join us for the live 4/8 class or watch the video posted on Classroom, please watch the video here and code along with me to create your starter code.
-
-<style type="text/css">
-.iframe_container {
-	position: relative;
-	padding-bottom: 56.25%; 
-	padding-top: 25px;
-	height: 0;
-	margin-bottom: 30px;
-}
-
-.iframe_container iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
-</style>
-
 ## Specification
 
 1. Using this starter code, start by creating a circle and a rectangle. 
