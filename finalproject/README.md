@@ -24,7 +24,7 @@ Here are the four different directions you can choose from:
 	- **Computing Bias:** Computing innovations can reflect existing human biases because of biases written into the algorithms or biases in the data used by the innovation.
 	- **Crowdsourcing:** Crowdsourcing offers new models for collaboration, such as connecting businesses or social causes with funding.
 	- **Legal and Ethical Concerns:** Ease of access and distribution of digitized information raises intellectual property concerns regarding ownership, value, and use.
-	- **Safe Computing:** The use of computing innovations may involve risks to personal safety and identity. 
+	- **Safe Computing:** The use of computing innovations may involve risks to personal safety and identity. This may include risks to privacy and/or unauthorized access to computing resources.
 
 
 <style type="text/css">
