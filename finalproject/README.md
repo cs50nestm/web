@@ -16,7 +16,7 @@ Here are the four different directions you can choose from:
   	- **Mario** (program the game mechanics as a code-a-long and develop your own game landscape using totally customized tile maps)
   	- **Flappy Bird, Snake or Space Invaders** using Dan Shiffman's tutorials.
 
-2. **Website** either as a inter-disciplinary project, or on an topic you are particularly passionate about.
+2. **Website** either as a inter-disciplinary project, or on an topic you are particularly passionate about and that helps make the world a better place.
 3. Webpage with **JavaScript infographics**
 4. Google Slides presenstation on one of the following **impacts of computing**
 	- **Beneficial and Harmful Effects:** While computing innovations are typically designed to achieve a specific purpose, they may have unintended consequences.
