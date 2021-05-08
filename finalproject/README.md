@@ -13,7 +13,7 @@ Here are the four different directions you can choose from:
 1. Game or Interactive Animation in p5.js
   	- **Pong** (continuing to build on the algorithms logic we developed for the paddle ball project)
   	- **Breakout** (begin to use JavaScript objects and classes, arrays of objects, and integrate into HTML page)
-  	- **Mario** (program the game mechanics as a code-a-long and develop your own game landscape using totally customized tile maps)
+  	- **[Mario](https://intro.cs50nestm.net/mario)** (program the game mechanics as a code-a-long and develop your own game landscape using totally customized tile maps)
   	- **Flappy Bird, Snake or Space Invaders** using Dan Shiffman's tutorials.
 
 2. **Website** either as a inter-disciplinary project, or on an topic you are particularly passionate about and that helps make the world a better place.
