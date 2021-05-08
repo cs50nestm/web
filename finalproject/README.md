@@ -8,7 +8,7 @@ The climax of this course is its final project. The final project is your opport
 For those who prefer learning more about current issues in computing, the option exists to research and create a presentation on a select topic as well. You may work alone, or in a breakout room with teams of up to four members.
 
 ## Choices
-Here are the possible directions you can take for your final project.
+Here are the four different directions you can choose from:
 
 1. Game or Interactive Animation in p5.js
   	- **Pong** (continuing to build on the algorithms logic we developed for the paddle ball project)
