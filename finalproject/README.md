@@ -17,7 +17,7 @@ Here are the four different directions you can choose from:
   	- **[Flappy Bird, Snake or Space Invaders](https://thecodingtrain.com/CodingChallenges/115-snake-game-redux.html)** using Dan Shiffman's tutorials.
 
 2. **Website** either as a inter-disciplinary project, or on an topic you are particularly passionate about and that helps make the world a better place.
-3. Webpage with **JavaScript infographics**
+3. Webpage with **[JavaScript infographics](https://intro.cs50nestm.net/virus)**, such as an interactive graphs or charts.
 4. Google Slides presenstation on one of the following **impacts of computing**
 	- **Beneficial and Harmful Effects:** While computing innovations are typically designed to achieve a specific purpose, they may have unintended consequences.
 	- **Digital Divide:** The “digital divide” refers to differing access to computing devices and the Internet, based on socioeconomic, geographic, or demographic characteristics and raises issues of equity, access, and influence.
