@@ -11,11 +11,21 @@ For those who prefer learning more about current issues in computing, the option
 Here are the possible directions you can take for your final project.
 
 1. Game or Interactive Animation in p5.js
-  	- Pong (continuing to build on the algorithms logic we developed for the paddle ball project)
-  	- Breakout (begin to use JavaScript objects and classes, arrays of objects, and integrate into HTML page)
-  	- Mario (program the game mechanics as a code-a-long and develop your own game landscape using totally customized tile maps)
+  	- **Pong** (continuing to build on the algorithms logic we developed for the paddle ball project)
+  	- **Breakout** (begin to use JavaScript objects and classes, arrays of objects, and integrate into HTML page)
+  	- **Mario** (program the game mechanics as a code-a-long and develop your own game landscape using totally customized tile maps)
+  	- **Flappy Bird, Snake or Space Invaders** using Dan Shiffman's tutorials.
 
-2. 
+2. **Website** either as a inter-disciplinary project, or on an topic you are particularly passionate about.
+3. Webpage with **JavaScript infographics**
+4. Google Slides presenstation on one of the following **impacts of computing**
+	- **Beneficial and Harmful Effects:** While computing innovations are typically designed to achieve a specific purpose, they may have unintended consequences.
+	- **Digital Divide:** The “digital divide” refers to differing access to computing devices and the Internet, based on socioeconomic, geographic, or demographic characteristics and raises issues of equity, access, and influence.
+	- **Computing Bias:** Computing innovations can reflect existing human biases because of biases written into the algorithms or biases in the data used by the innovation.
+	- **Crowdsourcing:** Crowdsourcing offers new models for collaboration, such as connecting businesses or social causes with funding.
+	- **Legal and Ethical Concerns:** Ease of access and distribution of digitized information raises intellectual property concerns regarding ownership, value, and use.
+	- **Safe Computing:** The use of computing innovations may involve risks to personal safety and identity. 
+
 
 <style type="text/css">
 .iframe_container {
