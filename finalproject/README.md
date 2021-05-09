@@ -28,4 +28,24 @@ Here are the four different directions you can choose from:
 
 ## Please indicate your choice here by Friday, May 14th
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScgs-vaZwbhwBov3RABq-FgB9iG31rrhoxS0j03tCIlT7Sn6g/viewform?embedded=true" width="640" height="1005" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+<style type="text/css">
+.iframe_container {
+	position: relative;
+	padding-bottom: 56.25%; 
+	padding-top: 25px;
+	height: 0;
+	margin-bottom: 30px;
+}
+
+.iframe_container iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+</style>
+
+<div class="iframe_container">
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScgs-vaZwbhwBov3RABq-FgB9iG31rrhoxS0j03tCIlT7Sn6g/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+</div>
