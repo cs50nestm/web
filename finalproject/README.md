@@ -26,7 +26,7 @@ Here are the four different directions you can choose from:
 	- **Legal and Ethical Concerns:** Ease of access and distribution of digitized information raises intellectual property concerns regarding ownership, value, and use.
 	- **Safe Computing:** The use of computing innovations may involve risks to personal safety and identity. This may involve risks to privacy and/or unauthorized access to computing resources.
 
-## Please indicate your choice here by Friday, May 14th
+## Use the form below to indicate your choice by Friday, May 14th
 
 <style type="text/css">
 .iframe_container {
