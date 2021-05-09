@@ -35,7 +35,7 @@ Here are the four different directions you can choose from:
 	padding-top: 25px;
 	height: 0;
 	margin-bottom: 30px;
-	background-color: #c7c3e3;
+	background-color: #bdd4fb;
 }
 
 .iframe_container iframe {
