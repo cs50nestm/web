@@ -12,7 +12,7 @@ Here are the four different directions you can choose from:
 
 1. Game or Interactive Animation in p5.js
   	- **[Pong](https://intro.cs50nestm.net/pong/)** (continuing to build on the algorithms logic we developed for the paddle ball project)
-  	- **[Brick Breaker](http://intro.cs50nestm.net/brick_breaker/)** (begin to use JavaScript objects and classes, arrays of objects, and integrate into HTML page)
+  	- **[Brick Breaker](https://intro.cs50nestm.net/brick_breaker/)** (begin to use JavaScript objects, arrays of objects, and integrate into HTML page)
   	- **[Mario](https://intro.cs50nestm.net/mario)** (program the game mechanics as a code-a-long and develop your own game landscape using totally customized tile maps)
   	- **[Flappy Bird, Snake or Space Invaders](https://thecodingtrain.com/CodingChallenges/115-snake-game-redux.html)** using Dan Shiffman's tutorials.
 
