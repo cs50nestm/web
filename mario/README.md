@@ -32,7 +32,7 @@ Once the game is complete, it could look something like this. The game map is to
 </div>
 
 ## What to Do
-This problem will take several steps to complete, which we will do together during live and recorded classes. The process wil be:
+This problem will take several steps to complete, which we will do together during code-a-longs. The process wil be:
 
 #### Part 1 
 	1. Creating the `generateTiles()` function
@@ -74,10 +74,10 @@ in the terminal window and clicking on the link that appears.
 
 ## Rubric
 
-1. 90% Submit as shown in the class videos
+1. 90% Submit as demonstrated in code-a-longs
 2. 100% Add one personal touch
 
 
 ## How to Submit
 
-submit50 cs50nestm/checks/2019/mario
+submit50 cs50nestm/checks/2020/mario
