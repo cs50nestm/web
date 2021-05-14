@@ -32,12 +32,19 @@ Once the game is complete, it could look something like this. The game map is to
 </div>
 
 ## What to Do
-This problem will take several steps to complete, which we will do together during code-a-longs. The process wil be:
+This problem will take several steps to complete. The videos below will guide you through this. I will, of course, be available as well to help explain and troubleshoot.
 
 #### Part 1 
 	1. Creating the `generateTiles()` function
 	2. Creating the `Sprite` class
 	3. Creating the game map using a csv file
+
+Note: This video assumes you know something about JavaScript objects and arrays. The [mini-lesson linked here](https://cs50nestm.github.io/web/objects-and-arrays/) explains these concepts.
+
+<div class="iframe_container">
+  <iframe src="https://www.youtube.com/embed/NsnyzDOsttI?modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe>
+</div>
+
 	
 #### Part 2
 	4. Creating the alien player sprite
