@@ -50,11 +50,15 @@ Note: This video assumes you know something about JavaScript objects and arrays.
 	4. Creating the alien player sprite
 	5. Animating and controling the alien sprite
 	6. Addition gravity and collision checking
+
+Video to come!
 	
 #### Part 3
 	7. Adding jumping
 	8. Adding scrolling
 	9. Finishing touches: adding score and sound effects
+
+Video to come!
 
 
 ## Getting Started
