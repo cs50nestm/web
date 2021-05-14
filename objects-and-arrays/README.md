@@ -1,4 +1,4 @@
-# JavaScript Objects
+# JavaScript Objects and Arrays
 
 An object is *one thing* that can be stored in one variable. An object can have many **properties**, think of these as additional variables stored inside the larger object.
 
@@ -89,7 +89,7 @@ function draw() {
   bubble1.y += random(-2, 2);
 }
 ```
-## Why are Objects Important
+### Why are Objects Important
 
 Objects are a super important concept in programming and we've just scratched the surface here.
 
@@ -97,7 +97,7 @@ Objects allow us to group together into one container all the useful data that m
 
 JavaScript objects are fundamental to how data from the internet is structured and retrieved.  If you wanted to make an app that used information about the current weather, movies playing near your zip-code, or just about any data you can imagine that comes from the internet, it is very, very likely that that data will be in the form of a big JavaScript object. With an understanding of objects, you're on your way to becoming an awesome developer.
 
-# Arrays of Objects
+## Arrays of Objects
 
 Now let’s extend this to be able to handle 100 bubbles!
 
