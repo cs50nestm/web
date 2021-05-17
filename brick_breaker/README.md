@@ -32,7 +32,7 @@ This problem will take several steps to complete. The videos below will guide yo
 
 #### Part 1
 ```
-1. Create a ball and paddls as JavaScript Objects
+1. Create a ball and paddle as JavaScript Objects
 2. Create the functions `displayBall()`, `updateBall()`, `checkEdges()`, `displayPaddle()`, `paddleMove()`
 ```
 
@@ -41,6 +41,28 @@ Note: This video assumes you know something about JavaScript objects and arrays.
 <div class="iframe_container">
 <iframe src="https://www.youtube.com/embed/SyDtIDO-TFk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+
+#### Part 2
+```
+2. Create the functions `paddleCollide()`, `countLives()`
+3. Create a brick object, and an array of bricks
+4. Create the function `dispayBricks()` to iterate through the brick array and draw each to the canvas
+```
+Video to come!
+
+#### Part 3
+```
+5. Fill the bricks with different colors for each row
+6. Create the `hitBrick()` function which deletes a brick when the ball collides with it
+```
+Video to come!
+
+#### Part 4
+```
+7. Make the `gameInit()` and `checkWin()` functions to determine when the game is over and restart the game
+8. Create HTML and CSS to style the game as a web page
+```
+Video to come!
 
 ## Getting Started
 
