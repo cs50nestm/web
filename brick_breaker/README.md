@@ -23,7 +23,7 @@ The goal of this project is to code a Brick Breaker game, either on your own, or
 The final result could (but does not have to) look something like this:
 
 <div class="iframe_container">
-<iframe src="https://www.youtube.com/embed/UvXiMSsKpbs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/AQeTDaI3ik8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ## What to Do
