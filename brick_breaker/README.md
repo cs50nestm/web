@@ -77,13 +77,9 @@ You can start by copying one of the folders you've used before for a prior p5 pr
 1. Execute ls. You should see the p5 starter code, including index.html, style.css and sketch.js
 1. Feel free to use this p5 starter code for other p5 projects. If you leave the `p5_folder.zip` in your directory, you can unzip it again in the future to start another project.
 
-## Next Step
-
-If you didn't join the live classes where we developed brick breaker together, watch the videos on the Google Classroom site.
-
 ## Specification
 
-1. Create the game, as per the videos, and add one personal feature, to make it your own.
+1. Create the game, as per the videos, and add at least one personal feature, to make it your own.
 
 ## Rubric
 
@@ -92,11 +88,6 @@ If you didn't join the live classes where we developed brick breaker together, w
 
 ## How to Submit
 
-submit50 cs50nestm/checks/2019/brick_breaker
-
-
-You will start in a similar way to the paddle and ball game we recently completed. The canvas in the video is vertical, with a width of 400 and a height of 600, however you can make it square or horizontal, of any dimension that fits on your screen. Eventually you will add an array of brick objects on top of the screen. We will then add a function to iterate thorugh this array of bricks to determine if the ball hits one of the bricks. When we get a ball-brick collision we remove the brick from the array of bricks and increase the score.
-
-Finally, we added a game initialization function, that restarts the game by resetting the number of lives and the score and restores all the bricks.
+submit50 cs50nestm/checks/2020/brick_breaker
 
 
