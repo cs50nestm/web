@@ -30,11 +30,17 @@ The final result could (but does not have to) look something like this:
 
 This problem will take several steps to complete. The videos below will guide you through this. I will, of course, be available as well to help explain and troubleshoot.
 
-### Part 1
+#### Part 1
 ```
 1. Create a ball and paddls as JavaScript Objects
 2. Create the functions `displayBall()`, `updateBall()`, `checkEdges()`, `displayPaddle()`, `paddleMove()`
 ```
+
+Note: This video assumes you know something about JavaScript objects and arrays. The [mini-lesson linked here](https://cs50nestm.github.io/web/objects-and-arrays/) explains these concepts.
+
+<div class="iframe_container">
+<iframe src="https://www.youtube.com/embed/SyDtIDO-TFk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ## Getting Started
 
