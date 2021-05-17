@@ -1,6 +1,6 @@
 # Brick Breaker
 
-The goal of this project is to code along with the live class (or videos) and add one personal touch, to make it your own. This could be changing the colors, changing the number of bricks, or something else.
+The goal of this project is to code a Brick Breaker game, either on your own, or as a code-a-long with the videos. You may totally customize it, to make it your own. You can customize the size of the canvase, the colors, the number of bricks, create powerups, additional levels, or just about anything else you can imagine!
 
 <style type="text/css">
 .iframe_container {
@@ -20,15 +20,21 @@ The goal of this project is to code along with the live class (or videos) and ad
 }
 </style>
 
-The final result shoud look something like this:
+The final result could (but does not have to) look something like this:
 
 <div class="iframe_container">
 <iframe src="https://www.youtube.com/embed/UvXiMSsKpbs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-Using p5.js, we started in a similar way as the paddle and ball game we created a few weeks back. Our canvas is vertical, with a width of 400 and a height of 600, and we added an array of brick objects on top of the screen. We then added a function to iterate thorugh this array of bricks to determine if the ball hits one of the bricks. When we get a ball-brick collision we remove the brick from the array of bricks and increase the score.
+## What to Do
 
-Finally, we added a game initialization function, that restarts the game by resetting the number of lives and the score and restores all the bricks.
+This problem will take several steps to complete. The videos below will guide you through this. I will, of course, be available as well to help explain and troubleshoot.
+
+### Part 1
+```
+1. Create a ball and paddls as JavaScript Objects
+2. Create the functions `displayBall()`, `updateBall()`, `checkEdges()`, `displayPaddle()`, `paddleMove()`
+```
 
 ## Getting Started
 
@@ -59,5 +65,10 @@ If you didn't join the live classes where we developed brick breaker together, w
 ## How to Submit
 
 submit50 cs50nestm/checks/2019/brick_breaker
+
+
+You will start in a similar way to the paddle and ball game we recently completed. The canvas in the video is vertical, with a width of 400 and a height of 600, however you can make it square or horizontal, of any dimension that fits on your screen. Eventually you will add an array of brick objects on top of the screen. We will then add a function to iterate thorugh this array of bricks to determine if the ball hits one of the bricks. When we get a ball-brick collision we remove the brick from the array of bricks and increase the score.
+
+Finally, we added a game initialization function, that restarts the game by resetting the number of lives and the score and restores all the bricks.
 
 
