@@ -33,50 +33,29 @@ This problem will take several steps to complete. The videos below will guide yo
 
 #### Part 1
 ```
-1. Create a ball and paddle as JavaScript Objects
-2. Create the functions `displayBall()`, `updateBall()`, `checkEdges()`, `displayPaddle()`, `paddleMove()`
+1. Review the distribution code
+2. Create the puck and two paddles
+3. Create functions to move the ball, bounce the ball off the top and bottom, and increase the score if the ball goes past the paddles
+4. Create the functions to move the paddles, make sure the paddles stay on the canvas
 ```
-
-Note: This video assumes you know something about JavaScript objects and arrays. The [mini-lesson linked here](https://cs50nestm.github.io/web/objects-and-arrays/) explains these concepts.
-
 <div class="iframe_container">
-<iframe src="https://www.youtube.com/embed/SyDtIDO-TFk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/M2XxTDmMZ80" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 #### Part 2
-```
-2. Create the functions `paddleCollide()`, `countLives()`
-3. Create a brick object, and an array of bricks
-4. Create the function `dispayBricks()` to iterate through the brick array and draw each to the canvas
-```
-Video to come!
 
-#### Part 3
-```
-5. Fill the bricks with different colors for each row
-6. Create the `hitBrick()` function which deletes a brick when the ball collides with it
-```
-Video to come!
-
-#### Part 4
-```
-7. Make the `gameInit()` and `checkWin()` functions to determine when the game is over and restart the game
-8. Create HTML and CSS to style the game as a web page
-```
-Video to come!
+Coming soon!
 
 ## Getting Started
 
 You can start by copying one of the folders you've used before for a prior p5 project, or download the starter folder as outlined here.
 
 1. Execute `cd` to ensure that you’re in ~/ (i.e., your home directory, aka ~).
-2. Execute `wget https://github.com/cs50nestm/web/raw/master/brick_breaker/breakout.zip` to download a (compressed) ZIP file with the p5 starter files.
-1. Execute `unzip p5_folder.zip` to uncompress that file.
-1. Execute ls. You should see a directory called `p5_folder`, which was inside of that ZIP file.
-1. Rename this folder to `brick_breaker`.
-1. Execute `cd brick_breaker` to change into that directory.
+2. Execute `wget https://github.com/cs50nestm/web/raw/master/pong/pong.zip` to download a (compressed) ZIP file with the p5 starter files.
+1. Execute `unzip pong.zip` to uncompress that file.
+1. Execute ls. You should see a directory called `pong`, which was inside of that ZIP file.
+1. Execute `cd pong` to change into that directory.
 1. Execute ls. You should see the p5 starter code, including index.html, style.css and sketch.js
-1. Feel free to use this p5 starter code for other p5 projects. If you leave the `p5_folder.zip` in your directory, you can unzip it again in the future to start another project.
 
 ## Specification
 
@@ -89,4 +68,4 @@ You can start by copying one of the folders you've used before for a prior p5 pr
 
 ## How to Submit
 
-submit50 cs50nestm/checks/2020/brick_breaker
+submit50 cs50nestm/checks/2020/pong
