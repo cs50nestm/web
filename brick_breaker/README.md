@@ -70,12 +70,10 @@ You can start by copying one of the folders you've used before for a prior p5 pr
 
 1. Execute `cd` to ensure that you’re in ~/ (i.e., your home directory, aka ~).
 2. Execute `wget https://github.com/cs50nestm/web/raw/master/brick_breaker/breakout.zip` to download a (compressed) ZIP file with the p5 starter files.
-1. Execute `unzip p5_folder.zip` to uncompress that file.
-1. Execute ls. You should see a directory called `p5_folder`, which was inside of that ZIP file.
-1. Rename this folder to `brick_breaker`.
-1. Execute `cd brick_breaker` to change into that directory.
+1. Execute `unzip breakout.zip` to uncompress that file.
+1. Execute ls. You should see a directory called `breakout`, which was inside of that ZIP file.
+1. Execute `cd breakout` to change into that directory.
 1. Execute ls. You should see the p5 starter code, including index.html, style.css and sketch.js
-1. Feel free to use this p5 starter code for other p5 projects. If you leave the `p5_folder.zip` in your directory, you can unzip it again in the future to start another project.
 
 ## Specification
 
