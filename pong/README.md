@@ -1,7 +1,7 @@
 # Pong
 
-The goal of this project is to create Pong, one of the earliest 2-D archade games, originally released by Atari back in 1972. Your job is to recreate Pong 
-either on your own, or as a code-a-long with the videos. You may then totally customize it to make it your own.
+The goal of this project is to create Pong, one of the earliest 2-D arcade games, originally released by Atari back in 1972. Your job is to recreate Pong 
+either on your own, or as a code-a-long with the videos. You may then totally customize it, adding your own personal touches!
 
 <style type="text/css">
 .iframe_container {
@@ -35,8 +35,9 @@ This problem will take several steps to complete. The videos below will guide yo
 ```
 1. Review the distribution code
 2. Create the puck and two paddles
-3. Create functions to move the ball, bounce the ball off the top and bottom, and increase the score if the ball goes past the paddles
-4. Create the functions to move the paddles, make sure the paddles stay on the canvas
+3. Create functions to move the ball and bounce the ball off the top and bottom of the canvas
+4. Check if the ball goes past the paddles, and award a point when it does
+5. Create the functions to move the paddles, making sure the paddles stay on the canvas
 ```
 <div class="iframe_container">
 <iframe src="https://www.youtube.com/embed/M2XxTDmMZ80" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
