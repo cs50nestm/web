@@ -69,7 +69,7 @@ Video to come!
 You can start by copying one of the folders you've used before for a prior p5 project, or download the starter folder as outlined here.
 
 1. Execute `cd` to ensure that you’re in ~/ (i.e., your home directory, aka ~).
-2. Execute `wget https://github.com/cs50nestm/web/raw/master/brick_breaker/brickbreaker.zip` to download a (compressed) ZIP file with the p5 starter files.
+2. Execute `wget https://github.com/cs50nestm/web/raw/master/brick_breaker/breakout.zip` to download a (compressed) ZIP file with the p5 starter files.
 1. Execute `unzip p5_folder.zip` to uncompress that file.
 1. Execute ls. You should see a directory called `p5_folder`, which was inside of that ZIP file.
 1. Rename this folder to `brick_breaker`.
