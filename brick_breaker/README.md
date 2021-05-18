@@ -44,23 +44,23 @@ Note: This video assumes you know something about JavaScript objects and arrays.
 
 #### Part 2
 ```
-2. Create the functions `paddleCollide()`, `countLives()`
-3. Create a brick object, and an array of bricks
-4. Create the function `dispayBricks()` to iterate through the brick array and draw each to the canvas
+3. Create the functions `paddleCollide()`, `countLives()`
+4. Create a brick object, and an array of bricks
+5. Create the function `dispayBricks()` to iterate through the brick array and draw each to the canvas
 ```
 Video to come!
 
 #### Part 3
 ```
-5. Fill the bricks with different colors for each row
-6. Create the `hitBrick()` function which deletes a brick when the ball collides with it
+6. Fill the bricks with different colors for each row
+7. Create the `hitBrick()` function which deletes a brick when the ball collides with it
 ```
 Video to come!
 
 #### Part 4
 ```
-7. Make the `gameInit()` and `checkWin()` functions to determine when the game is over and restart the game
-8. Create HTML and CSS to style the game as a web page
+8. Make the `gameInit()` and `checkWin()` functions to determine when the game is over and restart the game
+9. Create HTML and CSS to style the game as a web page
 ```
 Video to come!
 
