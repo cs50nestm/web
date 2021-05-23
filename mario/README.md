@@ -42,7 +42,7 @@ This problem will take several steps to complete. The videos below will guide yo
 Note: This video assumes you know something about JavaScript objects and arrays. The [mini-lesson linked here](https://cs50nestm.github.io/web/objects-and-arrays/) explains these concepts.
 
 <div class="iframe_container">
-  <iframe src="https://www.youtube.com/embed/AJlrXMHs1Oc?modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe>
+  <iframe src="https://www.youtube.com/embed/NsnyzDOsttI?modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe>
 </div>
 	
 #### Part 2
@@ -51,10 +51,8 @@ Note: This video assumes you know something about JavaScript objects and arrays.
 	6. Addition gravity and collision checking
 	
 <div class="iframe_container">
-  <iframe src="https://drive.google.com/file/d/1vmKfd6dFD3nKog1keuIMjG20HNSCodh0/view" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe>
+  <iframe src="https://www.youtube.com/embed/AJlrXMHs1Oc?modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe>
 </div>
-
-
 	
 #### Part 3
 	7. Adding jumping
