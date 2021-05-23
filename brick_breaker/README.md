@@ -48,7 +48,8 @@ Note: This video assumes you know something about JavaScript objects and arrays.
 4. Create a brick object, and an array of bricks
 5. Create the function `dispayBricks()` to iterate through the brick array and draw each to the canvas
 ```
-Video to come!
+
+[View the draft video for Part 2.](https://drive.google.com/file/d/1uXncREqZn4yUBxZyNUtlcG7tOQIkt9-4/view?usp=sharing)
 
 #### Part 3
 ```
