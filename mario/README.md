@@ -50,8 +50,12 @@ Note: This video assumes you know something about JavaScript objects and arrays.
 	4. Creating the alien player sprite
 	5. Animating and controling the alien sprite
 	6. Addition gravity and collision checking
+	
+<div class="iframe_container">
+  <iframe src="https://drive.google.com/file/d/1vmKfd6dFD3nKog1keuIMjG20HNSCodh0/view" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe>
+</div>
 
-Video to come!
+
 	
 #### Part 3
 	7. Adding jumping
