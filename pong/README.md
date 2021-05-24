@@ -49,6 +49,8 @@ The next thing you need to do is create a collision function to check if the bal
 
 This is an example of what your collision function could look like. You would give it two parameters, the x and y coordinates of the left paddle when you want to check for a left paddle hit, and the x and y coordinates of the right paddle when you want to check for a right paddle hit.
 
+Read through this code to see if you can understand how this function works, and then try to implement it in your pong game.
+
 ```javascript
 function collides(paddleX, paddleY) {
   let puckLeft = puckX - puckD/2
