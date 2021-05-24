@@ -45,7 +45,36 @@ This problem will take several steps to complete. The videos below will guide yo
 
 #### Part 2
 
-Coming soon!
+The next thing you need to do is create a collision function to check if the ball hits the paddle. Let's try out this AABB collision algorithm which checks the bounding boxes of two objects, to make sure the four sets of opposite sides don't touch or overlap.
+
+This is an example of what your collision function could look like. You would give it two parameters, the x and y coordinates of the left paddle when you want to check for a left paddle hit, and the x and y coordinates of the right paddle when you want to check for a right paddle hit.
+
+```javascript
+function collides(paddleX, paddleY) {
+  let puckLeft = puckX - puckD/2
+  let puckRight = puckX + puckD/2
+  let puckBottom = puckY + puckD/2
+  let puckTop = puckY - puckD/2
+
+  if (puckLeft >= paddleX + padW/2) {
+    return false
+  }
+
+  if (puckRight <= paddleX - padW/2) {
+    return false
+  }
+
+  if (puckTop >= paddleY + padH/2) {
+    return false
+  }
+
+  if (puckBottom <= paddleY - padH/2) {
+    return false
+  }
+
+  return true
+}
+```
 
 ## Getting Started
 
