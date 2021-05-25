@@ -53,10 +53,10 @@ Read through this code to see if you can understand how this function works, and
 
 ```javascript
 function collides(paddleX, paddleY) {
-  let puckLeft = puckX - puckD/2
-  let puckRight = puckX + puckD/2
-  let puckBottom = puckY + puckD/2
-  let puckTop = puckY - puckD/2
+  let puckLeft = x - d/2
+  let puckRight = x + d/2
+  let puckBottom = y + d/2
+  let puckTop = y - d/2
 
   if (puckLeft >= paddleX + padW/2) {
     return false
@@ -75,6 +75,19 @@ function collides(paddleX, paddleY) {
   }
 
   return true
+}
+```
+
+You can then call this function from your draw function with arguments 'lPadX, lPadY' to check for a left ball-paddle collision, and with 'rPadX, rPadY' to check for a right ball-paddle collision.
+
+The code could look something like:
+
+```javascript
+if (collides(lPadX, lPadY) {
+    // add code to make ball bounce off of left paddle
+}
+else if (collides(rPadX, rPadY) {
+    // add code to make ball bounce off of right paddle
 }
 ```
 
