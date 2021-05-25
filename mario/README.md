@@ -53,13 +53,17 @@ Note: This video assumes you know something about JavaScript objects and arrays.
 <div class="iframe_container">
   <iframe src="https://www.youtube.com/embed/AJlrXMHs1Oc?modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe>
 </div>
+
+Part 2b: [Unedited Video for Mario 2b](https://drive.google.com/drive/u/0/folders/0BxQd8HnFed5OflRmVmNMZ2pQQzFiNkxUY0hiczFvMS1WUllmV0hjT1ltdDA4V3g3M09TMHM)
 	
 #### Part 3
 	7. Adding jumping
 	8. Adding scrolling
 	9. Finishing touches: adding score and sound effects
 
-Video to come!
+Part 3: [Unedited Video for Mario 3](https://drive.google.com/drive/u/0/folders/0BxQd8HnFed5OflRmVmNMZ2pQQzFiNkxUY0hiczFvMS1WUllmV0hjT1ltdDA4V3g3M09TMHM)
+
+Part 3b: [Unedited Video for Mario 3b](https://drive.google.com/file/d/1yASqexKXDWfEaTv6i8PhnSB6s-yl5cV2/view?usp=sharing)
 
 
 ## Getting Started
