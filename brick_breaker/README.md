@@ -56,7 +56,7 @@ Note: This video assumes you know something about JavaScript objects and arrays.
 6. Fill the bricks with different colors for each row
 7. Create the `hitBrick()` function which deletes a brick when the ball collides with it
 ```
-Video to come!
+[View the draft video for Part 3.](https://drive.google.com/file/d/1-feQoLT6oRXleejUjJxExIJDmbtr3hUn/view?usp=sharing)
 
 #### Part 4
 ```
