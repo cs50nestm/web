@@ -91,6 +91,10 @@ else if (collides(rPadX, rPadY) {
 }
 ```
 
+Instead of just reversing the xspeed when you have a ball-paddle collision, feel free to make this a bit more exciting by assigning a random value to xspeed.
+
+And finally, if you have time, see if you can stop the game and display "Game Over" when one player reaches 10 points!
+
 ## Getting Started
 
 You can start by copying one of the folders you've used before for a prior p5 project, or download the starter folder as outlined here.
