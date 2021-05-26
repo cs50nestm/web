@@ -63,7 +63,9 @@ Note: This video assumes you know something about JavaScript objects and arrays.
 8. Make the `gameInit()` and `checkWin()` functions to determine when the game is over and restart the game
 9. Create HTML and CSS to style the game as a web page
 ```
-The video where we make the `gameInit()` function is missing, but on the next video we style the HTML and CSS.
+The video where we make the `gameInit()` and `checkWin()` function is missing, but the game should be totally functional at this point. See if you can add a `checkWin()` function on your own!
+
+On the next video we style the HTML and CSS.
 [View the drave video for the second part of Part 4](https://drive.google.com/file/d/1YkN0Hlvec8iD92Jm24FBAcjCNtX5VLsC/view?usp=sharing)
 
 ## Getting Started
