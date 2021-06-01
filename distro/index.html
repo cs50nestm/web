@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <style>
+           h1 {
+               text-align: center;
+               font-family: 'Roboto', sans-serif;
+           }
+           .container {
+               width: 80%;
+               margin: auto;
+           }
+        </style>
+        <!--Use p5 to load csv file-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.2.0/p5.js"></script>
+
+    	<!-- Load plotly.js into the DOM -->
+    	<script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
+    </head>
+
+    <body>
+        <h1 id="title">Covid Cases State Comparison</h1>
+        <div class="container">
+            <input type="text" id="state1" placeholder="Enter a State">
+            <input type="text" id="state2" placeholder="Enter another State">
+            <button id="create" onclick="create()">Create Graph</button>
+        </div>
+    	<div id='myDiv'><!-- Plotly chart will be drawn inside this DIV --></div>
+    	<script src="graph.js"></script>
+    </body>
+</html>
