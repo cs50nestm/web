@@ -65,6 +65,8 @@ Part 3: [Unedited Video for Mario 3](https://drive.google.com/drive/u/0/folders/
 
 Part 3b: [Unedited Video for Mario 3b](https://drive.google.com/file/d/1yASqexKXDWfEaTv6i8PhnSB6s-yl5cV2/view?usp=sharing)
 
+Part 3c: [Fixing Glitches](https://drive.google.com/file/d/1thahTK9CQp6pI356WeDaTBNrYexmQVyA/view)
+
 
 ## Getting Started
 Here’s how to download this problem’s "distribution code" (i.e., starter code) into your own CS50 IDE. Log into [CS50 IDE](https://ide.cs50.io) and then, in a terminal window, execute each of the below.
