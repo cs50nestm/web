@@ -66,7 +66,7 @@ Note: This video assumes you know something about JavaScript objects and arrays.
 The video where we make the `gameInit()` and `checkWin()` function is missing, but the game should be totally functional at this point. See if you can add a `checkWin()` function on your own!
 
 On the next video we style the HTML and CSS.
-[View the drave video for the second part of Part 4](https://drive.google.com/file/d/1YkN0Hlvec8iD92Jm24FBAcjCNtX5VLsC/view?usp=sharing)
+[View the drave video for the second part of Part 4](https://drive.google.com/file/d/1ca_5JumhEl5EXFmrVzOr9zdmnaNuYCpg/view)
 
 ## Getting Started
 
