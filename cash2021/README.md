@@ -1,7 +1,9 @@
 # Cash
 
 ## Greedy Algorithms
-US coins
+
+![US coins](https://cs50.harvard.edu/extension/2021/fall/psets/1/cash/coins.jpg)
+
 
 When making change, odds are you want to minimize the number of coins you’re dispensing for each customer, lest you run out (or annoy the customer!). Fortunately, computer science has given cashiers everywhere ways to minimize numbers of coins due: greedy algorithms.
 
