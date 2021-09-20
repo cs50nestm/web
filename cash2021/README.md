@@ -19,6 +19,7 @@ In `cash.c`, we’ve implemented most (but not all!) of a program that prompts t
 * Implement `calculate_dimes` in such a way that the function calculates the same for dimes.
 * Implement `calculate_nickels` in such a way that the function calculates the same for nickels.
 * Implement `calculate_pennies` in such a way that the function calculates the same for pennies.
+
 Note that, unlike functions that only have side effects, functions that return a value should do so explicitly with return!
 
 ## How to Test Your Code
@@ -33,6 +34,7 @@ For this program, try testing your code manually:
 * If you input 25, does your program output 1 (i.e., one quarter)?
 * If you input 26, does your program output 2 (i.e., one quarter and one penny)?
 * If you input 99, does your program output 9 (i.e., three quarters, two dimes, and four pennies)?
+
 Try a few others as well!
 
 And execute the below to evaluate the style of your code using style50.
