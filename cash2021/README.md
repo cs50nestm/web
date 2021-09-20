@@ -39,7 +39,9 @@ Try a few others as well!
 
 And execute the below to evaluate the style of your code using style50.
 
+```
 style50 cash.c
+```
 
 ## How to Submit
 
