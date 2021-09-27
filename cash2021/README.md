@@ -49,6 +49,12 @@ For this program, try testing your code manually:
 
 Try a few others as well!
 
+You can also execute the below to evaluate the correctness of your code using check50. But be sure to compile and test it yourself as well!
+
+```
+check50 cs50/problems/2021/fall/cash
+```
+
 And execute the below to evaluate the style of your code using style50.
 
 ```
@@ -57,4 +63,10 @@ style50 cash.c
 
 ## How to Submit
 
-Submission instructions to come!
+In your terminal, execute the below.
+
+```
+submit50 cs50/problems/2021/fall/cash
+```
+
+You may submit as many times as you would like up until the deadline. 
