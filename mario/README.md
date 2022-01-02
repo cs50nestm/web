@@ -82,11 +82,11 @@ I highly recommend dowloading [Visual Studio](https://visualstudio.microsoft.com
 1. Download this problem’s "distribution code" (i.e., starter code) onto your computer. Copy and paste `https://github.com/cs50nestm/web/raw/master/mario/mario.zip` into the address bar of your web browser to download a (compressed) ZIP file. 
 2. Drag this zip file into a folder where you will develop your application, then open that folder in VS Studio.
 5. Execute `unzip mario.zip` in the terminal you will have access to in VS Studio.
-6. Execute `rm mario.zip` followed by `yes` or `y` to delete that ZIP file.
-7. Execute `ls`. You should see a directory called `mario`, which was inside of that ZIP file.
+6. Execute `rm mario.zip` to delete that ZIP file.
+7. Execute `ls`. You should see a directory called `mario'.
 8. Execute `cd mario` to change into that directory.
 9. Execute `ls`. You should see this problem’s distribution code, including `sketch.js`, `index.html` and `style.css`.
-10. Start coding!
+10. Your now ready to start working on your game!
 11. Follow the Live Server documentation to preview your application.
 
 ## Specification
