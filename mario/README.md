@@ -60,7 +60,8 @@ Note: This video assumes you know something about JavaScript objects and arrays.
 <!-- Part 2b: [Unedited Video for Mario 2b](https://drive.google.com/drive/u/0/folders/0BxQd8HnFed5OflRmVmNMZ2pQQzFiNkxUY0hiczFvMS1WUllmV0hjT1ltdDA4V3g3M09TMHM) -->
 
 <div class="iframe_container">
-  <iframe src="https://www.youtube.com/embed/PM19RF5uEoE?modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyrosc
+  <iframe src="https://www.youtube.com/embed/PM19RF5uEoE?modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe>
+</div>
 
 	
 #### Still TODO
