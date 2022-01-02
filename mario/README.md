@@ -86,7 +86,7 @@ I highly recommend dowloading [Visual Studio](https://visualstudio.microsoft.com
 2. Drag this zip file into a folder where you will develop your application, then open that folder in VS Studio.
 5. Execute `unzip mario.zip` in the terminal you will have access to in VS Studio.
 6. Execute `rm mario.zip` to delete that ZIP file.
-7. Execute `ls`. You should see a directory called `mario'.
+7. Execute `ls`. You should see a directory called `mario`.
 8. Execute `cd mario` to change into that directory.
 9. Execute `ls`. You should see this problem’s distribution code, including `sketch.js`, `index.html` and `style.css`.
 10. Your now ready to start working on your game!
