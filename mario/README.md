@@ -64,9 +64,9 @@ Note: This video assumes you know something about JavaScript objects and arrays.
 
 	
 #### Still TODO
-	7. Adding gravity
-	8. Resolving platform collisions
-	9. Adding scrolling
+	7.  Adding gravity
+	8.  Resolving platform collisions
+	9.  Adding scrolling
 	10. Adding enemies
 	11. Finishing touches: adding score and sound effects
 	
