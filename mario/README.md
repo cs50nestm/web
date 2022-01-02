@@ -48,8 +48,6 @@ Note: This video assumes you know something about JavaScript objects and arrays.
 #### Part 2
 	4. Creating the alien player sprite
 	5. Preparing to animate the alien sprite
-<!-- 	5. Animating and controling the alien sprite
-	6. Addition gravity and collision checking -->
 	
 <div class="iframe_container">
   <iframe src="https://www.youtube.com/embed/AJlrXMHs1Oc?modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe>
