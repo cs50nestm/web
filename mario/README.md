@@ -77,22 +77,17 @@ Part 3c: [Fixing Glitches](https://drive.google.com/file/d/1thahTK9CQp6pI356WeDa
 
  -->
 ## Getting Started
-Here’s how to download this problem’s "distribution code" (i.e., starter code) into your own CS50 IDE. Log into [CS50 IDE](https://ide.cs50.io) and then, in a terminal window, execute each of the below.
+I highly recommend dowloading [Visual Studio](https://visualstudio.microsoft.com/) with [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer&ssr=false#overview) installed on your own computer to develop and test your code.
 
-1. Execute `cd` to ensure that you’re in` ~/` (i.e., your home directory, aka ~).
-4. Execute `wget https://github.com/cs50nestm/web/raw/master/mario/mario.zip` to download a (compressed) ZIP file with this problem’s distribution.
-5. Execute `unzip mario.zip` to uncompress that file.
+1. Download this problem’s "distribution code" (i.e., starter code) onto your computer. Copy and paste `https://github.com/cs50nestm/web/raw/master/mario/mario.zip` into the address bar of your web browser to download a (compressed) ZIP file. 
+2. Drag this zip file into a folder where you will develop your application, then open that folder in VS Studio.
+5. Execute `unzip mario.zip` in the terminal you will have access to in VS Studio.
 6. Execute `rm mario.zip` followed by `yes` or `y` to delete that ZIP file.
 7. Execute `ls`. You should see a directory called `mario`, which was inside of that ZIP file.
 8. Execute `cd mario` to change into that directory.
-9. Execute `ls`. You should see this problem’s distribution code, including `sketch.js`, `index.html` and `styles.css`.
-10. You can immediately start a server to view the site by typing
-
-```
-http-server
-```
-
-in the terminal window and clicking on the link that appears.
+9. Execute `ls`. You should see this problem’s distribution code, including `sketch.js`, `index.html` and `style.css`.
+10. Start coding!
+11. Follow the Live Server documentation to preview your application.
 
 ## Specification
 
@@ -104,6 +99,6 @@ in the terminal window and clicking on the link that appears.
 2. 100% Add one personal touch
 
 
-## How to Submit
+<!-- ## How to Submit
 
-submit50 cs50nestm/checks/2020/mario
+submit50 cs50nestm/checks/2020/mario -->
