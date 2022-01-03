@@ -63,10 +63,10 @@ Note: This video assumes you know something about JavaScript objects and arrays.
   <iframe src="https://www.youtube.com/embed/PM19RF5uEoE?modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe>
 </div>
 
-### Challenge Problem
+###$ Challenge Problem
 Can you add a direction property to the Animated Sprite class so that your alien turns left when walking to the left? You might find the p5 functions `push()`, `scale()` and `pop()` come in helpful.
 
-#### Still TODO
+#### Still TODO (coming next week)
 	7.  Adding gravity
 	8.  Resolving platform collisions
 	9.  Adding scrolling
