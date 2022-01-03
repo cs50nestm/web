@@ -89,8 +89,10 @@ I highly recommend dowloading [Visual Studio](https://visualstudio.microsoft.com
 7. Execute `ls`. You should see a directory called `mario`.
 8. Execute `cd mario` to change into that directory.
 9. Execute `ls`. You should see this problem’s distribution code, including `sketch.js`, `index.html` and `style.css`.
-10. Your now ready to start working on your game!
-11. Follow the Live Server documentation to preview your application.
+10. You can find additional graphics for customizing your game later, [here](https://github.com/games50/mario/tree/master/mario/graphics).
+11. And additional sounds [here](https://github.com/games50/mario/tree/master/mario/sounds).
+12. Your now ready to start working on your game!
+13. Follow the Live Server documentation to preview your application.
 
 ## Specification
 
