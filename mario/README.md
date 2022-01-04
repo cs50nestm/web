@@ -1,4 +1,4 @@
-# Problem: Mario
+# Mario
 
 ## tl;dr
 Build a Super Mario type platformer game.
