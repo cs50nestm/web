@@ -47,21 +47,26 @@ This problem will take several steps to complete. The videos below will guide yo
 <iframe src="https://www.youtube.com/embed/M2XxTDmMZ80" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-<div class="iframe_container">
-<iframe src="https://www.youtube.com/embed/M2XxTDmMZ80" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+
 
 #### Part 3
 ```
 3. Create the paddle class.
 ```
 
+<div class="iframe_container">
+<iframe src="https://www.youtube.com/embed/M2XxTDmMZ80" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 #### Part 4
 ```
 4. Create the collision algorithm.
 ```
+<div class="iframe_container">
+<iframe src="https://www.youtube.com/embed/M2XxTDmMZ80" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
-### Part 5
+#### Part 5 (TODO)
 ```
 5. Use keyPressed() to toggle game state from `start` to `play`.
 6. Make ball move when game state is `play`.
@@ -69,7 +74,7 @@ This problem will take several steps to complete. The videos below will guide yo
 8. Implement collision checking to bounce ball off of paddle.
 ```
 
-#### Part 6
+#### Part 6 (TODO)
 ```
 9.  Implement `serve` game state.
 10. Implement scoring.
