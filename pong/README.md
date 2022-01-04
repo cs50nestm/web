@@ -28,7 +28,7 @@ This is a video clip of the original!
 
 ## What to Do
 
-This problem will take several steps to complete. The videos below will guide you through this. I will, of course, be available as well to help explain and troubleshoot.
+This problem will take several steps to complete. The videos below will guide you through some of this and I will work with you on other parts. I will, of course, be available througout to answer questions and troubleshoot.
 
 #### Part 1
 ```
