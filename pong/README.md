@@ -47,6 +47,10 @@ This problem will take several steps to complete. The videos below will guide yo
 <iframe src="https://www.youtube.com/embed/M2XxTDmMZ80" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
+<div class="iframe_container">
+<iframe src="https://www.youtube.com/embed/M2XxTDmMZ80" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 #### Part 3
 ```
 3. Create the paddle class.
@@ -61,11 +65,18 @@ This problem will take several steps to complete. The videos below will guide yo
 ```
 5. Use keyPressed() to toggle game state from `start` to `play`.
 6. Make ball move when game state is `play`.
-7. Create the functions to move the paddles, making sure the paddles stay on the canvas
+7. Bounce ball off top and bottom of canvas.
+8. Implement collision checking to bounce ball off of paddle.
 ```
-<div class="iframe_container">
-<iframe src="https://www.youtube.com/embed/M2XxTDmMZ80" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+
+#### Part 6
+```
+9.  Implement `serve` game state.
+10. Implement scoring.
+11. Implement victory.
+12. Audio update.
+```
+
 
 ## Getting Started
 I highly recommend dowloading [Visual Studio](https://visualstudio.microsoft.com/) with [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer&ssr=false#overview) installed on your own computer to develop and test your code.
