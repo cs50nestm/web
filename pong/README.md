@@ -46,10 +46,8 @@ You can learn more about p5.js by reviewing it's online reference at [p5js.org/]
 2. Create the ball class.
 ```
 <div class="iframe_container">
-<iframe src="https://www.youtube.com/embed/M2XxTDmMZ80" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/otMxvYkHUFg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-
-
 
 #### Part 3
 ```
