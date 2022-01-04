@@ -53,9 +53,8 @@ You can learn more about p5.js by reviewing it's online reference at [p5js.org/]
 ```
 3. Create the paddle class.
 ```
-
 <div class="iframe_container">
-<iframe src="https://www.youtube.com/embed/M2XxTDmMZ80" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/aKvTUrqi3Hs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 #### Part 4
