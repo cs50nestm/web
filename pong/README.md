@@ -36,8 +36,10 @@ This problem will take several steps to complete. The videos below will guide yo
 ```
 
 <div class="iframe_container">
-<iframe src="https://www.youtube.com/embed/M2XxTDmMZ80" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/6iWrt7-UUwE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+
+You can learn more about p5.js by reviewing it's online reference at [p5js.org/](https://p5js.org/)
 
 #### Part 2
 ```
