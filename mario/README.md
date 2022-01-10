@@ -78,9 +78,10 @@ Also if you finish early, why not start creating the first level of your game wo
 </div>
 
 
-#### Still TODO (coming soon)
-	10. Finishing touches: adding score and sound effects
-	11. Adding enemies
+#### Still TODO
+	10. Game over
+	11. Finishing touches: adding score and sound effects
+	12. Adding enemies
 	
 
 <!-- Part 3: [Unedited Video for Mario 3](https://drive.google.com/drive/u/0/folders/0BxQd8HnFed5OflRmVmNMZ2pQQzFiNkxUY0hiczFvMS1WUllmV0hjT1ltdDA4V3g3M09TMHM)
