@@ -73,6 +73,8 @@ Also if you finish early, why not start creating the first level of your game wo
 	8.  Resolving platform collisions
 	9.  Adding scrolling
 	
+*Note: In the video there is a section when creating the function `resolvingPlatformCollisions` that I seem to have a problem with the line `s.y = 0`, but when I tested this out this week, it seemed to work fine.*
+
 <div class="iframe_container">
   <iframe src="https://www.youtube.com/embed/QtKfO3xjPoQ?modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe>
 </div>
