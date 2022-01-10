@@ -86,9 +86,8 @@ Also if you finish early, why not start creating the first level of your game wo
 *Note: After adding the Game Over text, you'll notice that the coins and lives no longer line up properly. That was because I centered the text in `checkGameOver()` but forgot to left align the text in `displayScore()`.*
 	
 <div class="iframe_container">
-  <iframe src="https://www.youtube.com/embed/QtKfO3xjPoQ?modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe>
+  <iframe src="https://www.youtube.com/embed/asXG5fe5cZM?modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe>
 </div>	
-
 
 #### Still TODO
 	10. Miscellaneous fixes
