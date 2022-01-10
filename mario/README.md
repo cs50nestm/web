@@ -79,10 +79,19 @@ Also if you finish early, why not start creating the first level of your game wo
   <iframe src="https://www.youtube.com/embed/QtKfO3xjPoQ?modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe>
 </div>
 
+#### Part 5
+	10. Adding `checkDeath()` and `checkGameOver()` functions
+	11. Adding sound effects
+	
+*Note: After adding the Game Over text, you'll notice that the coins and lives no longer line up properly. That was because I centered the text in `checkGameOver()` but forgot to left align the text in `displayScore()`*
+	
+<div class="iframe_container">
+  <iframe src="https://www.youtube.com/embed/QtKfO3xjPoQ?modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe>
+</div>	
+
 
 #### Still TODO
-	10. Game over
-	11. Finishing touches: adding score and sound effects
+	10. Miscellaneous fixes
 	12. Adding enemies
 	
 
