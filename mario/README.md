@@ -68,12 +68,19 @@ Can you add a direction property to the Animated Sprite class so that your alien
 
 Also if you finish early, why not start creating the first level of your game world by customizing your tile map!
 
-#### Still TODO (coming next week)
+#### Part 4
 	7.  Adding gravity
 	8.  Resolving platform collisions
 	9.  Adding scrolling
-	10. Adding enemies
-	11. Finishing touches: adding score and sound effects
+	
+<div class="iframe_container">
+  <iframe src="https://www.youtube.com/embed/QtKfO3xjPoQ?modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe>
+</div>
+
+
+#### Still TODO (coming soon)
+	10. Finishing touches: adding score and sound effects
+	11. Adding enemies
 	
 
 <!-- Part 3: [Unedited Video for Mario 3](https://drive.google.com/drive/u/0/folders/0BxQd8HnFed5OflRmVmNMZ2pQQzFiNkxUY0hiczFvMS1WUllmV0hjT1ltdDA4V3g3M09TMHM)
