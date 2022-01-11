@@ -80,13 +80,19 @@ You can learn more about p5.js by reviewing it's online reference at [p5js.org/]
 ```
 7. Bounce ball off top and bottom of canvas.
 8. Implement `serve` game state.
+9. Implement scoring.
 ```
 
+<div class="iframe_container">
+<iframe src="https://www.youtube.com/embed/2xR1MB8kINQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 #### Part 7 (TODO)
+
 ```
- 9. Implement scoring.
-10. Implement victory.
-11. Audio update.
+10. Write directions to screen
+11. Implement victory.
+12. Audio update.
 ```
 
 
