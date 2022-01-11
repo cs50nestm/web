@@ -79,12 +79,11 @@ You can learn more about p5.js by reviewing it's online reference at [p5js.org/]
 
 ```
 7. Bounce ball off top and bottom of canvas.
-8. Implement collision checking to bounce ball off of paddle.
+8. Implement `serve` game state.
 ```
 
-#### Part 6 (TODO)
+#### Part 7 (TODO)
 ```
-9.  Implement `serve` game state.
 10. Implement scoring.
 11. Implement victory.
 12. Audio update.
