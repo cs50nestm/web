@@ -84,9 +84,9 @@ You can learn more about p5.js by reviewing it's online reference at [p5js.org/]
 
 #### Part 7 (TODO)
 ```
-10. Implement scoring.
-11. Implement victory.
-12. Audio update.
+9.  Implement scoring.
+10. Implement victory.
+11. Audio update.
 ```
 
 
