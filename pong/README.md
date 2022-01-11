@@ -65,10 +65,19 @@ You can learn more about p5.js by reviewing it's online reference at [p5js.org/]
 <iframe src="https://www.youtube.com/embed/7OGbz4GeoVk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-#### Part 5 (TODO)
+#### Part 5
 ```
 5. Use keyPressed() to toggle game state from `start` to `play`.
 6. Make ball move when game state is `play`.
+```
+
+<div class="iframe_container">
+<iframe src="https://www.youtube.com/embed/2xR1MB8kINQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+### Part 6
+
+```
 7. Bounce ball off top and bottom of canvas.
 8. Implement collision checking to bounce ball off of paddle.
 ```
