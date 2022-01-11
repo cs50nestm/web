@@ -88,13 +88,22 @@ You can learn more about p5.js by reviewing it's online reference at [p5js.org/]
 </div>
 
 
-#### Part 7 (TODO)
+#### Part 7
 
 ```
 10. Write directions to screen
 11. Implement victory.
-12. Audio update.
 ```
+
+<div class="iframe_container">
+<iframe src="https://www.youtube.com/embed/lDkPW-vL050" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+#### TODO
+```
+12. Audio Update
+```
+
 
 
 ## Getting Started
