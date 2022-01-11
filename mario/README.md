@@ -89,9 +89,16 @@ Also if you finish early, why not start creating the first level of your game wo
   <iframe src="https://www.youtube.com/embed/asXG5fe5cZM?modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe>
 </div>	
 
+#### Part 6
+	12. Miscellaneous fixes
+	
+<div class="iframe_container">
+  <iframe src="https://www.youtube.com/embed/BHuJdLlEYUk?modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe>
+</div>	
+
 #### Still TODO
-	10. Miscellaneous fixes
-	12. Adding enemies
+	13. Customizing your game world
+	14. Adding enemies
 	
 
 <!-- Part 3: [Unedited Video for Mario 3](https://drive.google.com/drive/u/0/folders/0BxQd8HnFed5OflRmVmNMZ2pQQzFiNkxUY0hiczFvMS1WUllmV0hjT1ltdDA4V3g3M09TMHM)
