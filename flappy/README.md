@@ -39,6 +39,23 @@ This problem will take several steps to complete. The videos below will guide yo
   <iframe src="https://www.youtube.com/embed/NsnyzDOsttI?modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe>
 </div>
 
+#### Part 2
+	3. Creating the bird class.
+	4. Adding gravity
+	5. Adding anti-gravity
+	
+#### Part 3
+	6. Creating the pipe class.
+	7. Infinte pipes.
+	8. Pairs of pipes.
+	
+#### Part 4
+	9.  Adding the collision algorithm.
+	
+#### Part 5	
+	10. Using gameState
+	11. Adding the countdown
+	12. Audio update
 
 ## Getting Started
 I highly recommend dowloading [Visual Studio](https://visualstudio.microsoft.com/) with [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer&ssr=false#overview) installed on your own computer to develop and test your code.
