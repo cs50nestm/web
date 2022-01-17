@@ -113,12 +113,33 @@ let ponghit, pongbounce, pongscore
 Then in the `preload()` function, add the following lines to load the three sounds.
 
 ```js
-    ponghit = loadSound("ponghit.wav")
-    pongbounce = loadSound("pongbounce.wav")
-    pongscore = loadSound("pongscore.wav")
+ponghit = loadSound("ponghit.wav")
+pongbounce = loadSound("pongbounce.wav")
+pongscore = loadSound("pongscore.wav")
 ```
 
+Now, find the parts of your code where your paddle and ball collide. There are two places where this happens. This will be in your `draw()` function. After adjusting the position of `ball.x` (the x coordinate value of the ball) add the following line of code:
 
+```js
+ponghit.play()
+```
+Add the bounce sound when your ball bounces off of the top or bottom of your canvas:
+
+```js
+pongbounce.play()
+```
+
+Finally, find the two places in your code where the ball goes past the left and right sides of the canvas, giving the opposite player a point. Add the score sound in those two places:
+
+```js
+pongscore.play()
+```
+
+And that's it! Your game is done!
+
+#### Up for a challenge?
+
+Implement an AI-controlled paddle (either the left or the right will do) such that it will try to deflect the ball at all times. Since the paddle can move on only one axis (the Y axis), you will need to determine how to keep the paddle moving in relation to the ball. Currently, each paddle has its own chunk of code where input is detected by the keyboard; this feels like an excellent place to put the code we need! Once either the left or right paddle (or both, if desired) deflects the paddle on their own, you’ve done it!
 
 ## Getting Started
 I highly recommend dowloading [Visual Studio](https://visualstudio.microsoft.com/) with [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer&ssr=false#overview) installed on your own computer to develop and test your code.
