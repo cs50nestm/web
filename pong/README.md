@@ -99,9 +99,23 @@ You can learn more about p5.js by reviewing it's online reference at [p5js.org/]
 <iframe src="https://www.youtube.com/embed/lDkPW-vL050" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-#### TODO
+#### Part 8
 ```
 12. Audio Update
+```
+This last part is really simple! First, you'll need to create three global variables for the three sounds, load sounds, and then play them at the appropriate time.
+
+To start, let's create the global variables which will hold the sounds. At the top of your file, where you declare ball, player1, player2, etc., add the following line of code:
+
+```js
+let ponghit, pongbounce, pongscore
+```
+Then in the `preload()` function, add the following lines to load the three sounds.
+
+```js
+    ponghit = loadSound("ponghit.wav")
+    pongbounce = loadSound("pongbounce.wav")
+    pongscore = loadSound("pongscore.wav")
 ```
 
 
