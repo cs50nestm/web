@@ -103,7 +103,7 @@ You can learn more about p5.js by reviewing it's online reference at [p5js.org/]
 ```
 12. Audio Update
 ```
-This last part is really simple! First, you'll need to create three global variables for the three sounds, load sounds, and then play them at the appropriate time.
+This last part is really simple! First, you'll need to create three global variables for the three sounds, load the sounds, and then play them at the appropriate time.
 
 To start, let's create the global variables which will hold the sounds. At the top of your file, where you declare ball, player1, player2, etc., add the following line of code:
 
