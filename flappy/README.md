@@ -4,7 +4,7 @@
 Build a Flappy Bird game.
 
 ## Preview
-Once the game is complete, it could look something like this. The game map is totally customizable and yours will most likely look quite a bit different.
+Once the game is complete, it could look something like this. Of course, you are welcome to use your own graphics as well!
 
 <style type="text/css">
 .iframe_container {
