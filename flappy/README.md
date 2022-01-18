@@ -52,9 +52,18 @@ This problem will take several steps to complete. The videos below will guide yo
 #### Part 3
 	6. Creating the pipe class.
 	
+<div class="iframe_container">
+  <iframe src="https://www.youtube.com/embed/1Hho76hT48w?modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe>
+</div>	
+	
 #### Part 4	
 	7. Infinite pipes.
 	8. Pairs of pipes.
+	
+<div class="iframe_container">
+  <iframe src="https://www.youtube.com/embed/cbgDjru5OGc?modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe>
+</div>	
+	
 	
 #### Part 5
 	9. Controlling the placement of the pipe gap.
