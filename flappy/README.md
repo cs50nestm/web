@@ -51,6 +51,8 @@ This problem will take several steps to complete. The videos below will guide yo
 		
 #### Part 3
 	6. Creating the pipe class.
+	
+#### Part 4	
 	7. Infinte pipes.
 	8. Pairs of pipes.
 	
