@@ -53,16 +53,19 @@ This problem will take several steps to complete. The videos below will guide yo
 	6. Creating the pipe class.
 	
 #### Part 4	
-	7. Infinte pipes.
+	7. Infinite pipes.
 	8. Pairs of pipes.
 	
 #### Part 5
-	9.  Adding the collision algorithm.
+	9. Controlling the placement of the pipe gap.
 	
-#### Part 6	
-	10. Using gameState
-	11. Adding the countdown
-	12. Audio update
+#### Part 6
+	10. Adding the collision algorithm.
+	
+#### Part 7	
+	11. Using gameState
+	12. Adding the countdown
+	13. Audio update
 
 ## Getting Started
 I highly recommend dowloading [Visual Studio](https://visualstudio.microsoft.com/) with [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer&ssr=false#overview) installed on your own computer to develop and test your code.
