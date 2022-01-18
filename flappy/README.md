@@ -56,10 +56,10 @@ This problem will take several steps to complete. The videos below will guide yo
 	7. Infinte pipes.
 	8. Pairs of pipes.
 	
-#### Part 4
+#### Part 5
 	9.  Adding the collision algorithm.
 	
-#### Part 5	
+#### Part 6	
 	10. Using gameState
 	11. Adding the countdown
 	12. Audio update
