@@ -67,11 +67,13 @@ This problem will take several steps to complete. The videos below will guide yo
 	
 #### Part 5
 	9. Controlling the placement of the pipe gap.
-	
-#### Part 6
 	10. Adding the collision algorithm.
 	
-#### Part 7	
+<div class="iframe_container">
+  <iframe src="https://www.youtube.com/embed/TAw4S1ANRvk?modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe>
+</div>		
+		
+#### Part 6	
 	11. Using gameState
 	12. Adding the countdown
 	13. Audio update
