@@ -66,7 +66,7 @@ This problem will take several steps to complete. The videos below will guide yo
 	
 	
 #### Part 5
-	9. Controlling the placement of the pipe gap.
+	9.  Controlling the placement of the pipe gap.
 	10. Adding the collision algorithm.
 	
 <div class="iframe_container">
