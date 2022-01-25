@@ -93,7 +93,7 @@ Also if you finish early, why not start creating the first level of your game wo
 	12. Miscellaneous fixes
 	
 <div class="iframe_container">
-  <iframe src="https://www.youtube.com/embed/BHuJdLlEYUk?modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe>
+  <iframe src="https://www.youtube.com/embed/lu3KQ5NnvTo?modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe>
 </div>	
 
 #### Part 7
@@ -112,6 +112,7 @@ For inspiration, [check out the project students completed last year!](https://b
 Part 3b: [Unedited Video for Mario 3b](https://drive.google.com/file/d/1yASqexKXDWfEaTv6i8PhnSB6s-yl5cV2/view?usp=sharing)
 
 Part 3c: [Fixing Glitches](https://drive.google.com/file/d/1thahTK9CQp6pI356WeDaTBNrYexmQVyA/view)
+https://youtu.be/lu3KQ5NnvTo
 
  -->
 ## Getting Started
