@@ -99,7 +99,7 @@ Also if you finish early, why not start creating the first level of your game wo
 #### Part 7
 	13. Adding enemies
 	
-]<div class="iframe_container">
+<div class="iframe_container">
   <iframe src="https://www.youtube.com/embed/7_CV96ndyc4?modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe>
 </div>	
 
