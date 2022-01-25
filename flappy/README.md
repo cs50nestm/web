@@ -89,7 +89,9 @@ This problem will take several steps to complete. The videos below will guide yo
 	
 <div class="iframe_container">
   <iframe src="https://www.youtube.com/embed/HH2wyDZHVTw?modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe>
-</div>		
+</div>	
+
+Congratulations! You are all done! See if you can enhance it now and add additional levels!
 	
 ## Getting Started
 I highly recommend dowloading [Visual Studio](https://visualstudio.microsoft.com/) with [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer&ssr=false#overview) installed on your own computer to develop and test your code.
