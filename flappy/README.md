@@ -85,6 +85,12 @@ This problem will take several steps to complete. The videos below will guide yo
 	13. Scoring points
 	14. Audio update
 	
+*Note: In the video the sound doesn't play, but as soon as I stopped recording the sound played perfectly!*	
+	
+<div class="iframe_container">
+  <iframe src="https://www.youtube.com/embed/HH2wyDZHVTw?modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe>
+</div>		
+	
 ## Getting Started
 I highly recommend dowloading [Visual Studio](https://visualstudio.microsoft.com/) with [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer&ssr=false#overview) installed on your own computer to develop and test your code.
 
