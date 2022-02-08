@@ -58,8 +58,6 @@ Fianally watch the section of the video below, from 1:23 to 7:28 to learn more a
 Here’s how to download this problem’s "distribution code" (i.e., starter code) into your own CS50 IDE. Log into [CS50 IDE](https://ide.cs50.io) and then, in a terminal window, execute each of the below.
 
 1. Execute `cd` to ensure that you’re in` ~/` (i.e., your home directory, aka ~).
-2. Execute `mkdir chapter5 to make (i.e., create) a directory called `chapter5` in your home directory.
-3. Execute `cd chapter5` to change into (i.e., open) that directory.
 4. Execute `wget http://cdn.cs50.net/2020/fall/psets/8/homepage/homepage.zip` to download a (compressed) ZIP file with this problem’s distribution.
 5. Execute `unzip homepage.zip` to uncompress that file.
 6. Execute `rm homepage.zip` followed by `yes` or `y` to delete that ZIP file.
