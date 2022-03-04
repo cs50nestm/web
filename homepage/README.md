@@ -146,17 +146,17 @@ but commenting your HTML code is not as imperative as it is when commenting code
 Ensure that index.html is in ~/chapter5/homepage, as with:
 
 ```
-cd ~/chapter5/homepage
+cd homepage
 ls
 ```
 
-If index.html is not in ~/chapter5/homepage, move it into that directory, as via mv (or via CS50 IDE’s lefthand file browser).
+If index.html is not in the homepage directory, move it into that directory, as via mv (or via CS50 IDE’s lefthand file browser).
 
 ### Step 2 of 2
 To submit homepage, execute
 
 ```
-cd ~/chapter5/homepage
+cd homepage
 submit50 cs50/problems/2019/ap/homepage
 ```
 
