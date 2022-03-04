@@ -143,7 +143,7 @@ but commenting your HTML code is not as imperative as it is when commenting code
 ## How to Submit
 ### Step 1 of 2
 
-Ensure that index.html is in ~/chapter5/homepage, as with:
+Ensure that index.html is in homepage, as with:
 
 ```
 cd homepage
