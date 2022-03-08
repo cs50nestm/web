@@ -142,17 +142,16 @@ And that's it! Your game is done!
 Implement an AI-controlled paddle (either the left or the right will do) such that it will try to deflect the ball at all times. Since the paddle can move on only one axis (the Y axis), you will need to determine how to keep the paddle moving in relation to the ball. Currently, each paddle has its own chunk of code where input is detected by the keyboard; this feels like an excellent place to put the code we need! Once either the left or right paddle (or both, if desired) deflects the ball on its own, you’ve done it!
 
 ## Getting Started
-I highly recommend dowloading [Visual Studio](https://visualstudio.microsoft.com/) with [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer&ssr=false#overview) installed on your own computer to develop and test your code.
+I highly recommend working in the new [code.cs50.io](https://code.cs50.io) (VS Code in the Web) development environment.
 
-1. Download this problem’s "distribution code" (i.e., starter code) onto your computer. Copy and paste `https://github.com/cs50nestm/web/raw/master/pong/pong.zip` into the address bar of your web browser to download a (compressed) ZIP file. 
-2. Drag this zip file into a folder where you will develop your application, then open that folder in VS Studio.
-5. Execute `unzip pong.zip` in the terminal you will have access to in VS Studio.
+1. Download this problem’s "distribution code" (i.e., starter code). Copy and paste `wget https://github.com/cs50nestm/web/raw/master/pong/pong.zip` into your terminal to download a (compressed) ZIP file. 
+5. Execute `unzip pong.zip` in the terminal.
 6. Execute `rm pong.zip` to delete that ZIP file.
 7. Execute `ls`. You should see a directory called `pong`.
 8. Execute `cd pong` to change into that directory.
 9. Execute `ls`. You should see this problem’s distribution code, including `sketch.js`, `index.html` and `style.css`.
 12. Your now ready to start working on your game!
-13. Follow the Live Server documentation to preview your application.
+13. Execute `http-server` to preview your application.
 
 
 ## Specification
