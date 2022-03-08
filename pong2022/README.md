@@ -144,8 +144,8 @@ Implement an AI-controlled paddle (either the left or the right will do) such th
 ## Getting Started
 I highly recommend working in the new [code.cs50.io](https://code.cs50.io) (VS Code in the Web) development environment.
 
-1. Download this problem’s "distribution code" (i.e., starter code). Copy and paste `wget https://github.com/cs50nestm/web/raw/master/pong/pong.zip` into your terminal to download a (compressed) ZIP file. 
-5. Execute `unzip pong.zip` in the terminal.
+2. Execute `wget https://github.com/cs50nestm/web/raw/master/pong/pong.zip` to download a (compressed) ZIP file with this problem’s distribution.
+5. Execute `unzip pong.zip` to uncompress that file.
 6. Execute `rm pong.zip` to delete that ZIP file.
 7. Execute `ls`. You should see a directory called `pong`.
 8. Execute `cd pong` to change into that directory.
