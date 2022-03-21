@@ -100,7 +100,7 @@ We've seen how new objects are created, but we will also need to *access* the va
 
 You can also use the same *dot* after the object name plus an `=` to add additional properties to an object after it's created or to change existing properties
 
-![adding properties](http://intro2018.cs50nestm.net/wp-content/uploads/2019/04/objects.gif)
+![adding properties](https://raw.githubusercontent.com/cs50nestm/web/master/bubble_objects/objects.gif)
 
 ## Now with Objects
 
