@@ -96,15 +96,14 @@ Congratulations! You are all done! See if you can enhance it now and add additio
 ## Getting Started
 I highly recommend dowloading [Visual Studio](https://visualstudio.microsoft.com/) with [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer&ssr=false#overview) installed on your own computer to develop and test your code.
 
-1. Download this problem’s "distribution code" (i.e., starter code) onto your computer. Copy and paste `https://github.com/cs50nestm/web/raw/master/flappy/flappy.zip` into the address bar of your web browser to download a (compressed) ZIP file. 
-2. Drag this zip file into a folder where you will develop your application, then open that folder in VS Studio.
-5. Execute `unzip flappy.zip` in the terminal you will have access to in VS Studio.
+1. Execute `wget https://github.com/cs50nestm/web/raw/master/flappy/flappy.zip` to download a (compressed) ZIP file with this problem’s distribution.
+2. Execute `unzip flappy.zip` to uncompress that file.
 6. Execute `rm flappy.zip` to delete that ZIP file.
 7. Execute `ls`. You should see a directory called `flappy`.
 8. Execute `cd flappy` to change into that directory.
 9. Execute `ls`. You should see this problem’s distribution code, including `sketch.js`, `index.html` and `style.css`.
 12. Your now ready to start working on your game!
-13. Follow the Live Server documentation to preview your application.
+13. Execute `http-server` to preview your application.
 
 ## Specification
 
