@@ -94,7 +94,7 @@ This problem will take several steps to complete. The videos below will guide yo
 Congratulations! You are all done! See if you can enhance it now and add additional levels!
 	
 ## Getting Started
-I highly recommend dowloading [Visual Studio](https://visualstudio.microsoft.com/) with [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer&ssr=false#overview) installed on your own computer to develop and test your code.
+I highly recommend working in the new [code.cs50.io](https://code.cs50.io) (VS Code in the Web) development environment.
 
 1. Execute `wget https://github.com/cs50nestm/web/raw/master/flappy/flappy.zip` to download a (compressed) ZIP file with this problem’s distribution.
 2. Execute `unzip flappy.zip` to uncompress that file.
