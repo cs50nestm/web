@@ -1,7 +1,7 @@
-# Flappy Bird
+# Breakout
 
 ## tl;dr
-Build a Flappy Bird game.
+Build a Breakout game.
 
 ## Preview
 Once the game is complete, it could look something like this. Of course, you are welcome to use your own graphics as well!
@@ -29,7 +29,13 @@ Once the game is complete, it could look something like this. Of course, you are
 </div>
 
 ## What to Do
-This problem will take several steps to complete. The videos below will guide you through this. I will, of course, be available as well to help explain and troubleshoot.
+This problem will take several steps to complete. The videos below will guide you through this. I will, of course, be available as well to help explain and troubleshoot. After completing this code-a-long, the goal will be to add your own enhancement to the game.
+
+The graphics and the logic for this game were borrowed from **CS50's Introduction to Game Development**, which is made available under a [Creativ Commons License](https://cs50.harvard.edu/games/2018/license) 
+
+Topics that this will cover include:
+Sprite Sheets
+
 
 #### Part 1 
 	1. Creating the infinite scrolling background.
