@@ -31,12 +31,17 @@ Once the game is complete, it could look something like this. Of course, you are
 ## What to Do
 This problem will take several steps to complete. The videos below will guide you through this. I will, of course, be available as well to help explain and troubleshoot. After completing this code-a-long, the goal will be to add your own enhancement to the game.
 
-The graphics and the logic for this game were borrowed from **CS50's Introduction to Game Development**, which is made available under a [Creativ Commons License](https://cs50.harvard.edu/games/2018/license).
+The graphics and the logic for this game were borrowed from **CS50's Introduction to Game Development**, which is made available under a [Creativ Commons License](https://cs50.harvard.edu/games/2018/license), and uses LÖVE2D and Lua, which must be physically installed on a computer.
 
 Topics that this will cover include:
 * Sprite Sheets
-* Procedural Layout
-
+* Procedural Layouts
+* Managing States
+* Levels
+* Player Health
+* Particle Systems
+* Collision Detection Revisited 
+* Persistant Saved Data
 
 #### Part 1 
 	1. Creating the infinite scrolling background.
@@ -46,7 +51,7 @@ Topics that this will cover include:
   <iframe src="https://www.youtube.com/embed/OleQ2oFU4Zk?modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe>
 </div>
 
-#### Part 2
+<!-- #### Part 2
 	3. Creating the bird class.
 	4. Adding gravity
 	5. Adding anti-gravity
@@ -98,7 +103,7 @@ Topics that this will cover include:
   <iframe src="https://www.youtube.com/embed/sveIrq06gco?modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe>
 </div>	
 
-Congratulations! You are all done! See if you can enhance it now and add additional levels!
+Congratulations! You are all done! See if you can enhance it now and add additional levels! -->
 	
 ## Getting Started
 I highly recommend dowloading [Visual Studio](https://visualstudio.microsoft.com/) with [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer&ssr=false#overview) installed on your own computer to develop and test your code.
