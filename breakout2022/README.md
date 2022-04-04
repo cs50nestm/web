@@ -31,10 +31,11 @@ Once the game is complete, it could look something like this. Of course, you are
 ## What to Do
 This problem will take several steps to complete. The videos below will guide you through this. I will, of course, be available as well to help explain and troubleshoot. After completing this code-a-long, the goal will be to add your own enhancement to the game.
 
-The graphics and the logic for this game were borrowed from **CS50's Introduction to Game Development**, which is made available under a [Creativ Commons License](https://cs50.harvard.edu/games/2018/license) 
+The graphics and the logic for this game were borrowed from **CS50's Introduction to Game Development**, which is made available under a [Creativ Commons License](https://cs50.harvard.edu/games/2018/license).
 
 Topics that this will cover include:
-Sprite Sheets
+* Sprite Sheets
+* Procedural Layout
 
 
 #### Part 1 
