@@ -44,12 +44,19 @@ Topics that this will cover include:
 * Persistant Saved Data
 
 #### Part 1 
-	1. Creating the infinite scrolling background.
-	2. Creating a parallax effect.
-
+	1. State flow
+	2. Project organization
+	3. Distro code
+	
 <div class="iframe_container">
   <iframe src="https://www.youtube.com/embed/OleQ2oFU4Zk?modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe>
 </div>
+
+#### Part 2
+	4. Sprite sheets
+	5. Generating quads
+	6. Paddle class
+	
 
 <!-- #### Part 2
 	3. Creating the bird class.
