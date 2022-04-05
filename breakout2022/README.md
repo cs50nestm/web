@@ -122,7 +122,7 @@ I highly recommend working in the new code.cs50.io (VS Code in the Web) developm
 8. Execute `cd breakout` to change into that directory.
 9. Execute `ls`. You should see this problem’s distribution code, including `sketch.js`, `index.html` and `style.css`.
 12. Your now ready to start working on your game!
-13. Follow the Live Server documentation to preview your application.
+13. Execute `http-server` to preview your application.
 
 ## Specification
 
