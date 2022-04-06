@@ -4,7 +4,7 @@
 Build a Breakout game.
 
 ## Preview
-Once the game is complete, it could look something like this. Of course, you are welcome to use your own graphics as well!
+Once the game is complete, it could look something like this. You can then customize it to add powerups, varied size paddles, locked bricks and your own creative touches!
 
 <style type="text/css">
 .iframe_container {
