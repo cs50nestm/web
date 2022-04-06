@@ -55,7 +55,24 @@ Topics that this code-a-long will cover include:
 #### Part 2
 	4. Sprite sheets
 	5. Generating quads
-	6. Paddle class
+	6. The paddle class
+	
+Coming soon!
+
+### Part 3
+	7. The ball class
+	8. The bounce update
+	
+Coming soon!
+
+
+<!-- 
+### Part 4
+	9. The brick update
+	
+### Part 5
+	10. The collision update
+	 -->
 	
 
 <!-- #### Part 2
