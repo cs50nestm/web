@@ -59,11 +59,13 @@ Topics that this code-a-long will cover include:
 	
 Coming soon!
 
-### Part 3
+#### Part 3
 	7. The ball class
 	8. The bounce update
 	
 Coming soon!
+
+And much, much more!
 
 
 <!-- 
