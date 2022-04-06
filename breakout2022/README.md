@@ -132,7 +132,7 @@ Congratulations! You are all done! See if you can enhance it now and add additio
 ## Getting Started
 I highly recommend working in the new code.cs50.io (VS Code in the Web) development environment.
 
-1. Execute `wget https://github.com/cs50nestm/web/raw/master/breakout/breakout.zip` to download a (compressed) ZIP file with this problem’s distribution.
+1. Execute `wget https://github.com/cs50nestm/web/raw/master/breakout2022/breakout.zip` to download a (compressed) ZIP file with this problem’s distribution.
 5. Execute `unzip breakout.zip` in the terminal you will have access to in VS Studio.
 6. Execute `rm breakout.zip` to delete that ZIP file.
 7. Execute `ls`. You should see a directory called `breakout`.
