@@ -33,7 +33,7 @@ This problem will take several steps to complete. The videos below will guide yo
 
 The graphics and the logic for this game were borrowed from [**CS50's Introduction to Game Development**](https://cs50.harvard.edu/games/2018/), which is made available under a [Creative Commons License](https://cs50.harvard.edu/games/2018/license). It uses the programming language Lua and the game framework LÖVE2D, which must be physically installed on a computer. This version is web based and uses JavaScript and p5js.
 
-Topics that this will cover include:
+Topics that this code-a-long will cover include:
 * Sprite Sheets
 * Procedural Layouts
 * Managing States
