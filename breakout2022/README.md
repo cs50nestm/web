@@ -68,10 +68,18 @@ Topics that this code-a-long will cover include:
 <div class="iframe_container">
   <iframe src="https://www.youtube.com/embed/Wkkbfx8Mzqs?modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe>
 </div>	
+
+#### Part 4
+	 9. Paddle / Ball Collision
+	10. Play State
 	
+<div class="iframe_container">
+  <iframe src="https://www.youtube.com/embed/Il6BX2hpxLM?modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe>
+</div>	
 
-More to come!
-
+#### Part 5
+	11. The brick class
+	12. Level Maker
 
 <!-- 
 ### Part 4
