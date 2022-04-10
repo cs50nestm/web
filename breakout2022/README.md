@@ -65,9 +65,12 @@ Topics that this code-a-long will cover include:
 	7. The ball class
 	8. The bounce update
 	
-Coming soon!
+<div class="iframe_container">
+  <iframe src="https://www.youtube.com/embed/Wkkbfx8Mzqs?modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe>
+</div>	
+	
 
-And much, much more!
+More to come!
 
 
 <!-- 
