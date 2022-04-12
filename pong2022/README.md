@@ -162,3 +162,9 @@ I highly recommend working in the new [code.cs50.io](https://code.cs50.io) (VS C
 
 1. **90%** Submit as shown in the class videos
 1. **100%** Add one personal touch
+
+## To submit:
+
+```
+submit50 cs50nestm/checks/2022/pong
+```
