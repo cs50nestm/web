@@ -85,6 +85,19 @@ Topics that this code-a-long will cover include:
   <iframe src="https://www.youtube.com/embed/EI0ZPPPN7Kg?modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe>
 </div>	
 
+#### Part 6
+	13. The collision update
+	
+<div class="iframe_container">
+  <iframe src="https://www.youtube.com/embed/Ax7tzqlCv00?modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe>
+</div>		
+	
+#### Part 7
+
+	14. Adding health (hearts)
+	15. Adding the score
+	
+	
 <!-- 
 ### Part 4
 	9. The brick update
