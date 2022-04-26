@@ -117,6 +117,6 @@ I highly recommend working in the new [code.cs50.io](https://code.cs50.io) (VS C
 ## To submit:
 
 ```
-submit50 cs50nestm/checks/flappy
+submit50 cs50nestm/checks/2022/flappy
 ```
 
