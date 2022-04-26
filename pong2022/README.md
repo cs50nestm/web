@@ -168,7 +168,7 @@ I highly recommend working in the new [code.cs50.io](https://code.cs50.io) (VS C
 There are two parts to submit `Pong`.
 
 1. Create a short video (screen capture) of your program running, and be sure to include any personal touch you may have implemented. Attach this to the assignment in google classroom.
-2. Make sure to cd into your `pong` foloder and execute the following in your terminal:
+2. Make sure to cd into your `pong` folder and execute the following in your terminal:
 
 ```
 submit50 cs50nestm/checks/2022/pong
