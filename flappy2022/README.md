@@ -113,3 +113,10 @@ I highly recommend working in the new [code.cs50.io](https://code.cs50.io) (VS C
 
 1. 90% Submit as demonstrated in code-a-longs
 2. 100% Add one personal touch
+
+## To submit:
+
+```
+submit50 cs50nestm/checks/flappy
+```
+
