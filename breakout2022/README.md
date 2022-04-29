@@ -128,7 +128,15 @@ Topics that this code-a-long will cover include:
   <iframe src="https://www.youtube.com/embed/4KRXldVC3jY?modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe>
 </div>	
 
+#### Part 11
 
+	20. High Scores Update
+	
+*Note that this is almost an hour long video. Adding the high scores involves multiple steps.
+<div class="iframe_container">
+  <iframe src="https://www.youtube.com/embed/X1Hvcqu08hY?modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe>
+</div>	
+	
 <!-- 
 ### Part 4
 	9. The brick update
