@@ -132,73 +132,11 @@ Topics that this code-a-long will cover include:
 
 	20. High Scores Update
 	
-*Note that this is almost an hour long video. Adding the high scores involves multiple steps.
+*Note that this is almost an hour long video. Adding the high scores involves multiple steps.*
 <div class="iframe_container">
   <iframe src="https://www.youtube.com/embed/X1Hvcqu08hY?modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe>
 </div>	
-	
-<!-- 
-### Part 4
-	9. The brick update
-	
-### Part 5
-	10. The collision update
-	 -->
-	
 
-<!-- #### Part 2
-	3. Creating the bird class.
-	4. Adding gravity
-	5. Adding anti-gravity
-	
-<div class="iframe_container">
-  <iframe src="https://www.youtube.com/embed/TTfw_ewULdw?modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe>
-</div>
-
-		
-#### Part 3
-	6. Creating the pipe class.
-	
-<div class="iframe_container">
-  <iframe src="https://www.youtube.com/embed/1Hho76hT48w?modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe>
-</div>	
-	
-#### Part 4	
-	7. Infinite pipes.
-	8. Pairs of pipes.
-	
-<div class="iframe_container">
-  <iframe src="https://www.youtube.com/embed/cbgDjru5OGc?modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe>
-</div>	
-	
-	
-#### Part 5
-	9.  Controlling the placement of the pipe gap.
-	10. Adding the collision algorithm.
-	
-<div class="iframe_container">
-  <iframe src="https://www.youtube.com/embed/TAw4S1ANRvk?modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe>
-</div>		
-		
-#### Part 6	
-	11. Using gameState
-	12. Adding the title, countdown, play and done gameStates
-	
-<div class="iframe_container">
-  <iframe src="https://www.youtube.com/embed/HH2wyDZHVTw?modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe>
-</div>	
-
-#### Part 7
-	13. Scoring points
-	14. Audio update
-	
-*Note: In the video the sound doesn't play, but as soon as I stopped recording the sound played perfectly!*	
-	
-<div class="iframe_container">
-  <iframe src="https://www.youtube.com/embed/sveIrq06gco?modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe>
-</div>	
-
-Congratulations! You are all done! See if you can enhance it now and add additional levels! -->
 	
 ## Getting Started
 I highly recommend working in the new code.cs50.io (VS Code in the Web) development environment.
