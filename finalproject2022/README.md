@@ -1,7 +1,7 @@
 # Comp Sci Final Project 2022
 
 ## tl;dr
-Create a game, a website, an infographic or a presentation.
+Create a game, a website or a presentation.
 
 ## Background
 The climax of this course is its final project. The final project is your opportunity to take your newfound savvy with programming out for a spin and use it to develop something really special.
