@@ -16,7 +16,7 @@ Here are the four different directions you can choose from:
 	- **[Breakout](https://cs50nestm.github.io/web/breakout2022/)** (extend the basic game with powerups, locked bricks, changing paddle size and more!)
 	- **[Mario](https://cs50nestm.github.io/web/mario/)** (program the game mechanics as a code-a-long and develop your own game landscape using totally customized tile maps)
 	- **[Flappy Bird, Snake or Space Invaders](https://thecodingtrain.com/CodingChallenges/115-snake-game-redux.html)** using Dan Shiffman's tutorials.
-	- **Your own game** (Design by you and your team!)
+	- **Your own unique game** (Designed by you and your team!)
 	
 2. **Website** either as a inter-disciplinary project, or on an topic you are particularly passionate about and that helps make the world a better place. Another possibility is to create a game portal and feature your versions of Pong and Flappy Bird, plus any other games (even Scratch) you've completed.
 3. Google Slides presentation on one of the following **impacts of computing**
