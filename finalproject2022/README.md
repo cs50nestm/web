@@ -15,7 +15,7 @@ Here are the three different directions you can choose from:
 	- **[Mario](https://intro.cs50nestm.net/mario)** (program the game mechanics as a code-a-long and develop your own game landscape using totally customized tile maps)
 	- **[Flappy Bird, Snake or Space Invaders](https://thecodingtrain.com/CodingChallenges/115-snake-game-redux.html)** using Dan Shiffman's tutorials.
 
-2. **Website** either as a inter-disciplinary project, or on an topic you are particularly passionate about and that helps make the world a better place.
+2. **Website** either as a inter-disciplinary project, or on an topic you are particularly passionate about and that helps make the world a better place. Another possibility is to create a game portal and feature your versions of Pong and Flappy Bird, plus any other games (even Scratch) you've completed.
 3. Google Slides presentation on one of the following **impacts of computing**
 	- **Beneficial and Harmful Effects:** While computing innovations are typically designed to achieve a specific purpose, they may have unintended consequences.
 	- **Digital Divide:** The “digital divide” refers to differing access to computing devices and the Internet, based on socioeconomic, geographic, or demographic characteristics and raises issues of equity, access, and influence.
