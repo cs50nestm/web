@@ -13,7 +13,7 @@ Here are the four different directions you can choose from:
 
 1. **Game** or Interactive Animation in p5.js.  
 *Note: if you do a game as a final project, you need to do only one game code-a-long, either Pong or Flappy.*
-	- **[Breakout](extend the basic game with powerups, locked bricks, changing paddle size and more!)
+	- **[Breakout](https://cs50nestm.github.io/web/breakout2022/)(extend the basic game with powerups, locked bricks, changing paddle size and more!)
 	- **[Mario](https://cs50nestm.github.io/web/mario/)** (program the game mechanics as a code-a-long and develop your own game landscape using totally customized tile maps)
 	- **[Flappy Bird, Snake or Space Invaders](https://thecodingtrain.com/CodingChallenges/115-snake-game-redux.html)** using Dan Shiffman's tutorials.
 
