@@ -5,10 +5,11 @@ Create a game, a website or a presentation.
 
 ## Background
 The climax of this course is its final project. The final project is your opportunity to take your newfound savvy with programming out for a spin and use it to develop something really special.
-For those who prefer learning more about current issues in computing, the option exists to research and create a presentation on a select topic as well. You may work alone, or in a breakout room with teams of up to four members.
+For those who prefer learning more about current issues in computing, the option exists to research and create a presentation on a select topic as well. You may work alone, or with a team of up to four members.
+Projects will be presented to the entire class in June.
 
 ## Choices
-Here are the three different directions you can choose from:
+Here are the four different directions you can choose from:
 
 1. **Game** or Interactive Animation in p5.js
 	- **[Breakout](https://intro.cs50nestm.net/brick_breaker/)** (begin to use JavaScript objects, arrays of objects, and integrate into HTML page)
@@ -23,6 +24,7 @@ Here are the three different directions you can choose from:
 	- **Crowdsourcing:** Crowdsourcing offers new models for collaboration, such as connecting businesses or social causes with funding.
 	- **Legal and Ethical Concerns:** Ease of access and distribution of digitized information raises intellectual property concerns regarding ownership, value, and use.
 	- **Safe Computing:** The use of computing innovations may involve risks to personal safety and identity. This may involve risks to privacy and/or unauthorized access to computing resources.
+4. Research on a current issue in computer science, or technology in general. This would be presented as a google slide presentation as well, and must be cleared by me.
 
 ## Complete this form to indicate your preference no later than Friday, May 14th
 
