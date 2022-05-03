@@ -12,8 +12,9 @@ Projects will be presented to the entire class in June.
 Here are the four different directions you can choose from:
 
 1. **Game** or Interactive Animation in p5.js
-	- **[Breakout](https://intro.cs50nestm.net/brick_breaker/)** (begin to use JavaScript objects, arrays of objects, and integrate into HTML page)
-	- **[Mario](https://intro.cs50nestm.net/mario)** (program the game mechanics as a code-a-long and develop your own game landscape using totally customized tile maps)
+	*Note: if you do a game as a final project, you need to do only one game code-a-long, either Pong or Flappy.*
+	- **[Breakout](https://cs50nestm.github.io/web/breakout2022/)** (begin to use JavaScript objects, arrays of objects, and integrate into HTML page)
+	- **[Mario](https://cs50nestm.github.io/web/mario/)** (program the game mechanics as a code-a-long and develop your own game landscape using totally customized tile maps)
 	- **[Flappy Bird, Snake or Space Invaders](https://thecodingtrain.com/CodingChallenges/115-snake-game-redux.html)** using Dan Shiffman's tutorials.
 
 2. **Website** either as a inter-disciplinary project, or on an topic you are particularly passionate about and that helps make the world a better place. Another possibility is to create a game portal and feature your versions of Pong and Flappy Bird, plus any other games (even Scratch) you've completed.
@@ -48,5 +49,6 @@ Here are the four different directions you can choose from:
 </style>
 
 <div class="iframe_container">
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScgs-vaZwbhwBov3RABq-FgB9iG31rrhoxS0j03tCIlT7Sn6g/viewform?embedded=true" width="1000" height="1119" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdL4hJrKhfnkmHQNTUOQwpA6Cvd7d8apG2MGUiHTiqIEzKy5w/viewform?embedded=true" width="1000" height="1119" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 </div>
+
