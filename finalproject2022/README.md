@@ -8,17 +8,15 @@ The climax of this course is its final project. The final project is your opport
 For those who prefer learning more about current issues in computing, the option exists to research and create a presentation on a select topic as well. You may work alone, or in a breakout room with teams of up to four members.
 
 ## Choices
-Here are the four different directions you can choose from:
+Here are the three different directions you can choose from:
 
 1. **Game** or Interactive Animation in p5.js
-	- **[Pong](https://intro.cs50nestm.net/pong/)** (continuing to build on the algorithms logic we developed for the paddle ball project)
-	- **[Brick Breaker](https://intro.cs50nestm.net/brick_breaker/)** (begin to use JavaScript objects, arrays of objects, and integrate into HTML page)
+	- **[Breakout](https://intro.cs50nestm.net/brick_breaker/)** (begin to use JavaScript objects, arrays of objects, and integrate into HTML page)
 	- **[Mario](https://intro.cs50nestm.net/mario)** (program the game mechanics as a code-a-long and develop your own game landscape using totally customized tile maps)
 	- **[Flappy Bird, Snake or Space Invaders](https://thecodingtrain.com/CodingChallenges/115-snake-game-redux.html)** using Dan Shiffman's tutorials.
 
 2. **Website** either as a inter-disciplinary project, or on an topic you are particularly passionate about and that helps make the world a better place.
-3. Webpage with **[JavaScript infographics](https://intro.cs50nestm.net/virus)**, such as an interactive graphs or charts. This graph in this virus simulation uses [chart.js](https://www.chartjs.org/docs/latest/charts/line.html)  
-4. Google Slides presentation on one of the following **impacts of computing**
+3. Google Slides presentation on one of the following **impacts of computing**
 	- **Beneficial and Harmful Effects:** While computing innovations are typically designed to achieve a specific purpose, they may have unintended consequences.
 	- **Digital Divide:** The “digital divide” refers to differing access to computing devices and the Internet, based on socioeconomic, geographic, or demographic characteristics and raises issues of equity, access, and influence.
 	- **Computing Bias:** Computing innovations can reflect existing human biases because of biases written into the algorithms or biases in the data used by the innovation.
