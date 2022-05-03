@@ -11,7 +11,7 @@ Projects will be presented to the entire class in June.
 ## Choices
 Here are the four different directions you can choose from:
 
-1. **Game** or Interactive Animation in p5.js. 
+1. **Game** or Interactive Animation in p5.js.  
 *Note: if you do a game as a final project, you need to do only one game code-a-long, either Pong or Flappy.*
 	- **[Breakout](https://cs50nestm.github.io/web/breakout2022/)** (begin to use JavaScript objects, arrays of objects, and integrate into HTML page)
 	- **[Mario](https://cs50nestm.github.io/web/mario/)** (program the game mechanics as a code-a-long and develop your own game landscape using totally customized tile maps)
