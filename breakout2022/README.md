@@ -137,6 +137,14 @@ Topics that this code-a-long will cover include:
   <iframe src="https://www.youtube.com/embed/X1Hvcqu08hY?modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe>
 </div>	
 
+#### Part 12
+	21. Game Music
+	22. Corrections
+	
+<div class="iframe_container">
+  <iframe src="https://www.youtube.com/embed/_3yUiQvuuug?modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe>
+</div>		
+	
 	
 ## Getting Started
 I highly recommend working in the new code.cs50.io (VS Code in the Web) development environment.
