@@ -160,9 +160,7 @@ I highly recommend working in the new code.cs50.io (VS Code in the Web) developm
 
 ## Specification
 
-1. Create the game, as per the videos, and add one personal feature, to make it your own.
-
-Here are some ideas on how to take Breakout to the next level!
+Create the game, as per the videos, and add one personal feature, to make it your own. Here are some ideas on how to take Breakout to the next level!
 
 * Add the ability to pause the game when you press the spacebar.
 
@@ -172,7 +170,7 @@ Here are some ideas on how to take Breakout to the next level!
 
 * Add a locked Brick (located in the sprite sheet) to the level spawning, as well as a key powerup (also in the sprite sheet). The locked Brick should not be breakable by the ball normally, unless they of course have the key Powerup! The key Powerup should spawn randomly just like the Ball Powerup and descend toward the bottom of the screen just the same, where the Paddle has the chance to collide with it and pick it up. You’ll need to take a closer look at the LevelMaker class to see how we could implement the locked Brick into the level generation. Not every level needs to have locked Bricks; just include them occasionally! Perhaps make them worth a lot more points as well in order to compel their design. Note that this feature will require changes to several parts of the code, including even splitting up the sprite sheet into Bricks!
 
-Here is what these enhancements could look like!
+* Here is what these enhancements could look like!
 
 <div class="iframe_container">
   <iframe src="https://www.youtube.com/embed/2Dhn6uvnpJE?modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe>
