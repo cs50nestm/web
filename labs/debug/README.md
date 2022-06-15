@@ -7,7 +7,7 @@
 
 ## Preview
 
-![DebugGif](https://raw.githubusercontent.com/cs50nestm/web/blob/master/labs/debug/debug.gif)
+![DebugGif](https://github.com/cs50nestm/web/blob/master/labs/debug/debug.gif))
 
 ## Background
 
