@@ -2,7 +2,20 @@
 
 ## Learning Goals
   * Become familiar with C Syntax
-  * Begin to get practice debugging
+  * Learn what C compiler error messages mean
+  * Get practice debugging
 
-## 
+## Background
+
+There are two kinds of errors that can occur when writing a program. The first errors that students are likely to encounter are *syntactical* errors.
+
+In Computer Science, syntax is important for a computer to understand what you are telling it to do. Each programming language has its own syntactical rules, which include the combination of both words and punctuation. 
+
+This lab starts with distribution code which has several syntactical errors. The idea is for students to try to compile (make) the program, learn to interpret the rather cryptic error messages output by the compiler, and *debug* the program.
+
+## What to do
+
+
+
+
 
