@@ -27,7 +27,7 @@ cd labs1
 ```
 5. Then execute
 ```
-wget https://
+wget https:////github.com/cs50nestm/web/raw/master/distro/debug.c
 ```
 
 
