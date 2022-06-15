@@ -21,7 +21,8 @@ This lab starts with distribution code which has several syntactical errors. The
 4. Now execute `cd labs1`
 5. Then copy and paste `wget https:////github.com/cs50nestm/web/raw/master/distro/debug.c` into your terminal to download this lab's distribution code.
 6. Now try compiling this program, by typing `make debug` and see what happens!
-7. You most likely see several errors. Your job now is to decipher these error messages, and debug the program.
+7. You most likely see an error that says: `debug.c:9:5: error: use of undeclared identifier 'name'`
+8. Fix this bug, and then try to compile again. Keep in mind that debugging is an iterative process. You may need to fix an error, compile, then fix another error, compile again, multiple times!
 
 
 
