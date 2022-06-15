@@ -17,13 +17,17 @@ This lab starts with distribution code which has several syntactical errors. The
 
 1. Log into [code.cs50.io](https://code.cs50.io/) using your GitHub account. 
 2. Click inside the terminal window and execute `cd`.
-3. Type 
+3. At the `$` prompt type 
 ```
 mkdir labs1
 ```
 4. Now execute
 ```
 cd labs1
+```
+5. Then execute
+```
+wget https://
 ```
 
 
