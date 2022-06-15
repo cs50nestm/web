@@ -7,7 +7,7 @@
 
 ## Background
 
-There are two kinds of errors that can occur when writing a program. The first errors that students are likely to encounter are **syntactical** errors.
+There are two kinds of errors that can occur when writing a program. The first errors that students are likely to encounter are **syntactical** errors. In addition to syntactical errors, there can also be logical errors, which we'll take a look at soon.
 
 In Computer Science, syntax is important for a computer to understand what you are telling it to do. Each programming language has its own syntactical rules, which include the combination of both words and punctuation. 
 
@@ -29,6 +29,7 @@ cd labs1
 ```
 wget https:////github.com/cs50nestm/web/raw/master/distro/debug.c
 ```
+
 
 
 
