@@ -17,18 +17,11 @@ This lab starts with distribution code which has several syntactical errors. The
 
 1. Log into [code.cs50.io](https://code.cs50.io/) using your GitHub account. 
 2. Click inside the terminal window and execute `cd`.
-3. At the `$` prompt type 
-```
-mkdir labs1
-```
-4. Now execute
-```
-cd labs1
-```
-5. Then execute
-```
-wget https:////github.com/cs50nestm/web/raw/master/distro/debug.c
-```
+3. At the `$` prompt, type `mkdir labs1`
+4. Now execute `cd labs1`
+5. Then copy and paste `wget https:////github.com/cs50nestm/web/raw/master/distro/debug.c` into your terminal to download this lab's distribution code.
+6. Now try compiling this program, by typing `make debug` and see what happens!
+7. You most likely see several errors. Your job now is to decipher these error messages, and debug the program.
 
 
 
