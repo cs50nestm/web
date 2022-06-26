@@ -25,8 +25,8 @@ This lab starts with distribution code which has several syntactical errors. The
 
 ## Demo
 
-<!-- ![DebugGif](https://raw.githubusercontent.com/cs50nestm/web/master/labs/debug/debugDemo.gif) -->
-![DebugGif](https://raw.githubusercontent.com/cs50nestm/web/master/labs/debug/debugDemo.gif | width=100)
+![DebugGif](https://raw.githubusercontent.com/cs50nestm/web/master/labs/debug/debugDemo.gif)
+<!-- ![DebugGif](https://raw.githubusercontent.com/cs50nestm/web/master/labs/debug/debugDemo.gif | width=100) -->
 
 <!-- <img src="https://raw.githubusercontent.com/cs50nestm/web/master/labs/debug/debugDemo.gif" width=100%>  -->
 
