@@ -7,8 +7,8 @@
 
 ## Preview
 
-<!-- ![DebugGif](https://github.com/cs50nestm/web/blob/master/labs/debug/debug.gif | width=100) -->
-<img src="https://raw.githubusercontent.com/cs50nestm/web/master/labs/debug/debugDemo.gif" width=100%> 
+![DebugGif](https://raw.githubusercontent.com/cs50nestm/web/master/labs/debug/debugDemo.gif | width=100)
+<!-- <img src="https://raw.githubusercontent.com/cs50nestm/web/master/labs/debug/debugDemo.gif" width=100%>  -->
 
 
 
