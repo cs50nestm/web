@@ -22,6 +22,15 @@ In Computer Science, syntax is important for a computer to understand what you a
 
 This lab starts with distribution code which has several syntactical errors. The idea is for students to try to compile (make) the program, learn to interpret the rather cryptic error messages output by the compiler, and **debug** the program.
 
+<details>
+ <summary>Hints</summary>
+ 
+1. Compile (make) the program
+2. Note the line number of the error.
+ 
+</detail>
+ 
+
 ## Getting Started
 
 1. Log into [code.cs50.io](https://code.cs50.io/) using your GitHub account. 
