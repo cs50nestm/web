@@ -21,6 +21,7 @@ This lab starts with distribution code which has several syntactical errors. The
 1. Compile (make) the program
 2. The first error will probably say `debug.c:9:5: error: use of undeclared identifier 'name'`. The `9` after `debug.c:` means there is a problem on line 9. Why do you think is says `undeclared identifier`?
 3. You may want to look for errors such as missing symbols, missing libraries, missing variable declarations.
+4. If you are still stuck, try typing into the terminal `help50 make debug`.
  
  
 </details>
