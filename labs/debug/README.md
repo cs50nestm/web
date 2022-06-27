@@ -44,6 +44,16 @@ This lab starts with distribution code which has several syntactical errors. The
 7. You most likely see an error that says: `debug.c:9:5: error: use of undeclared identifier 'name'`
 8. This means there is an error that has something to do with an undeclared identifier, on line 9. Fix this bug, and then try to compile again. Keep in mind that debugging is an iterative process. You may need to fix an error, compile, then fix another error, compile again, multiple times!
 
+## Checking style
 
+Before "submitting" any of your programs, you should always first check for correct style! Good style means your indentations and spacing are correct, which makes your code easier to read and debug. To do this, you can always type in `style50` into your terminal in front of the name of your `.c` file. But first, as when compiling, you must make sure your terminal is positioned in the correct directory.
+
+```
+style50 debug.c
+```
+
+## Submitting your completed program
+
+TODO
 
 
