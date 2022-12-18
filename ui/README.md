@@ -40,14 +40,14 @@ Of course, before we had devices like Echo or now Echo Dot, the biggest innovati
 
 Hmm... well, there's a fun fact! To be sure, touch screen interfaces existed before even the 1990s, but in the timeline of computing, they're still a fairly modern spin on human-machine interaction.
 
-We stole Apple's thunder a moment ago, but to give them some credit, they did have the first commercially-successful modern **graphical user interface** (GUI) for home computing, with the Macintosh 128K computer, which was released in 1984. (Windows 1.0, the analogous Microsoft-produced operating systemfootnote:[There's actually a fascinating history of collaboration between Apple and Microsoft here, which is well worth reading up on to get some context about the modern game of rivalry and one-upsmanship between the two companies.] was released one year later).
+We stole Apple's thunder a moment ago, but to give them some credit, they did have the first commercially-successful modern **graphical user interface** (GUI) for home computing, with the Macintosh 128K computer, which was released in 1984. (Windows 1.0, the analogous Microsoft-produced operating system<sup>1</sup> was released one year later).
 
 
 <div class="iframe_container">
   <iframe src="https://www.youtube.com/embed/AyuuqsGoXys?modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe>
 </div>
 
-The computer mouse, which was popularized by the Macintosh 128K but was not itself invented by Applefootnote:[It was actually a successor (after several generations of design iteration) to the trackball, which was first invented in 1947!], was critical to the success of graphical user interfaces because it gave humans a convenient and visually-intuitive way to interact with their machines; the gestures made with the pointing devices on the surface of the desk or table was replicated by the pointing arrow on screen.
+The computer mouse, which was popularized by the Macintosh 128K but was not itself invented by Apple<sup>2</sup>, was critical to the success of graphical user interfaces because it gave humans a convenient and visually-intuitive way to interact with their machines; the gestures made with the pointing devices on the surface of the desk or table was replicated by the pointing arrow on screen.
 
 Humans had, of course, long been able to interact with machines. But from the mid-1960s through the mid-1980s most of that interaction was done through a **command-line interface** (CLI) which can indeed be a bit more complex. (The Apple advertisement video above, though it cuts off the beginning, is effectively criticizing the then-prevailing enterprise computer system, the IBM personal computer, which required command-line interaction and came with a number of large manuals describing the various text-based commands one could use.)
 
@@ -79,10 +79,10 @@ The second thing we'd like you to do is to find the nearest crystal ball and tak
 
 Importantly, don't forget this question: Why do you think your prediction is the wave of the future?
 
-If completely unsure where to begin, head to Netflix's repository of science fiction moviesfootnote:[Or, if you still have one in your area, the local video rental place. Just be sure to return the movie on time; those overdue fees are just awful.] for inspiration. Your creativity is the only limiting factor in this part!
+If completely unsure where to begin, head to Netflix's repository of science fiction movies for inspiration. Your creativity is the only limiting factor in this part!
 
 You needn't write more than 200 words for this part of the problem (both write ups should be in the same file); predicting the future is tough work! Just ask a meteorologist.
 
-## How to Submit
-
-Please submit this writing problem via Google Classroom!
+### Footnotes
+1. There's actually a fascinating history of collaboration between Apple and Microsoft here, which is well worth reading up on to get some context about the modern game of rivalry and one-upsmanship between the two companies.
+2. It was actually a successor (after several generations of design iteration) to the trackball, which was first invented in 1947!
