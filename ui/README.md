@@ -65,7 +65,7 @@ Phew! Aren't you glad you don't have to program with punch cards?
 
 In that history lesson, we omitted a large variety of interface types that popped up in between (though many of them are admittedly variations on a theme), but give us credit: we did disclaim that it was a __brief__ history. In this writing problem, we want you to do two separate things, possibly filling in some of the gaps over which we jumped.
 
-Open the Google doc linked to this assignment in Google Classroom. First, pick two different types of interface and juxtapose them. You aren't limited to the types we've spoken about above, as indeed https://en.wikipedia.org/wiki/User_interface#Types[there are numerous others]. How are your chosen interfaces alike, and how are they different?
+Open the Google doc linked to this assignment in Google Classroom. First, pick two different types of interface and juxtapose them. You aren't limited to the types we've spoken about above, as indeed [there are numerous others](https://en.wikipedia.org/wiki/User_interface#Types). How are your chosen interfaces alike, and how are they different?
 
 Try to go beyond the surface. Yes, a CLI is similar to a VUI inasmuch as both allow humans to interact with a computer. How else are they similar? One example might be that they both can be frustrating to use. A CLI requires you (the user) to learn the commands required to interact with the system by learning them from reading a manual; this requires time and effort. But a VUI can be tricky to work with, too. How many times have you use Siri or Google Now only to find it has completely misinterpreted what you said, requiring you to repeat yourself (perhaps ridiculously and loudly enunciating in a public space) in order to have the desired result?
 
