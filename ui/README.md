@@ -1,13 +1,11 @@
 
-= Writing Problem: Me, Myself, and UI
+# Writing Problem: Me, Myself, and UI
 
-== tl;dr
+## tl;dr
 
 Learn about user interfaces and apply your knowledge toward predicting the future.
 
-include::../../honesty.adoc[]
-
-== A Brief History of Time
+## A Brief History of Time
 
 Suffice it to say, interacting with computers is getting easier and easier, though hopefully not because us humans are getting lazier and lazier. Nowadays, you don't even have to physically touch your computer in order to interact with it, as **voice user interfaces** (VUI) have entered the mainstream.
 
@@ -35,7 +33,7 @@ video::oaVwzYN6BP4[youtube]
 
 Phew! Aren't you glad you don't have to program with punch cards?
 
-== The Good, The Bad...
+## The Good, The Bad...
 
 In that history lesson, we omitted a large variety of interface types that popped up in between (though many of them are admittedly variations on a theme), but give us credit: we did disclaim that it was a __brief__ history. In this writing problem, we want you to do two separate things, possibly filling in some of the gaps over which we jumped.
 
@@ -47,7 +45,7 @@ The contrast part, we assume, will be a bit easier than the compare part. Again 
 
 You should aim to write about 300 to 400 words in this part of the problem.
 
-== ...and the Future
+## ...and the Future
 
 The second thing we'd like you to do is to find the nearest crystal ball and take a little time to predict the future of user interfaces. Things have certainly evolved since the 1940s, but it seems quite unlikely that we've reached the pinnacle of human-machine interaction already. Where do you think things are heading in the next 5 years? 10 years? 50 years?
 
@@ -57,24 +55,6 @@ If completely unsure where to begin, head to Netflix's repository of science fic
 
 You needn't write more than 200 words for this part of the problem (both write ups should be in the same file); predicting the future is tough work! Just ask a meteorologist.
 
-== How to Submit
+## How to Submit
 
-=== Step 1 of 3
-
-Go to https://github.com/me50/USERNAME, substituting `USERNAME` in the URL with your own GitHub username. On the left side of the screen, click on "Branch: master". In the field that says "Find or create a branch...", type `cs50/problems/2019/ap/ui` and click "Create branch".
-
-=== Step 2 of 3
-
-Click the button that says "Upload files". Drag your `ui.(doc, docx, pdf, txt)` file into the box that says "Drag files here".
-
-=== Step 3 of 3
-
-Click the green "Commit changes" button and you're done!
-
-If you run into any trouble, email sysadmins@cs50.harvard.edu!
-
-You may resubmit any problem as many times as you'd like before the deadline.
-
-Your submission should be graded for correctness within 2 minutes, at which point your score will appear at https://submit.cs50.io/[submit.cs50.io]!
-
-This was Me, Myself, and UI.
+Please submit this writing problem via Google Classroom!
