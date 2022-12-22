@@ -83,6 +83,9 @@ If completely unsure where to begin, head to Netflix's repository of science fic
 
 You needn't write more than 200 words for this part of the problem (both write ups should be in the same file); predicting the future is tough work! Just ask a meteorologist.
 
+### Note
+Please be sure to include at least 2 citations for full credit!
+
 ### Footnotes
 1. There's actually a fascinating history of collaboration between Apple and Microsoft here, which is well worth reading up on to get some context about the modern game of rivalry and one-upsmanship between the two companies.
 2. It was actually a successor (after several generations of design iteration) to the trackball, which was first invented in 1947!
