@@ -46,7 +46,7 @@ The code you created with your teacher, probably looks something like this, alth
 </html>
 ```
 
-Working in your [codespace](code.cs50.io) you will start by typing this code into a file called `mypage.html`.
+Working in your [codespace](https://code.cs50.io) you will start by typing this code into a file called `mypage.html`.
 
 If you haven't yet created a new directory for this unit, create one called `unit3` or whatever you prefer, then `cd` into it.
 
