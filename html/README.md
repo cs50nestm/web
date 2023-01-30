@@ -46,7 +46,21 @@ The code you created with your teacher, probably looks something like this, alth
 </html>
 ```
 
-Working in the [CS50 IDE](https://ide.cs50.io) make sure you have this starter code typed into a file called `mypage.html`.
+Working in your [codespace](code.cs50.io) you will start by typing this code into a file called `mypage.html`.
+
+If you haven't yet created a new directory for this unit, create one called `unit3` or whatever you prefer, then `cd` into it.
+
+```
+mkdir unit3
+cd unit3
+```
+
+Then you can create a new `html` file by typing in your terminal:
+
+```
+code mypage.html
+```
+
 
 Then to start up a server to be able to view your web page, type:
 
