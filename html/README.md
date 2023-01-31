@@ -4,7 +4,7 @@
 
 Beyond introducing you to web programming, the overarching goal of this problem is to empower you to teach yourself new languages so that you can stand on your own at the end of the year. We’ll guide you through each, but if you nonetheless find yourself Googling and asking lots of questions of classmates and staff, rest assured you’re doing it right!
 
-First consider joining Daven for a tour of `HTML`. Focus for now on the `HTML`. We'll add in `CSS` later on.
+First consider joining Doug for a tour of `HTML`. 
 
 <style type="text/css">
 .iframe_container {
@@ -25,7 +25,7 @@ First consider joining Daven for a tour of `HTML`. Focus for now on the `HTML`. 
 </style>
 
 <div class="iframe_container">
-  <iframe src="https://www.youtube.com/embed/dM5V1epAbSs?modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe>
+  <iframe src="https://www.youtube.com/embed/YK78KhMf7bs?modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe>
 </div>
 
 
