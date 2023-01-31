@@ -69,7 +69,7 @@ Then to start up a server to be able to view your web page, type:
 http-server
 ```
 
-into the terminal window, and then click on provided link. You will see a directory of all files in your current directory. Then click on the `mypage.html` link and you can preview your page.
+into the terminal window, and then click on provided link. You will see a directory of all files in your current directory. Then click on the `index.html` link and you can preview your page.
 
 Once `http-server` is running, you can preview any changes just by clicking on the refresh button.
 
@@ -87,7 +87,7 @@ With your name instead of mine!
 
 **Second**, add a picture of yourself, or something you like using `<img>` tags.
 
-If you find a picture of yourself online, or email one to yourself, you can drag the '.jpg' or '.png' file into your workspace. Make sure the name of the file has no spaces in it. If I had a picture saved as a `mtanzosh.png` in my workspace (click on the directory sidebar foler icon to the left of the `mypage.html` tab to see the files in your workspace), I could then import it as
+If you find a picture of yourself online, or email one to yourself, you can drag the '.jpg' or '.png' file into your workspace. Make sure the name of the file has no spaces in it. If I had a picture saved as a `mtanzosh.png` in my workspace (click on the directory sidebar foler icon to the left of the `index.html` tab to see the files in your workspace), I could then import it as
 
 ```html
 <img alt="Tanzosh" src="mtanzosh.png">
