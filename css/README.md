@@ -64,7 +64,7 @@ cd ..
 mkdir css
 cd css
 code index.html
-``
+```
 
 Then paste the code from your HTML project into your CSS project.
 
