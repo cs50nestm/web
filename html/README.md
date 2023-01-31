@@ -46,7 +46,7 @@ The code you created with your teacher, probably looks something like this, alth
 </html>
 ```
 
-Working in your [codespace](https://code.cs50.io) you will start by typing this code into a file called `mypage.html`.
+Working in your [codespace](https://code.cs50.io) you will start by typing this code into a file called `index.html`. But first create your directories.
 
 If you haven't yet created a new directory for this unit, create one called `unit3` or whatever you prefer, then `cd` into it.
 
@@ -55,12 +55,13 @@ mkdir unit3
 cd unit3
 ```
 
-Then you can create a new `html` file by typing in your terminal:
+When working on web based programs, it's important to have a separate directory for each project. So create a new directory, `cd` into it, then make your html file and name it `index.html`.
 
 ```
-code mypage.html
+mkdir html
+cd html
+code index.html
 ```
-
 
 Then to start up a server to be able to view your web page, type:
 
