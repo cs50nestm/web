@@ -6,7 +6,7 @@
 
 To style webpages, we’ll use another language, CSS, Cascading Style Sheets. CSS describes how HTML elements are to be displayed on screen, paper, or in other media and is a very important part of web design.
 
-Consider joining Joseph for a tour of CSS:
+Consider joining Doug again, this time for a tour of CSS:
 
 <style type="text/css">
 .iframe_container {
@@ -27,7 +27,7 @@ Consider joining Joseph for a tour of CSS:
 </style>
 
 <div class="iframe_container">
-  <iframe src="https://www.youtube.com/embed/kg0ZOmUREwc?modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe>
+  <iframe src="https://www.youtube.com/embed/Ub3FKU21ubk?modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe>
 </div>
 
 ## What You Can Do with CSS
@@ -53,9 +53,20 @@ Start by previewing the HTML program you just completed. Remember to preview a w
 http-server
 ```
 
-into the terminal window, and then click on the refresh button under the brower tab on the right. Then click on the `mypage.html` link and you can preview your page.
+into the terminal window, and then click on the `index.html` link and you can preview your page.
 
 The page probably has a picture on it, and if it doesn't, please do add one. It may not be styled well so let's get to work! Now that you know `HTML` feel free to edit the text, and add a different picture instead.
+
+You can use this file as a starting point. To do this, copy the contents of your `index.html` in your `html` folder, then go back to your `unit3` directory in your terminal and create a new `css`folder. Then `cd` into this new folder and create a new `index.html` file.
+
+```
+cd ..
+mkdir css
+cd css
+code index.html
+``
+
+Then paste the code from your HTML project into your CSS project.
 
 Let's start by centering the heading. There are many ways of doing this with `CSS`. You can add style attributes directly into your `HTML` tags, use a `<style>` element in the `<head>` section, or link an external `CSS` file that you link into the `<head>` section of your `HTML`. 
 
