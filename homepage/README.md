@@ -1,7 +1,7 @@
 # Problem: Homepage
 
 ## tl;dr
-Build a simple website of your **Landmark Essay** using HTML and CSS in [codespace](https://code.cs50.io).
+Build a simple website of your **Landmark Essay** using HTML and CSS in your [codespace](https://code.cs50.io).
 
 ## Background
 The internet has enabled incredible things: we can use a search engine to research anything imaginable, communicate with friends and family members around the globe, play games, take courses, and so much more. But it turns out that nearly all pages we may visit are built on three core languages, each of which serves a slightly different purpose:
@@ -55,10 +55,10 @@ Fianally watch the section of the video below, from 1:23 to 7:28 to learn more a
 
 
 ## Getting Started
-Here’s how to download this problem’s "distribution code" (i.e., starter code) into your own CS50 IDE. Log into [CS50 IDE](https://ide.cs50.io) and then, in a terminal window, execute each of the below.
+Here’s how to download this problem’s "distribution code" (i.e., starter code) into your own CS50 IDE. Log into [code.cs50.io](https://code.cs50.io) and then, in a terminal window, execute each of the below.
 
 1. Execute `cd` to ensure that you’re in` ~/` (i.e., your home directory, aka ~).
-4. Execute `wget http://cdn.cs50.net/2020/fall/psets/8/homepage/homepage.zip` to download a (compressed) ZIP file with this problem’s distribution.
+4. Execute `wget https://cdn.cs50.net/2021/fall/psets/8/homepage.zip` to download a (compressed) ZIP file with this problem’s distribution.
 5. Execute `unzip homepage.zip` to uncompress that file.
 6. Execute `rm homepage.zip` followed by `yes` or `y` to delete that ZIP file.
 7. Execute `ls`. You should see a directory called `homepage`, which was inside of that ZIP file.
@@ -82,12 +82,11 @@ Use at least ten (10) distinct HTML tags besides `<html>`, `<head>`, `<body>`, a
 Integrate one or more features from Bootstrap into your site. Bootstrap is a popular library (that comes with lots of CSS classes and more) via which you can beautify your site. See [Bootstrap’s documentation](https://getbootstrap.com/docs/4.5/getting-started/introduction/) to get started. To add Bootstrap to your site, it suffices to include
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 ```
 
-in your pages' <head>, below which can
+in your pages' <head>, below which you can also include
 
 ```html
 <link href="styles.css" rel="stylesheet">
