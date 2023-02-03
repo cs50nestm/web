@@ -1,7 +1,7 @@
 # Problem: Homepage
 
 ## tl;dr
-Build a simple website of your **Landmark Essay** using HTML and CSS in the [CS50 IDE](https://ide.cs50.io).
+Build a simple website of your **Landmark Essay** using HTML and CSS in [codespace](https://code.cs50.io).
 
 ## Background
 The internet has enabled incredible things: we can use a search engine to research anything imaginable, communicate with friends and family members around the globe, play games, take courses, and so much more. But it turns out that nearly all pages we may visit are built on three core languages, each of which serves a slightly different purpose:
@@ -157,7 +157,7 @@ To submit homepage, execute
 
 ```
 cd homepage
-submit50 cs50/problems/2019/ap/homepage
+submit50 cs50/problems/2022/x/homepage
 ```
 
 inputting your GitHub username and GitHub password as prompted.
