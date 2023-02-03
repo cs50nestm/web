@@ -1,7 +1,7 @@
 # Problem: Homepage
 
 ## tl;dr
-Build a simple website of your **Landmark Essay** using HTML and CSS in your [codespace](https://code.cs50.io).
+Build a simple website of your **Write My New York** using HTML and CSS in your [codespace](https://code.cs50.io).
 
 ## Background
 The internet has enabled incredible things: we can use a search engine to research anything imaginable, communicate with friends and family members around the globe, play games, take courses, and so much more. But it turns out that nearly all pages we may visit are built on three core languages, each of which serves a slightly different purpose:
