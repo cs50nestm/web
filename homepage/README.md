@@ -159,8 +159,6 @@ cd homepage
 submit50 cs50/problems/2022/x/homepage
 ```
 
-inputting your GitHub username and GitHub password as prompted.
-
 Your submission should be graded for completion only within 2 minutes, at which point your score will appear at submit.cs50.io!
 
 This was Homepage.
