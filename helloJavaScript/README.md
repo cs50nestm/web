@@ -1,7 +1,7 @@
 # Hello to JavaScript
 
 ## tl;dr
-Learn to use JavaScript to get input from a form and use it to modify my HTML in your CS50 [codespace](https://code.cs50.io).
+Learn to use JavaScript to get input from a form and use it to modify HTML in your CS50 [codespace](https://code.cs50.io).
 <!-- Build a simple website of your **Write My New York** using HTML and CSS in your [codespace](https://code.cs50.io). -->
 
 ## Background
