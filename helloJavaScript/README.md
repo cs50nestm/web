@@ -62,10 +62,6 @@ In the file `hello.html`, complete the JavaScript to output:
 
 ## How to Submit
 
-<!-- Make sure you are in the hellojavascript directory and execute
-
-Coming soon! -->
-
-Coming soon!
+submit50 cs50nestm/checks/2020/hellojavascript
 
 Your submission should be graded for completion only within 2 minutes, at which point your score will appear at submit.cs50.io!
