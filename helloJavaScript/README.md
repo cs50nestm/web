@@ -58,13 +58,13 @@ In the file `hello.html`, complete the JavaScript to output:
 
 “Hello, world!” when nothing is input into the text box, and “Hello, Margaret” when I entered my name, Margaret as below.
 
+![hello](hellojavascript.png)
+
 
 ## How to Submit
 
 Make sure you are in the hellojavascript directory and execute
 
-```
-submit50 cs50/problems/2022/x/homepage
-```
+Coming soon!
 
 Your submission should be graded for completion only within 2 minutes, at which point your score will appear at submit.cs50.io!
