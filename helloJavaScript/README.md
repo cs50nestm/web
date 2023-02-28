@@ -60,10 +60,11 @@ In the file `hello.html`, complete the JavaScript to output:
 
 ![hello](hellojavascript.png)
 
-
 ## How to Submit
 
-Make sure you are in the hellojavascript directory and execute
+<!-- Make sure you are in the hellojavascript directory and execute
+
+Coming soon! -->
 
 Coming soon!
 
