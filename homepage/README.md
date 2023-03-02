@@ -107,7 +107,7 @@ Within [code.cs50.io](https://code.cs50.io), navigate to your `homepage` directo
 $ http-server
 ```
 
-1. Within [code.cs50.io](https://code.cs50.io), right-click (or Ctrl+click, on a Mac) on the `homepage` directory in the file tree at left. From the options that appear, select **Serve**, which should open a new tab in your browser (it may take a second or two) with your site therein.
+1. Within [code.cs50.io](https://code.cs50.io), command (or control) click on the link provided, which should open a new tab in your browser (it may take a second or two) with your site therein.
 
 Recall also that by opening Developer Tools in Google Chrome, you can simulate visiting your page on a mobile device by clicking the phone-shaped icon to the left of **Elements** in the developer tools window, or, once the Developer Tools tab has already been opened, by typing `Ctrl`+`Shift`+`M` on a PC or `Cmd`+`Shift`+`M` on a Mac, rather than needing to visit your site on a mobile device separately!
 
