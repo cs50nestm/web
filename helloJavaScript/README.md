@@ -82,8 +82,6 @@ Watch the JavaScript chapter in the CS50 Lecture Video.
 }
 </style>
 
-First watch this video with Brian Yu on using `HTML` in the CS50 IDE:
-
 <div class="iframe_container">
   <iframe src="https://www.youtube.com/embed/5g0x2xv3aHU?start=6755;modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe>
 </div>
@@ -94,7 +92,7 @@ Watch the CS50 Short on JavaScript:
   <iframe src="https://www.youtube.com/embed/Z93IaNfavZw?modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe>
 </div>
 
-Finally, keep an eye out for a walk through of the solution for this problem. But be sure to try it yourself first!
+Finally, keep an eye out for a walk through of the solution for this problem that I will post in the next few days. But be sure to try it yourself first!
 
 ## How to Submit
 
