@@ -94,9 +94,6 @@ function convert() {
 
 Remember this function will execute when the user clicks the `convert` button, so this would be a good time to save the number of degrees entered in a new variable. If the user doesn't enter anything, this value will be an empty string. You should also test the choice the user makes for conversion and test that this value is not missing. If either of these values is missing (when the choice is missing `choice.value` will be equal to "none") use a JavaScript alert to yell at the user and return from this function.
 
-## Hint
-*You can access the contents of the text box containing the temperature the user inputs by using `input.value`. Also note that getting input from an HTML input text box always comes into JavaScript as a string. Even if it looks like a number. Look up `pareseInt` and `parseFloat` to learn more about how to convert to an int and a float!*
-
 Now you can test if choice.value is equal to "ftoc" in which case you will want to calculate degrees celsius, or "ctof" in which you will want to calculate degrees fahrenheit. 
 
 After performing the appropriate calculation, create a string using JavaScript concatenation that says something like:
@@ -106,6 +103,9 @@ After performing the appropriate calculation, create a string using JavaScript c
 ```
 
 Finally make sure your output uses exactly one decimal point for ease of reading. You may have to look up on W3Schools how to do this.
+
+## Hint
+*You can access the contents of the text box containing the temperature the user inputs by using `input.value`. Also note that getting input from an HTML input text box always comes into JavaScript as a string. Even if it looks like a number. Look up `pareseInt` and `parseFloat` to learn more about how to convert to an int and a float!*
 
 ## Additional Resources
 
