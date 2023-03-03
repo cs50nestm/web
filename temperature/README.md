@@ -1,7 +1,7 @@
 # Problem: Temperature Conversion
 
 ## tl;dr
-Complete the JavaScript code to add funcionality to a temperature conversion web page in the [CS50 IDE](https://ide.cs50.io).
+Complete the JavaScript code to add funcionality to a temperature conversion web page in your CS50 [codespace](https://code.cs50.io).
 
 ![thermometer](https://i.ytimg.com/vi/CHn_lLbnm8c/maxresdefault.jpg)
 
@@ -38,7 +38,7 @@ Watch Brian Yu demonstrate using JavaScript in the CS50 IDE for an introduction.
 </div>
 
 ## Getting Started
-Here’s how to download this problem’s "distribution code" (i.e., starter code) into your own CS50 IDE. Log into [CS50 IDE](https://ide.cs50.io) and then, in a terminal window, execute each of the below.
+Here’s how to download this problem’s "distribution code" (i.e., starter code). Log into [code.cs50.io](https://code.cs50.io) and then, in a terminal window, execute each of the below.
 
 1. Execute `wget https://intro.cs50nestm.net/wp-content/uploads/2020/02/temperature.zip` to download a (compressed) ZIP file with this problem’s distribution.
 2. Execute `unzip temperature.zip` to uncompress that file.
@@ -92,7 +92,9 @@ function convert() {
 }
 ```
 
-Remember this function will execute when the user clicks the `convert` button, so this would be a good time to get the number of degrees entered, the choice the user makes for conversion and test that these values are not blank. If either of these values is missing (when the choice is missing choice.value will be equal to "none") use a JavaScript alert to yell at the user and return from this function.
+Remember this function will execute when the user clicks the `convert` button, so this would be a good time to save the number of degrees entered in a new variable. If the user doesn't enter anything, this value will be an empty string. You should also test the choice the user makes for conversion and test that this value is not missing. If either of these values is missing (when the choice is missing `choice.value` will be equal to "none") use a JavaScript alert to yell at the user and return from this function.
+
+*Hint: You can access the contents of the text box containing the temperature the user inputs by using `input.value`.*
 
 Now you can test if choice.value is equal to "ftoc" in which case you will want to calculate degrees celsius, or "ctof" in which you will want to calculate degrees fahrenheit. 
 
@@ -114,4 +116,4 @@ For fairly comprehensive guides on the languages introduced in this problem, che
 
 ## How to Submit
 
-submit50 cs50nestm/checks/2020/temperature
+submit50 cs50nestm/checks/2022/temperature
