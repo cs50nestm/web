@@ -12,7 +12,7 @@ Write the JavaScipt in this distribution code to make this quiz functional. As a
 
 ## Getting Started
 
-1. Execute `wget https://intro.cs50nestm.net/wp-content/uploads/2020/02/trivia.zip` to download a (compressed) ZIP file with this problem’s distribution.
+1. Execute `wget https://github.com/cs50nestm/web/raw/master/trivia/trivia.zip` to download a (compressed) ZIP file with this problem’s distribution.
 2. Execute `unzip trivia.zip` to uncompress that file.
 3. Execute `rm trivia.zip` followed by `yes` or `y` to delete that ZIP file.
 4. Execute `ls`. You should see a directory called `trivia`, which was inside of that ZIP file.
