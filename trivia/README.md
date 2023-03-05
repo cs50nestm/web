@@ -4,6 +4,8 @@
 Complete the JavaScript code to add funcionality to this quiz in your CS50 [codespace](https://code.cs50.io).
 This is a performance task and should be primarily your own code.
 
+![trivia](trivia.png)
+
 ## Specification
 
 Write the JavaScipt in this distribution code to make this quiz functional. As an added challenge, see if you can change the color of the feedback to green when the answer is correct, and red when it is wrong!
