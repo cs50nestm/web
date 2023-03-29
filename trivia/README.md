@@ -26,4 +26,4 @@ http-server
 
 ## How to Submit
 
-Coming soon!
+submit50 cs50nestm/checks/2022/trivia
