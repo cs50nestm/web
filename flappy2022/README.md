@@ -68,7 +68,7 @@ This problem will take several steps to complete. The videos below will guide yo
 *Note: There was a slight bug discovered here, where iterating through the `pipes` array using `for (let pipe of pipes)` actually skips drawing the leftmost pipe after deleting pipe[0]. When we execute `pipes.shift()` the rest of the array moves down an index, and so the pipe that was at index 1, is now at index 0. But the loop ends up skipping the drawing of pipe at index 0 for this next iteration of `draw()`, because it's moving on to index 1. This is noticiple if you look very closely at the left most pipe blinking when the pipe to it's left goes off the screen. The solution is to use a for loop that iterates backwards, so that we never skip drawing that pipe during that iteration. The code snippet below shows what this could look like. It also sets a temporary variable `pipe` to each element in the array so additional code does not have to be changed.*
 
 ```js
-for (let i = pipes.length - 1; i >=0; i--) {
+for (let i = pipes.length - 1; i >= 0; i--) {
     let pipe = pipes[i]
 ```    
 	
