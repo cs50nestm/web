@@ -12,7 +12,8 @@ Projects will be presented to the entire class in June.
 Here are the four different directions you can choose from:
 
 1. **Game** or Interactive Animation in p5.js.  
-*Note: if you do a game as a final project, you need to do only one game code-a-long, either Pong or Flappy.*
+
+	- **[Flappy Bird](https://cs50nestm.github.io/web/flappy2022/)** (only if you did Pong as your required program. Extend by making a second level, changing the graphics, modifying the game!)
 	- **[Breakout](https://cs50nestm.github.io/web/breakout2022/)** (extend the basic game with powerups, locked bricks, changing paddle size and more!)
 	- **[Mario](https://cs50nestm.github.io/web/mario/)** (program the game mechanics as a code-a-long and develop your own game landscape using totally customized tile maps)
 	- **[Snake](https://www.youtube.com/watch?v=OMoVcohRgZA)**, and other **[Video Games](https://thecodingtrain.com/tracks/games)** using Dan Shiffman's tutorials and adding a unique customization. 
