@@ -43,7 +43,7 @@ In this lab, the user is prompted for a password, which will then be validated u
 
 ## Demo
 
-![PasswordGif](https://github.com/cs50/lab-exercises/raw/2022/summer/week2/password/passwordDemo.gif)
+![PasswordGif](passwordDemo.gif)
 
 ## Getting Started
 
