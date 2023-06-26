@@ -32,6 +32,7 @@
   <iframe src="https://www.youtube.com/embed/a6iW-8xPw3k?modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe>
 </div>
 
+
 As we all know by now, it's important to use passwords that are not easy to guess! Many web apps now requre passwords that requre not only alphabetical characters, but also number and symbols.
 
 In this lab, the user is prompted for a password, which will then be validated using a function `check` that you will complete. If the password contains at least one upper case letter, one lower case letter, a number and a symbol (meaning a printable character that's not a letter or number, such as '!', '$' and '#' the function should return `true`. If not it should return `false`. 
