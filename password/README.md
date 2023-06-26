@@ -9,30 +9,6 @@
 ## Background
 
 
-<style type="text/css">
-.iframe_container {
-	position: relative;
-	padding-bottom: 56.25%; 
-	padding-top: 25px;
-	height: 0;
-	margin-bottom: 30px;
-}
-
-.iframe_container iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
-</style>
-
-
-<div class="iframe_container">
-  <iframe src="https://www.youtube.com/embed/a6iW-8xPw3k?modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe>
-</div>
-
-
 As we all know by now, it's important to use passwords that are not easy to guess! Many web apps now requre passwords that requre not only alphabetical characters, but also number and symbols.
 
 In this lab, the user is prompted for a password, which will then be validated using a function `check` that you will complete. If the password contains at least one upper case letter, one lower case letter, a number and a symbol (meaning a printable character that's not a letter or number, such as '!', '$' and '#' the function should return `true`. If not it should return `false`. 
