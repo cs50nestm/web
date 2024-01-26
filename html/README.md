@@ -31,11 +31,9 @@ First consider joining Doug for a tour of `HTML`.
 
 # What do I do now?
 
-
-
 Working in [cs50.dev](https://cs50.dev) you will start by creating a new diretory for this problem. 
 
-When working on web based programs, it's important to have a separate directory for each project. So create a new directory, `cd` into it, then make your html file and name it `index.html`.
+When working on web based programs, it's important to have a separate directory for each project. So create a new directory, `cd` into it, then make your html file and name it `index.html`. In your terminal type:
 
 ```
 mkdir html
