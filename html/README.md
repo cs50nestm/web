@@ -31,7 +31,19 @@ First consider joining Doug for a tour of `HTML`.
 
 # What do I do now?
 
-The code you created with your teacher, probably looks something like this, although she probably added a few more features:
+
+
+Working in [cs50.dev](https://cs50.dev) you will start by creating a new diretory for this problem. 
+
+When working on web based programs, it's important to have a separate directory for each project. So create a new directory, `cd` into it, then make your html file and name it `index.html`.
+
+```
+mkdir html
+cd html
+code index.html
+```
+
+Then follow along with the code-a-long we do together in class. Type the following code into `index.html` with your teacher. It will probably looks something like this.
 
 ```html
 <!DOCTYPE html>
@@ -45,17 +57,6 @@ The code you created with your teacher, probably looks something like this, alth
   </body>
 </html>
 ```
-
-Working in your [codespace](https://cs50.dev) you will start by typing this code into a file called `index.html`. But first create your directories.
-
-If you haven't yet created a new directory for this unit, create one called `html` or whatever you prefer, then `cd` into it.
-
-```
-mkdir html
-cd html
-```
-
-When working on web based programs, it's important to have a separate directory for each project. So create a new directory, `cd` into it, then make your html file and name it `index.html`.
 
 Then to start up a server to be able to view your web page, type:
 
@@ -81,7 +82,7 @@ With your name instead of mine!
 
 **Second**, add a picture of yourself, or something you like using `<img>` tags.
 
-If you find a picture of yourself online, or email one to yourself, you can drag the '.jpg' or '.png' file into your workspace. Make sure the name of the file has no spaces in it. If I had a picture saved as a `mtanzosh.png` in my workspace (click on the directory sidebar foler icon to the left of the `index.html` tab to see the files in your workspace), I could then import it as
+If you find a picture of yourself online, or email one to yourself, you can drag the '.jpg' or '.png' file into the `html` directory in your codespace. Make sure the name of the file has no spaces in it. If I had a picture saved as a `mtanzosh.png` in my `html` folder I could then import it as
 
 ```html
 <img alt="Tanzosh" src="mtanzosh.png">
@@ -101,9 +102,9 @@ If you find a picture of yourself online, or email one to yourself, you can drag
 
 And change the text in between the `<title></title>` tags and notice what happens to your Chrome (or other browser) tab on the top of your page!
 
-Once you understand the structure of an `HTML` page, you can look up the many kinds of `HTML` tags to add other elements to your page as well. Feel free to experiment in this lab. Use the [W3 Schools reference](https://www.w3schools.com/html/) to get ideas on other elements for your page.
+Once you understand the structure of an `HTML` page, you can look up the many kinds of `HTML` tags to add other elements to your page as well. Feel free to experiment in this practice problem. Feel free to collaborate with your classmates. Use the [W3 Schools reference](https://www.w3schools.com/html/) to get ideas on other elements for your page.
 
-Do notice how tags inside of tags are indented. As when working in C, proper indentation makes your page much easier to read.
+Do notice how tags inside of tags are indented. As when working in `C`, proper indentation makes your page much easier to read.
 
 Because this assignment will result in something different for each person, there’s no check50 for this one. There is also no style50 for HTML, so check the indendentation yourself. Make sure that you’ve included everything listed above and you have no broken links and you should be good to go.
 
