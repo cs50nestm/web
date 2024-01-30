@@ -47,7 +47,17 @@ There are lot more things you can do with CSS.
 
 ## Where do I start?
 
-Start by previewing the HTML program you just completed. Remember to preview a web page, type in:
+Start by creating a new directory, `css`, `cd` into it, and create a new file, `index.html`.
+
+```
+mkdir css
+cd css
+code index.html
+```
+
+Feel free to use your `HTML` project as a starting point. You may copy the code for that project and paste it here, or create a new `html` program now.
+
+Preview the HTML program you just completed. Remember to preview a web page, type in:
 
 ```
 http-server
@@ -57,18 +67,7 @@ into the terminal window, and then click on the `index.html` link and you can pr
 
 The page probably has a picture on it, and if it doesn't, please do add one. It may not be styled well so let's get to work! Now that you know `HTML` feel free to edit the text, and add a different picture instead.
 
-You can use this file as a starting point. To do this, copy the contents of your `index.html` in your `html` folder, then go back to your `unit3` directory in your terminal and create a new `css`folder. Then `cd` into this new folder and create a new `index.html` file.
-
-```
-cd ..
-mkdir css
-cd css
-code index.html
-```
-
-Then paste the code from your HTML project into your CSS project.
-
-Let's start by centering the heading. There are many ways of doing this with `CSS`. You can add style attributes directly into your `HTML` tags, use a `<style>` element in the `<head>` section, or link an external `CSS` file that you link into the `<head>` section of your `HTML`. 
+Let's start by centering the heading (the element with the `<h1>` tag). There are many ways of doing this with `CSS`. You can add style attributes directly into your `HTML` tags, use a `<style>` element in the `<head>` section, or link an external `CSS` file that you link into the `<head>` section of your `HTML`. 
 
 We'll add our `CSS` to the top of the `HTML` file on the right in between the `<style></style>` tags. If we want to center all `h1` heading tags, we can use this tag directly in our CSS as follows:
 
