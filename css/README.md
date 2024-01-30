@@ -142,7 +142,7 @@ Feel free to browse around the `CSS` pages in [W3 Schools](https://www.w3schools
 You may then submit by typing in at the command line:
 
 ```
-submit50 cs50nestm/checks/2022/css
+submit50 cs50nestm/checks/2023/css
 ```
 
 
