@@ -1,7 +1,7 @@
 # Problem: Homepage
 
 ## tl;dr
-Build a simple website of your **Write My New York** using HTML and CSS in your [codespace](https://code.cs50.io).
+Build a simple website of your **Write My New York** using HTML and CSS in your [codespace](https://cs50.dev).
 
 ## Background
 The internet has enabled incredible things: we can use a search engine to research anything imaginable, communicate with friends and family members around the globe, play games, take courses, and so much more. But it turns out that nearly all pages we may visit are built on three core languages, each of which serves a slightly different purpose:
@@ -58,7 +58,7 @@ Fianally watch the section of the video below, from 1:23 to 7:28 to learn more a
 Here’s how to download this problem’s "distribution code" (i.e., starter code) into your own codespace. Log into [code.cs50.io](https://code.cs50.io) and then, in a terminal window, execute each of the below.
 
 1. Execute `cd` to ensure that you’re in` ~/` (i.e., your home directory, aka ~).
-4. Execute `wget https://cdn.cs50.net/2021/fall/psets/8/homepage.zip` to download a (compressed) ZIP file with this problem’s distribution.
+4. Execute `wget https://cdn.cs50.net/2023/fall/psets/8/homepage.zip` to download a (compressed) ZIP file with this problem’s distribution.
 5. Execute `unzip homepage.zip` to uncompress that file.
 6. Execute `rm homepage.zip` followed by `yes` or `y` to delete that ZIP file.
 7. Execute `ls`. You should see a directory called `homepage`, which was inside of that ZIP file.
@@ -79,11 +79,11 @@ Contain at least four different `.html` pages, at least one of which is `index.h
 
 Use at least ten (10) distinct HTML tags besides `<html>`, `<head>`, `<body>`, and `<title>`. Using some tag (e.g., `<p>`) multiple times still counts as just one (1) of those ten!
 
-Integrate one or more features from Bootstrap into your site. Bootstrap is a popular library (that comes with lots of CSS classes and more) via which you can beautify your site. See [Bootstrap’s documentation](https://getbootstrap.com/docs/5.1/getting-started/introduction/) to get started. In particular, you might find some of [Bootstrap’s components](https://getbootstrap.com/docs/5.1/components/accordion/) of interest. To add Bootstrap to your site, it suffices to include
+Integrate one or more features from Bootstrap into your site. Bootstrap is a popular library (that comes with lots of CSS classes and more) via which you can beautify your site. See [Bootstrap’s documentation](https://getbootstrap.com/docs/5.2/getting-started/introduction/) to get started. In particular, you might find some of [Bootstrap’s components](https://getbootstrap.com/docs/5.2/components/accordion/) of interest. To add Bootstrap to your site, it suffices to include
 
 ```html
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 ```
 
 in your pages' <head>, below which you can also include
@@ -156,7 +156,7 @@ To submit homepage, execute
 
 ```
 cd homepage
-submit50 cs50/problems/2022/x/homepage
+submit50 cs50/problems/2023/x/homepage
 ```
 
 Your submission should be graded for completion only within 2 minutes, at which point your score will appear at submit.cs50.io!
