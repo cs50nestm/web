@@ -55,9 +55,9 @@ Fianally watch the section of the video below, from 1:23 to 7:28 to learn more a
 
 
 ## Getting Started
-Here’s how to download this problem’s "distribution code" (i.e., starter code) into your own codespace. Log into [code.cs50.io](https://code.cs50.io) and then, in a terminal window, execute each of the below.
+Here’s how to download this problem’s "distribution code" (i.e., starter code) into your own codespace. Log into [cs50.dev](https://code.cs50.io) and then, in a terminal window, execute each of the below.
 
-1. Execute `cd` to ensure that you’re in` ~/` (i.e., your home directory, aka ~).
+1. Execute `cd` to makd sure your terminal window’s prompt resembles `$`
 4. Execute `wget https://cdn.cs50.net/2023/fall/psets/8/homepage.zip` to download a (compressed) ZIP file with this problem’s distribution.
 5. Execute `unzip homepage.zip` to uncompress that file.
 6. Execute `rm homepage.zip` followed by `yes` or `y` to delete that ZIP file.
