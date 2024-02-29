@@ -39,7 +39,7 @@ First watch this video with Brian Yu on using `HTML` in the CS50 IDE:
 ## Getting Started
 Here’s how to download this problem’s "distribution code" (i.e., starter code) into your codespace. Log into [code.cs50.io](https://code.cs50.io) and then, in a terminal window, execute each of the below.
 
-1. Execute `cd` to ensure that you’re in` ~/` (i.e., your home directory, aka ~).
+1. Execute `cd` to ensure that you’re in your home directory.
 2. Execute `mkdir hellojavascript` to create a new directory.
 3. Execute `cd hellojavascript` to move into that directory.
 4. Execute `wget https://raw.githubusercontent.com/cs50nestm/web/master/distro/hello.html` to download an html file with this problem’s distribution.
