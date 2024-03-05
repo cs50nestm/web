@@ -146,6 +146,7 @@ Implement an AI-controlled paddle (either the left or the right will do) such th
 2. All assets are included and the basic game board and titles are completed.
 3. You can start working immedicately in the `sketch.js` window that opens on the left.
 4. Pressing on the red arrow will allow you to preview your game.
+5. Note that the original videos were created in Visual Code Studio, so the interface and previewing work a bit differently, but the `sketch.js` code is exactly the same.
   
 ## Specification
 
