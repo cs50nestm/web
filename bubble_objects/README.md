@@ -47,14 +47,13 @@ What if we could group those related variables together into one. A bubble is *o
 
 The way we can do this is with **JavaScript Objects**. An object is *one thing* that can be stored in one variable. An object can have many **properties**, think of these as additional variables stored inside the larger object.
 
-That sounds pretty abstract, but it's not so bad, let's make a an object called `brick`:
-
-![first object](https://camo.githubusercontent.com/7743b9634736740cdd9162fa70fed4e8d7548d232d0ce30c58287f9089a3b495/687474703a2f2f696e74726f323031382e637335306e6573746d2e6e65742f77702d636f6e74656e742f75706c6f6164732f323031392f30342f627269636b2e676966)
-
-Nice, the object we created with this code has two properties, `x` and `y`.
+That sounds pretty abstract, but it's not so bad, let's make a an object called `brick`, that has `x` and `y` coordinates. (You don't have to type this in, it's just to demonstrate the concept!)
 
 ```javascript
-let brick = {x: 10, y: 100};
+let brick = {
+  x: 10,
+  y: 100
+};
 ```
 #### Creating Objects
 
