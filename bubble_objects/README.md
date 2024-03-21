@@ -138,13 +138,14 @@ JavaScript objects are fundamental to how data from the internet is structured a
 
 ## Getting Started
 
-1. Execute `cd` to ensure that you’re in ~/ (i.e., your home directory, aka ~).
+1. Execute `cd` to ensure that you’re in home directory.
 2. Execute `wget https://github.com/cs50nestm/web/raw/master/bubble_objects/bubbles.zip` to download a (compressed) ZIP file with this problem’s distribution.
 1. Execute `unzip bubbles.zip` to uncompress that file.
 1. Execute `rm bubbles.zip` followed by yes or y to delete that ZIP file.
 1. Execute ls. You should see a directory called `bubbles`, which was inside of that ZIP file.
 1. Execute `cd bubbles` to change into that directory.
-1. Execute ls. You should see this problem’s distribution code, including index.html, style.css and sketch.js
+1. Execute ls. You should see this problem’s distribution code, including `index.html`, `style.css` and `sketch.js`.
+2. You will do your work in `sketch.js`.
 
 
 ## Specification
@@ -176,6 +177,6 @@ The way you would access the `g` key would be `bubble.color.g`.  Give it a shot!
 
 ## To Submit
 
-submit50 cs50nestm/checks/2019/bubbles
+submit50 cs50nestm/checks/2023/bubbles
 
 (Lesson above was adapted from a front-end design class given by Upperline Code)
