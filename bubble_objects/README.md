@@ -139,7 +139,7 @@ JavaScript objects are fundamental to how data from the internet is structured a
 ## Getting Started
 
 1. Execute `cd` to ensure that you’re in ~/ (i.e., your home directory, aka ~).
-2. Execute `wget https://intro.cs50nestm.net/wp-content/uploads/2020/04/bubbles.zip` to download a (compressed) ZIP file with this problem’s distribution.
+2. Execute `wget https://github.com/cs50nestm/web/raw/master/bubble_objects/bubbles.zip` to download a (compressed) ZIP file with this problem’s distribution.
 1. Execute `unzip bubbles.zip` to uncompress that file.
 1. Execute `rm bubbles.zip` followed by yes or y to delete that ZIP file.
 1. Execute ls. You should see a directory called `bubbles`, which was inside of that ZIP file.
