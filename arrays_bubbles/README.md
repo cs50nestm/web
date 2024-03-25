@@ -80,6 +80,6 @@ Some ideas:
 To submit:
 
 ```
-submit50 cs50nestm/checks/2019/arrays_bubbles
+submit50 cs50nestm/checks/2023/arrays_bubbles
 ```
 
