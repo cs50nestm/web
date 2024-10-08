@@ -2,7 +2,7 @@
 
 ### Here is the code we developed together in class as a code-a-long
 
-First Program: Hello
+#### First Program: Hello
 
 We started by typing into the terminal to create a folder `hello` by executing `mkdir hello` next to the `$` prompt. Then we moved into that folder by changing director in the terminal, `cd hello`.
 
@@ -31,5 +31,54 @@ and finally execute it as
 ```
 ./hello
 ```
+
+#### First PBA: Hello, it's Me
+
+In a new folder named `me` we created the next program. 
+
+```
+cd
+mkdir me
+cd me
+code hello.c
+```
+
+This new version of hello takes and input and outputs hello to you!
+
+```c
+#include <cs50.h>
+#include <stdio.h>
+int main(void)
+{
+    string name = get_string("What is your name? ");
+    printf("hello, %s\n", name);
+}
+
+```
+
+#### Practice Problem: print.c
+
+Together, we coded a practice problem, `print.c`  in another directory, this time called `practice`. 
+
+```
+#include <cs50.h>
+#include <stdio.h>
+
+int main(void)
+{
+    // Prompt for a name
+    string name = get_string("Name: ");
+
+    // Prompt for age
+    int age = get_int("Age: ");
+
+    // Prompt for Phone Number
+    string phone = get_string("Phone Number: ");
+
+    // Print name, age and phone number (%s for strings, %i for ints)
+    printf("My name is %s, I'm %i years old and my phone is %s\n", name, age, phone);
+}
+```
+
 
 
