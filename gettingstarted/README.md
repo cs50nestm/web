@@ -32,6 +32,8 @@ and finally execute it as
 ./hello
 ```
 
+No submission required for this.
+
 #### First PBA: Hello, it's Me
 
 In a new folder named `me` we created the next program. 
@@ -56,11 +58,13 @@ int main(void)
 
 ```
 
+This program should be submited, using the line starting with `submit50` in the problem spec.
+
 #### Practice Problem: print.c
 
 Together, we coded a practice problem, `print.c`  in another directory, this time called `practice`. 
 
-```
+```c
 #include <cs50.h>
 #include <stdio.h>
 
@@ -80,5 +84,6 @@ int main(void)
 }
 ```
 
+No submission required for this, but it will be a good reference for future programs.
 
 
