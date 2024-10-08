@@ -1,5 +1,7 @@
 
-## Here is the code we developed together in class as a code-a-long
+## Class Notes
+
+# Here is the code we developed together in class as a code-a-long
 
 First Program: Hello
 
