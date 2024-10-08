@@ -4,7 +4,7 @@
 
 First Program: Hello
 
-First we made a folder `hello` by typing `mkdir hello` into our terminal. Then we moved into that folder by changing director in the terminal, `cd hello`.
+We started by typing into the terminal to create a folder `hello` by executing `mkdir hello` next to the `$` prompt. Then we moved into that folder by changing director in the terminal, `cd hello`.
 
 We created a new code file in that folder, `hello.c` by typing `code hello.c`.
 
