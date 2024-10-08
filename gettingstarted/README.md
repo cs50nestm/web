@@ -55,7 +55,6 @@ int main(void)
     string name = get_string("What is your name? ");
     printf("hello, %s\n", name);
 }
-
 ```
 
 This program should be submited, using the line starting with `submit50` in the problem spec.
