@@ -115,7 +115,7 @@ int main(void)
 
 calculator1.c
 
-```
+```c
 // Addition with integer, without third variable
 
 #include <cs50.h>
@@ -136,7 +136,7 @@ int main(void)
 
 calculator2.c
 
-```
+```c
 // Multiply a number
 
 #include <cs50.h>
@@ -154,7 +154,7 @@ int main(void)
 
 calculator3.c
 
-```
+```c
 // Divide 2 ints
 
 #include <cs50.h>
@@ -175,7 +175,7 @@ int main(void)
 
 calculator4.c
 
-```
+```c
 // Divide 2 floats
 
 #include <cs50.h>
