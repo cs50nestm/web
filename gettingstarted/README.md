@@ -217,7 +217,7 @@ int main(void)
 
 #### conditionals.c
 
-Practice using `if-else if-else` statements.
+Practice using `if-else` statements.
 
 ```c
 #include <cs50.h>
