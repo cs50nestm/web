@@ -196,7 +196,23 @@ int main(void)
 
 These are code-along practice problems, and do not need to be submitted.
 
+#### discount.c
 
+```c
+#include <cs50.h>
+#include <stdio.h>
 
+int main(void)
+{
+    // Prompt for regular price
+    float regular = get_float("Regular Price: ");
+
+    // Calculate discount
+    float sale = regular * 0.85;
+
+    // Print sale price
+    printf("Sale Price: $%.2f\n", sale);
+}
+```
 
 
