@@ -215,4 +215,50 @@ int main(void)
 }
 ```
 
+#### conditionals.c
 
+Practice using `if-else if-else` statements.
+
+```c
+#include <cs50.h>
+#include <stdio.h>
+
+int main(void)
+{
+    int x = get_int("x: ");
+    int y = get_int("y: ");
+
+    if (x > y)
+    {
+        printf("x is greater than y\n");
+    }
+    else if (y > x)
+    {
+        printf("y is greater than x\n");
+    }
+    else
+    {
+        printf("x is equal to y\n");
+    }
+}
+```
+
+### sum.c
+
+Practice using a `for` loop.
+
+```c
+#include <cs50.h>
+#include <stdio.h>
+
+int main(void)
+{
+    int sum = 0;
+    for (int i = 0; i < 10; i++)
+    {
+        int n = get_int("Number: ");
+        sum = sum + n;
+    }
+    printf("Sum: %i\n", sum);
+}
+```
