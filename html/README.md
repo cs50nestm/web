@@ -119,7 +119,7 @@ Type `http-server` in the terminal and then refresh the browser tab!
 Make sure you first `cd` into the diretory that contains your `html` file. You may then submit by typing in at the command line:
 
 ```
-submit50 cs50nestm/checks/2023/html
+submit50 cs50nestm/checks/2025/html
 ```
 
 
