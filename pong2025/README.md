@@ -171,5 +171,5 @@ There are two parts to submit `Pong`.
 2. Make sure to cd into your `pong` folder and execute the following in your terminal:
 
 ```
-submit50 cs50nestm/checks/2022/pong
+submit50 cs50nestm/checks/2025/pong
 ```
