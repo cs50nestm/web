@@ -142,7 +142,7 @@ And that's it! Your game is done!
 Implement an AI-controlled paddle (either the left or the right will do) such that it will try to deflect the ball at all times. Since the paddle can move on only one axis (the Y axis), you will need to determine how to keep the paddle moving in relation to the ball. Currently, each paddle has its own chunk of code where input is detected by the keyboard; this feels like an excellent place to put the code we need! Once either the left or right paddle (or both, if desired) deflects the ball on its own, you’ve done it!
 
 ## Getting Started
-I highly recommend working in the new [code.cs50.io](https://code.cs50.io) (VS Code in the Web) development environment.
+I highly recommend working in the new [cs50.dev](https://cs50.dev) (VS Code in the Web) development environment.
 
 2. Execute `wget https://github.com/cs50nestm/web/raw/master/pong/pong.zip` to download a (compressed) ZIP file with this problem’s distribution.
 5. Execute `unzip pong.zip` to uncompress that file.
