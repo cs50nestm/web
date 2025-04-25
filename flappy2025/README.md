@@ -130,6 +130,6 @@ There are two parts to submit `Flappy Bird`.
 2. Make sure to `cd` into your `flappy` folder and execute the following in your terminal:
 
 ```
-submit50 cs50nestm/checks/2022/flappy
+submit50 cs50nestm/checks/2025/flappy
 ```
 
