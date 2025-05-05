@@ -1,4 +1,4 @@
-# Comp Sci Final Project 2024
+# Comp Sci Final Project 2024 - 2025
 
 ## tl;dr
 Create a game, a website or a presentation.
@@ -28,7 +28,7 @@ Here are the four different directions you can choose from:
 	- **Safe Computing:** The use of computing innovations may involve risks to personal safety and identity. This may involve risks to privacy and/or unauthorized access to computing resources.
 4. Research on a current issue in computer science, or technology in general. This would be presented as a google slide presentation as well, and must be cleared by me.
 
-## Complete this form to indicate your preference no later than Monday, May 13th
+## Complete this form to indicate your preference no later than Monday, May 12th
 
 <style type="text/css">
 .iframe_container {
