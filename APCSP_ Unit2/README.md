@@ -10,7 +10,7 @@
 
 int main(void)
 {
-    // Get input
+    // Get User Input
     string text = get_string("Text: ");
 
     // Print character by character reverse order
@@ -29,16 +29,22 @@ int main(void)
 
 int main(void)
 {
+    // User Input
     string text = get_string("Text: ");
 
+    // Iterate through string
     for (int i = 1, len = strlen(text); i < len; i++)
     {
+        // Check if two consecutive chars out of order
         if (text[i - 1] > text[i])
         {
+            // Short circuit the loop
             printf("Not in alpha order!\n");
             return 0;
         }
     }
+
+    // We didn't return above so chars in order
     printf("In alpha order!\n");
 }
 
@@ -52,6 +58,7 @@ int main(void)
 
 int main(void)
 {
+    // Get Input
     string s = get_string("Text: ");
 
     // Check chars from start and end
@@ -77,15 +84,20 @@ int main(void)
 
 int main(void)
 {
+    // Get two strings to compare
     string s1 = get_string("Word 1: ");
     string s2 = get_string("Word 2: ");
 
+    // Declare array to keep track of number of occurances of each char
     int characters[26] = {0};
 
+    // Iterate througn s1
     for (int i = 0, len = strlen(s1); i < len; i++)
     {
+        // Check if char is alpha
         if (isalpha(s1[i]))
         {
+            // Calculate 
             int index = tolower(s1[i]) - 'a';
             characters[index]++;
         }
