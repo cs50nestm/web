@@ -88,21 +88,25 @@ int main(void)
     string s1 = get_string("Word 1: ");
     string s2 = get_string("Word 2: ");
 
-    // Declare array to keep track of number of occurances of each char
+    // Declare array to keep track of number of occurances of 
+    // each letter where `a` is `0`, `b` is `1`, etc.
     int characters[26] = {0};
 
-    // Iterate througn s1
+    // Iterate througn s1 to add up occurances of each letter
     for (int i = 0, len = strlen(s1); i < len; i++)
     {
-        // Check if char is alpha
+        // Check if this char is an alpha letter
         if (isalpha(s1[i]))
         {
-            // Calculate 
+            // Calculate index that corresponds to this letter
             int index = tolower(s1[i]) - 'a';
+
+            // Increment element which corresponds to this letter
             characters[index]++;
         }
         else
         {
+            // Found a non-alpha char, so return
             printf("Alpha chars only!\n");
             return 1;
         }
@@ -112,6 +116,7 @@ int main(void)
     {
         if (isalpha(s2[i]))
         {
+            // Here we subtract one for each occurrance of a letter
             int index = tolower(s2[i]) - 'a';
             characters[index]--;
         }
@@ -122,15 +127,18 @@ int main(void)
         }
     }
 
-    // If anagram all values in characters array should be 0
+    // If we have an anagram all values in characters array should be 0
     for (int i = 0; i < 26; i++)
     {
         if (characters[i] != 0)
         {
+            // Non-zero element means letters in the two words don't match
             printf("Not an anagram!\n");
             return 0;
         }
     }
+
+    // We didn't return above so we have an anagram
     printf("Anagram!\n");
 }
 ```
