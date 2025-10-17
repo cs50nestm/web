@@ -89,7 +89,7 @@ int main(void)
     string s2 = get_string("Word 2: ");
 
     // Declare array to keep track of number of occurances of 
-    // each letter where `a` is `0`, `b` is `1`, etc.
+    // each letter where index for `a` is `0`, `b` is `1`, etc.
     int characters[26] = {0};
 
     // Iterate througn s1 to add up occurances of each letter
