@@ -243,7 +243,7 @@ int main(void)
 }
 ```
 
-### sum.c
+#### sum.c
 
 Practice using a `for` loop.
 
@@ -260,5 +260,39 @@ int main(void)
         sum = sum + n;
     }
     printf("Sum: %i\n", sum);
+}
+```
+
+#### isbn.c
+
+Practice separating digits and using loops
+
+```c
+#include <cs50.h>
+#include <stdio.h>
+
+int main(void)
+{
+    // Prompt for ISBN
+    long isbn = get_long("ISBN: ");
+    int sum = 0;
+
+    // Loop to separate and add digits
+    for (int i = 10; i > 0; i--)
+    {
+        int digit = isbn % 10;
+        isbn = isbn / 10;
+        sum = sum + digit * i;
+    }
+
+    // Test if divisibe by 11
+    if (sum % 11 == 0)
+    {
+        printf("YES\n");
+    }
+    else
+    {
+        printf("NO\n");
+    }
 }
 ```
