@@ -156,7 +156,7 @@ To submit homepage, execute
 
 ```
 cd homepage
-submit50 cs50/problems/2026/x/homepage
+submit50 cs50nestm/checks/2026/homepage
 ```
 
 Your submission should be graded for completion only within 2 minutes, at which point your score will appear at submit.cs50.io!
