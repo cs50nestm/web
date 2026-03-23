@@ -63,9 +63,9 @@ More functions and details on these functions can be found at [https://p5js.org/
 
 
 ## Getting Started
-Here’s how to download this problem’s "distribution code" (i.e., starter code) into your own codespace. Log into [code.cs50.io](https://code.cs50.io) and then, in a terminal window, execute each of the below.
+Here’s how to download this problem’s "distribution code" (i.e., starter code) into your own codespace. Log into [cs50.dev](https://cs50.dev) and then, in a terminal window, execute each of the below.
 
-1. Execute `cd` to ensure that you’re in` ~/` (i.e., your home directory, aka ~).
+1. Execute `cd` to ensure that you’re in`$` (i.e., your home directory).
 4. Execute `wget https://raw.githubusercontent.com/cs50nestm/web/master/dvd/dvd.zip` to download a (compressed) ZIP file with this problem’s distribution.
 5. Execute `unzip dvd.zip` to uncompress that file.
 6. Execute `rm dvd.zip` followed by `yes` or `y` to delete that ZIP file.
@@ -113,7 +113,7 @@ To make sure you've done this correctly, type `ls` into your terminal, where you
 You may then submit by typing in at the command line:
 
 ```
-submit50 cs50nestm/checks/2022/dvd
+submit50 cs50nestm/checks/2026/dvd
 ```
 
 
