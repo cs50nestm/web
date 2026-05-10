@@ -68,7 +68,7 @@ Both options must include:
 | 1–3 | Research all four parts. Take notes, evaluate sources, sketch your visuals. |
 | 4–6 | Build your site or slides. Draft your recommendation. Peer feedback on Day 6. |
 | 7–8 | Polish everything. Finish your works cited. Practice if presenting. |
-| 9–10 | Presentations (Slides) or website submission. Short self-reflection due. |
+| 9–10 | Presentations (Slides) or website submission. |
 
 ## Sources
 
@@ -76,7 +76,7 @@ Both options must include:
 - At least **1 official/primary source** (e.g., EU AI Act text, a government report)
 - At least **1 expert or journalistic source** (MIT Tech Review, Wired, AP, Reuters, etc.)
 - Wikipedia is fine for background — not a citable source
-- Cite everything in MLA or APA format
+- Cite everything in APA format
 
 ## Extra Credit (+5 pts)
 **Try it yourself.** Use a generative AI tool and include a critical reflection in your project.
