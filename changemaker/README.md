@@ -4,7 +4,7 @@ Research generative AI, analyze its impact, and propose your own recommendations
 Present your work as a website or Google Slides presentation.
 
 ## Background
-AI is reshaping everything — how we learn, work, create, and govern. In this Changemaker Project,
+AI is reshaping everything, how we learn, work, create, and govern. In this Changemaker Project,
 you won't just be reporting facts. You'll be digging into how generative AI actually works,
 weighing its real-world costs and benefits, comparing how different countries are handling it,
 and making your own case for what responsible AI use should look like.
@@ -18,12 +18,12 @@ Projects will be presented to the class or submitted as a website at the end of 
 
 Your deliverable must address all four of the following:
 
-1. **How Generative AI Works** — Explain it clearly for a general audience. What is it?
+1. **How Generative AI Works**: Explain it clearly for a general audience. What is it?
 How are these models trained? What are transformers and prompt engineering?
 Include at least one visual (diagram or infographic) to illustrate the process.
 Examples to reference: ChatGPT, DALL·E, Midjourney, GitHub Copilot.
 
-2. **Costs, Benefits & Ethical Concerns** — Analyze the broader impact.
+2. **Costs, Benefits & Ethical Concerns**: Analyze the broader impact.
 Pick at least three angles to explore:
 	- Economic impact: job changes, productivity, new industries
 	- Education: benefits, academic integrity risks, access gaps
@@ -32,16 +32,16 @@ Pick at least three angles to explore:
 
 	Include a visual pros/cons table or infographic as part of your analysis.
 
-3. **Global Regulation Comparison** — How are different countries handling this?
+3. **Global Regulation Comparison**: How are different countries handling this?
 Research and compare at least three of the following:
-	- **United States** — executive orders, proposed legislation, industry self-regulation
-	- **European Union** — the EU AI Act: risk tiers, banned uses, compliance rules
-	- **China** — state content controls and licensing requirements
-	- **Canada** — the Artificial Intelligence and Data Act (AIDA)
+	- **United States**: executive orders, proposed legislation, industry self-regulation
+	- **European Union**: the EU AI Act: risk tiers, banned uses, compliance rules
+	- **China**: state content controls and licensing requirements
+	- **Canada**: the Artificial Intelligence and Data Act (AIDA)
 
 	Create a comparison chart or table as part of this section.
 
-4. **Your Policy Recommendation** — This is the heart of the project.
+4. **Your Policy Recommendation**: This is the heart of the project.
 What should the U.S. actually do about generative AI? How should it be handled in
 education, business, or creative industries? How do you balance innovation with safety?
 Take a clear position, back it up with evidence, and address the strongest counterargument.
@@ -53,7 +53,7 @@ Built with Google Sites, Wix, Weebly, or your own HTML/CSS.
 Must include clear navigation and cover all four parts above.
 
 **Option B: Google Slides**
-15–25 slides. Polished design — not just bullet points on a white background.
+15–25 slides. Polished design: not just bullet points on a white background.
 Presented live to the class (8–10 minutes).
 
 Both options must include:
