@@ -89,5 +89,3 @@ But all writing, analysis, and recommendations must be your own.
 Submitting AI-generated text as your own work = zero. No exceptions.
 If you used an AI tool during research, note it in your works cited.
 
-## Indicate your topic focus and deliverable choice no later than [DATE]
-[embed your Google Form here]
