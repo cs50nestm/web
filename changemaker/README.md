@@ -75,7 +75,7 @@ Both options must include:
 - At least **5 credible sources**
 - At least **1 official/primary source** (e.g., EU AI Act text, a government report)
 - At least **1 expert or journalistic source** (MIT Tech Review, Wired, AP, Reuters, etc.)
-- Wikipedia is fine for background — not a citable source
+- Wikipedia is fine for background but not as a citable source
 - Cite everything in APA format
 
 ## Extra Credit (+5 pts)
