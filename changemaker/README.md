@@ -84,7 +84,7 @@ What did it do well? Where did it fall short? What ethical questions came up?
 Specific examples required.
 
 ## Academic Integrity
-You can absolutely use AI tools as part of your research — in fact, exploring them is encouraged.
+You can absolutely use AI tools as part of your research, in fact, exploring them is encouraged.
 But all writing, analysis, and recommendations must be your own.
 Submitting AI-generated text as your own work = zero. No exceptions.
 If you used an AI tool during research, note it in your works cited.
