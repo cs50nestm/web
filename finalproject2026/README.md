@@ -18,7 +18,7 @@ Here are the four different directions you can choose from:
 	- **[Snake](https://www.youtube.com/watch?v=OMoVcohRgZA)**, and other **[Video Games](https://thecodingtrain.com/tracks/games)** using Dan Shiffman's tutorials and adding a unique customization. 
 	- **Your own unique game** (Designed by you and your team!)
 	
-2. **AI Changemaker Project** Research generative AI, analyze its impact, and propose your own recommendations. Present your work as a website or Google Slides presentation. [See detailed specifications[(https://cs50nestm.github.io/web/changemaker/).
+2. **AI Changemaker Project** Research generative AI, analyze its impact, and propose your own recommendations. Present your work as a website or Google Slides presentation. [See detailed specifications](https://cs50nestm.github.io/web/changemaker/).
 
 ## Complete this form to indicate your preference no later than Monday, May 18th
 
