@@ -41,8 +41,6 @@ Here are a few different directions you can choose from:
 
 <div class="iframe_container">
 
-https://docs.google.com/forms/d/e/1FAIpQLSeNhIHkswniXSdRGBBCiRAhZzFdFbbTqPQoxYJFAZtifma66Q/viewform?usp=publish-editor
-
-<iframe src="[https://docs.google.com/forms/d/e/1FAIpQLScRyj4IkbH1pnbcrxolJp567PaPoo3g-lOZThiYLwedaDnUTw/viewform?](https://docs.google.com/forms/d/e/1FAIpQLSeNhIHkswniXSdRGBBCiRAhZzFdFbbTqPQoxYJFAZtifma66Q/viewform?usp=dialog" width="640" height="1109" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeNhIHkswniXSdRGBBCiRAhZzFdFbbTqPQoxYJFAZtifma66Q/viewform?usp=dialog" width="640" height="1109" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 </div>
 
