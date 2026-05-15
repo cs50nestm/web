@@ -15,6 +15,7 @@ Here are a few different directions you can choose from:
 	- **[CS50 Finance](https://cs50.harvard.edu/ap/curriculum/x/weeks/9/)** (I will help you with SQL and we can code-a-long parts of this)
 	- **Continue working on Create** (take it to the next level!)
 	- **Your own unique program or game** (Designed by you and your team!)
+	- **[Creating an app using Claude Code](https://cs50nestm.github.io/web/claude/)** (Requires a $20 subscription)
 	
 2. **AI Changemaker Project** Research generative AI, analyze its impact, and propose your own recommendations. Present your work as a website or Google Slides presentation. [See detailed specifications](https://cs50nestm.github.io/web/changemaker/).
 
