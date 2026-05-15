@@ -1,0 +1,14 @@
+# Installing Claude Code
+## Step-by-step setup guide for macOS
+
+> **Before you start:** You do not need a Claude subscription to install — the subscription is only required when you log in for the first time.
+
+---
+
+## Installation Steps
+
+**Step 1 — Open the Terminal**
+Press `Cmd + Space`, type `Terminal`, and press Enter.
+
+**Step 2 — Run the installer**
+Copy and paste this command, then press Enter:
