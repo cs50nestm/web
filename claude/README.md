@@ -25,12 +25,18 @@ The installer downloads Claude Code, places it in the right location, and sets u
 Close your current terminal and open a fresh one. This ensures your shell picks up the new PATH entry.
 
 **Step 4 — Verify the installation**
+
+```bash
 claude --version
+```
 
 You should see a version number. If you see `command not found`, make sure you opened a new terminal window after installing.
 
 **Step 5 — Log in to your Claude account**
+
+```bash
 claude
+```
 
 A browser window will open asking you to sign in. You need a Claude Pro subscription ($20/month) to proceed. Follow the prompts — once authenticated you are ready to go.
 
