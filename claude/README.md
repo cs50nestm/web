@@ -11,11 +11,13 @@
 Press `Cmd + Space`, type `Terminal`, and press Enter.
 
 **Step 2 — Run the installer**
-Copy and paste this command, then press Enter:
+Copy and paste:
 
 ```bash
 curl -fsSL https://claude.ai/install.sh | sh
 ```
+
+Then hit `enter`.
 
 The installer downloads Claude Code, places it in the right location, and sets up your PATH automatically. It takes under a minute.
 
