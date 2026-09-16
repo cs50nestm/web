@@ -102,6 +102,39 @@ int main(void)
  
 `get_int` from `cs50.h` will prompt the user and hand you back an int.
 
-<p>Once you have valid values for rows and seats, think about how to number seats consecutively across rows rather than computing each seat number from its row and column. What if you kept a separate counter that starts at 1 and increases by 1 every time you print a seat, regardless of which row you’re in?
-</p>
+Once you have valid values for `rows` and `seats`, think about how to number seats consecutively across rows rather than computing each seat number from its row and column. What if you kept a separate counter that starts at `1` and increases by `1` every time you print a seat, regardless of which row you’re in?
+
 </details>
+
+## How to Test
+
+Does your code work as prescribed when you input:
+
+- `1` row and 1 seat?
+- A small number of rows and seats, like `3` and `5`?
+- A large number of rows and seats, like `20` and `20`?
+- Rows and seats that produce seat numbers with differing numbers of digits (e.g., single digits versus double or triple digits), to confirm your columns still line up?
+
+### Correctness
+
+```
+check50 cs50/problems/2026/fall/seats/less
+```
+
+### Style
+
+```
+style50 seats.c
+```
+
+### How to Submit
+
+In your terminal, execute the below to submit your work.
+
+```
+submit50 cs50/problems/2026/fall/seats/less
+```
+
+You may resubmit any problem as many times as you’d like before the deadline.
+
+Your submission should be graded for correctness within 2 minutes, at which point your score will appear at [submit.cs50.io](https://submit.cs50.io)!
