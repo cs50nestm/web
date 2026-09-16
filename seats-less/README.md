@@ -34,4 +34,49 @@ Row 10:  73  74  75  76  77  78  79  80
 - Recall that you can get an int from a user with get_int, which is declared in cs50.h.
 - Recall that you can print formatted output, including numbers padded with spaces, using format specifiers like %4i in printf.
 
-  
+## Advice
+<details>
+  <summary>
+    <span style="font-weight: bold;">
+    Write some code that you know will compile
+    </span>
+  </summary>
+  <br>
+  <p>Even though this program won’t do anything, it should at least compile with make!</p>
+  <img src="code1.png" width="100%">
+</details>
+
+<br>
+
+<details>
+  <summary>
+    <span style="font-weight: bold;">
+    Write some pseudocode before writing more code
+    </span>
+  </summary>
+<br>
+<p>Break the problem down into smaller pieces.</p>
+<ol>
+  <li>Prompt the user for the number of rows.</li>
+  <li>Prompt the user for the number of seats per row./li>
+  <li>Print a seating chart with that many rows and seats.</li>
+</ol>
+<p>So write some pseudcode as comments that remind you to do just that:</p>
+<img src="code2.png" width="100%">
+
+</details>
+
+<br>
+
+<details>
+  <summary>
+    <span style="font-weight: bold;">
+    Convert the pseudocode to code
+    </span>
+  </summary>
+<br>
+<p>get_int from cs50.h will prompt the user and hand you back an int.</p>
+
+<p>Once you have valid values for rows and seats, think about how to number seats consecutively across rows rather than computing each seat number from its row and column. What if you kept a separate counter that starts at 1 and increases by 1 every time you print a seat, regardless of which row you’re in?
+</p>
+</details>
