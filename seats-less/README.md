@@ -27,7 +27,7 @@ Row 10:  73  74  75  76  77  78  79  80
 ## Requirements
 
 - The program should prompt the user for the number of rows and number of seats per row.
-- Print Row X, where X is the number row, then the numbered seats, starting from 1.
+- Print `Row X`, where X is the number row, then the numbered seats, starting from 1.
 
 ### Hints
 
