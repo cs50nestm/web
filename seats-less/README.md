@@ -43,7 +43,17 @@ Row 10:  73  74  75  76  77  78  79  80
   </summary>
   <br>
   <p>Even though this program won’t do anything, it should at least compile with make!</p>
-  <img src="code1.png" width="100%">
+
+```c
+#include <cs50.h>
+#include <stdio.h>
+ 
+int main(void)
+{
+ 
+}
+```
+  
 </details>
 
 <br>
@@ -62,7 +72,21 @@ Row 10:  73  74  75  76  77  78  79  80
   <li>Print a seating chart with that many rows and seats.</li>
 </ol>
 <p>So write some pseudcode as comments that remind you to do just that:</p>
-<img src="code2.png" width="100%">
+
+```c
+#include <cs50.h>
+#include <stdio.h>
+ 
+int main(void)
+{
+    // Prompt the user for the number of rows
+ 
+    // Prompt the user for the number of seats per row
+ 
+    // Print the seating chart
+}
+
+```
 
 </details>
 
