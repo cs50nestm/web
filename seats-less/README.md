@@ -82,7 +82,7 @@ Row 10:  73  74  75  76  77  78  79  80
  
 <p><code>get_int</code> from <code>cs50.h</code> will prompt the user and hand you back an int.</p>
 
-<p>Once you have valid values for <code>rows</code> and <code>seats</code>, think about how to number seats consecutively across rows rather than computing each seat number from its row and column. What if you kept a separate counter that starts at <code>1</code> and increases by <code>1</code>1 every time you print a seat, regardless of which row you’re in?</p>
+<p>Once you have valid values for <code>rows</code> and <code>seats</code>, think about how to number seats consecutively across rows rather than computing each seat number from its row and column. What if you kept a separate counter that starts at <code>1</code> and increases by <code>1</code> every time you print a seat, regardless of which row you’re in?</p>
 
 </details>
 
