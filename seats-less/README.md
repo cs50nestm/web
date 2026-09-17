@@ -58,11 +58,13 @@ Row 10:  73  74  75  76  77  78  79  80
   </summary>
 <br>
 <p>Break the problem down into smaller pieces.</p>
+ 
 <ol>
   <li>Prompt the user for the number of rows.</li>
-  <li>Prompt the user for the number of seats per row./li>
+  <li>Prompt the user for the number of seats per row.</li>
   <li>Print a seating chart with that many rows and seats.</li>
 </ol>
+
 <p>So write some pseudcode as comments that remind you to do just that:</p>
 
 <img src="code2.png" width="100%">
