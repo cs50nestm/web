@@ -30,13 +30,8 @@ Row 10:  73  74  75  76  77  78  79  80
 - Print `Row X`, where X is the number row, then the numbered seats, starting from 1.
 
 ### Hints
-
-<details>
- <summary>
-  - Recall that you can get an int from a user with get_int, which is declared in cs50.h.
-  - Recall that you can print formatted output, including numbers padded with spaces, using format specifiers like %4i in printf.
-  </summary>
-</details>
+  - Recall that you can get an `int` from a user with `get_int`, which is declared in `cs50.h`.
+  - Recall that you can print formatted output, including numbers padded with spaces, using format specifiers like `%4i` in `printf`.
 
 ## Advice
 <details>
