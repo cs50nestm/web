@@ -1,4 +1,4 @@
-# Class Notes
+# Class Notes Unit 1
 
 ### Here is the code we developed together in class as a code-a-long
 
