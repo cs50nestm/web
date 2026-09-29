@@ -79,3 +79,24 @@ int main(void)
 ```
 
 No submission required for this, but it will be a good reference for future programs.
+
+#### Practice Problem: sum.c
+
+We did another code-a-long, creating sum.c, that adds up 10 integers in a loop.
+
+```c
+#include <cs50.h>
+#include <stdio.h>
+
+int main(void)
+{
+    int sum = 0;
+    for (int i = 1; i <= 10; i++)
+    {
+        int number = get_int("Number: ");
+        sum = sum + number;
+    }
+    printf("Sum: %i\n", sum);
+}
+```
+Again no submission necessary.
