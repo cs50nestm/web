@@ -100,3 +100,62 @@ int main(void)
 }
 ```
 Again no submission necessary.
+
+#### Practice Problem: population.c
+
+```c
+#include <cs50.h>
+#include <stdio.h>
+
+int main(void)
+{
+    int start;
+    do
+    {
+        start = get_int("Starting population: ");
+    }
+    while (start < 9);
+
+    int end;
+    do
+    {
+        end = get_int("Ending population: ");
+    }
+    while (end < start);
+
+    int years = 0;
+    while (start < end)
+    {
+        start = start + start / 3 - start / 4;
+        years++;
+    }
+
+    printf("Years: %i\n", years);
+}
+```
+No submission necessary.
+
+#### Practice Problem: square.c
+
+An introduction to functions.
+
+```c
+#include <cs50.h>
+#include <stdio.h>
+
+int square(int n);
+
+int main(void)
+{
+    int number = get_int("Enter number to square: ");
+    int squared_number = square(number);
+    printf("%i squared is %i\n", number, squared_number);
+}
+
+int square(int n)
+{
+    int n_squared = n * n;
+    return n_squared;
+}
+```
+
