@@ -1,6 +1,6 @@
 # Class Notes Unit 1
 
-### Here is the code we developed together in class as a code-a-long
+### Here is the code we developed together in class as a code-a-longs
 
 #### First Program: Hello
 
@@ -158,4 +158,6 @@ int square(int n)
     return n_squared;
 }
 ```
+
+No submission necessary.
 
