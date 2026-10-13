@@ -80,4 +80,26 @@ int main(void)
 
 No submission required for this, but it will be a good reference for future programs.
 
+#### Practice Problem: discount.c
+
+This is a code-a-long problem that uses operators and calculates a value. It prints out a `float` with two decimal places. This may be helpful in completing your first PBA, `fahrenheit.c`.
+
+```c
+#include <cs50.h>
+#include <stdio.h>
+
+int main(void)
+{
+    // Ask user for regular price
+    float regular = get_float("Regular Price: ");
+
+    // Caluculate discount of 15%
+    float sale = regular * 0.85;
+
+    // Print out sale price
+    printf("Sale Price: $%.2f\n", sale);
+}
+```
+
+No submission required, but use as a reference for your PBA, **Fahrenheit**.
 
