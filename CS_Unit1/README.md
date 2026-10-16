@@ -103,3 +103,36 @@ int main(void)
 
 No submission required, but use as a reference for your PBA, **Fahrenheit**.
 
+#### Practice Problem: sum.c
+
+This code-a-long sums up 10 integers in a loop. As with the past practice problems, I recommend creating this file in your `practice` folder. So first change directory, `cd` into `practice`.
+
+```
+cd
+cd practice
+```
+
+Now make a new code file by typing, `code sum.c`.
+
+Then type in the program code.
+
+```c
+#include <cs50.h>
+#include <stdio.h>
+
+int main(void)
+{
+    // Initialize sum to 0
+    int sum = 0;
+    // Add 10 integers and print the sum
+    for (int i = 0; i < 10; i++)
+    {
+        int number = get_int("Number: ");
+        sum = sum + number;
+    }
+    printf("Sum: %i\n", sum);
+}
+```
+
+No need to submit, but use it as reference.
+
