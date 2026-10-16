@@ -105,7 +105,7 @@ No submission required, but use as a reference for your PBA, **Fahrenheit**.
 
 #### Practice Problem: sum.c
 
-This code-a-long sums up 10 integers in a loop. As with the past practice problems, I recommend creating this file in your `practice` folder. So first change directory, `cd` into `practice`.
+This code-a-long sums up 10 integers in a loop. As with the past practice problems, I recommend creating this file in your `practice` folder. So first change directory, by typing in the terminal, next to the `$` prompt:
 
 ```console
 cd
