@@ -49,7 +49,7 @@ int main(void)
 }
 
 ```
-
+<!--
 ### palindrome.c
 ```c
 #include <cs50.h>
@@ -142,3 +142,4 @@ int main(void)
     printf("Anagram!\n");
 }
 ```
+-->
