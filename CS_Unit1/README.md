@@ -136,3 +136,57 @@ int main(void)
 
 No need to submit, but use it as reference.
 
+#### Practice Problem: prime.c
+
+Start with the distro code and complete the function, `prime`:
+
+```c
+#include <cs50.h>
+#include <stdio.h>
+
+bool prime(int number);
+
+int main(void)
+{
+    int min;
+    do
+    {
+        min = get_int("Minimum: ");
+    }
+    while (min < 1);
+
+    int max;
+    do
+    {
+        max = get_int("Maximum: ");
+    }
+    while (min >= max);
+
+    for (int i = min; i <= max; i++)
+    {
+        if (prime(i) == true)
+        {
+            printf("%i\n", i);
+        }
+    }
+}
+
+bool prime(int number)
+{
+    if (number == 1)
+    {
+        return false;
+    }
+    // TODO
+    for (int i = 2; i < number; i++)
+    {
+        if (number % i == 0)
+        {
+            return false;
+        }
+    }
+    return true;
+}
+```
+
+Then submit by pasting `submit50 cs50/labs/2023/x/prime` into your terminal.
