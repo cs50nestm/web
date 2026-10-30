@@ -49,7 +49,7 @@ int main(void)
 }
 
 ```
-<!--
+
 ### palindrome.c
 ```c
 #include <cs50.h>
@@ -75,6 +75,56 @@ int main(void)
 }
 ```
 
+### initials.c
+
+```c
+#include <cs50.h>
+#include <ctype.h>
+#include <stdio.h>
+#include <string.h>
+
+int main(void)
+{
+    string name = get_string("Name: ");
+
+    for (int i = 0, length = strlen(name); i < length; i++)
+    {
+        if (isupper(name[i]))
+        {
+            printf("%c", name[i]);
+        }
+    }
+    printf("\n");
+}
+
+```
+
+### initials2.c (Using Command Line)
+
+```c
+#include <cs50.h>
+#include <ctype.h>
+#include <stdio.h>
+
+int main(int argc, string argv[])
+{
+    if (argc < 2)
+    {
+        printf("Usage: ./initials2 first last\n");
+        return 1;
+    }
+
+    for (int i = 1; i < argc; i++)
+    {
+        printf("%c", toupper(argv[i][0]));
+    }
+    printf("\n");
+}
+
+```
+
+
+<!--
 ### anagram.c
 ```c
 #include <cs50.h>
