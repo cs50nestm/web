@@ -2,6 +2,8 @@
 
 ## Strings and Arrays: code-a-longs
 
+## Integer Arrays
+
 ### hours.c
 
 The main function is given as starter code. The function you complete is `calculate_hours` which I've given you here.
@@ -26,6 +28,8 @@ float calc_hours(int hours[], int weeks, char output)
     }
 }
 ```
+
+## Strings
 
 ### print.c
 ```c
