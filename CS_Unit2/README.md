@@ -109,32 +109,41 @@ int main(void)
 ```
 
 
-<!--
+
 ### palindrome.c
 ```c
 #include <cs50.h>
+#include <ctype.h>
 #include <stdio.h>
 #include <string.h>
 
 int main(void)
 {
-    // Get Input
     string s = get_string("Text: ");
+    int len = strlen(s);
+    bool palindrome = true;
 
     // Check chars from start and end
-    for (int i = 0, len = strlen(s); i < len / 2; i++)
+    for (int i = 0; i < len / 2; i++)
     {
-        if (s[i] != s[len - i - 1])
+        if (tolower(s[i]) != tolower(s[len - i - 1]))
         {
-            printf("Not a palindome!\n");
-            return 0;
+            palindrome = false;
+            break;
         }
     }
-    // Didn't return above so must be a palindrome
-    printf("Palindrome!\n");
+    if (palindrome)
+    {
+        printf("PALINDROME\n");
+    }
+    else
+    {
+        printf("Not a palindrome.\n");
+    }
 }
-```
 
+```
+<!--
 ### initials.c
 
 ```c
